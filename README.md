@@ -1,11 +1,11 @@
-# Project Briefcase
+# Project Council Culture
 
 ## Code Institute Milestone Project 1
 
-[Brixton Briefcase](../images/boombox.jpg)
+[Council Culture](../images/cc-3.jpeg)
 
-*Brixton Briefcase* is a new fictional band about a group of musicians who are friends that grew up in South East London through the 80's and 90's.
-The idea came to me as I too had grown up in Brixton and influenced by various types of music and culture.
+*Council Culture* is a new fictional band about a group of musicians who are friends that grew up in South London through the 80's and 90's.
+The idea came to me as I too had grown up in London and influenced by various types of music and culture.
 This band's genre is mainly punk rock but has shades of funk, groove and reggae.
 There is potential for this kind of music to break the market and give the under-privileged a perspective, especially once the pandemic is over there may well be some controversial political decisions that could affect the vulnerable.
 
@@ -92,4 +92,4 @@ Footer with links to social media
     * Code used to style content
 
 - [Pixabay](https://pixabay.com/)
-    * Boombox image
+- [Terry Downs]
