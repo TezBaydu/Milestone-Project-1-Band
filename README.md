@@ -36,7 +36,8 @@ There is potential for this kind of music to break the market and give the under
 
 ### Design
 
-1.  The design was initally inspired by an image found on Pixably of a ghettoblaster (or a boombox as was called in Brixton during that era). Based on some user stories I've decided to focus on the following pages: Home, Events (Calendar), Our Music, Contact.
+1.  The design was initally inspired by an image found on Pixably of a ghettoblaster and once discussed with Graphic Designer (Terry Downs) who sent over images and logo ideasit breathed the initial elements of the project. Based on some user stories I've decided to focus on the following pages: Home, Events, Music, Contact.
+2. Pages not developed but potential to add: Merchandise
 
 ---[update once starting design]---
 
@@ -54,17 +55,30 @@ This project has four separate pages found by clicking on the relevant name foun
 
 ### Consistency
 
-Design with menu placing in the same position.
-A Band logo which leads the user back to 'Home' when clicked.
-Footer with links to social media
+- Design with menu placing in the same position.
+ A Band logo which leads the user back to 'Home' when clicked.
+- Footer with links to social media.
+- Consistent colours: 
+    * lightgoldenrodyellow 
+        * #ffffd5 / #ffd / hsl(60,100,91) / rgb(255,255,213)
+    * crimson
+        * #ec3135 / #f33 / hsl(358,83,55) / rgb(236,49,53)
+    * lightpink
+        * #ffbfbf / #fcc / hsl(0,100,87) / rgb(255,191,191)
+    * black
+        * #000000 / #000 / hsl(0,0,0) / rgb(0,0,0)
+    * darkslateblue
+        * #4e618c / #569 / hsl(221,28,42) / rgb(78,97,140)
+    * mediumturquoise
+        * #4fb7bc / #5bc / hsl(182,44,52) / rgb(79,183,188)
 
 ### Home
 
-- Main image and another image of the band
+- Concert image and other images of band members
 - Statement of the bands music, influence and history
 - Individual synopsis of band members
 
-### Our Music
+### Music
 
 - List of Albums and tracks.
 - Images of album covers.
@@ -91,5 +105,16 @@ Footer with links to social media
 - CSS3
     * Code used to style content
 
-- [Pixabay](https://pixabay.com/)
-- [Terry Downs]
+- [Coolors - colour collage](https://coolors.co/)
+
+- [Pixabay - images](https://pixabay.com/)
+- [decades.com - advisory notice](https://www.decades.com/)
+
+- Terry Downs
+    * Band logo
+    * Images
+
+- [Bootstrap](https://getbootstrap.com/)
+    * Version 4.5 (Latest version at the time of this projects creation)
+
+- [lipsum for wireframe](https://www.lipsum.com/)
