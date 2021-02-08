@@ -80,16 +80,20 @@ This project has four separate pages found by clicking on the relevant name foun
 
 ### Music
 
-- List of Albums and tracks.
+- Reviews of music. 
+List of Albums and tracks.
 - Images of album covers.
-- Quotes from fans and followers.
 - Downloadable music content.
+- Clicking on album or song title gives option to purchase and download or listen via Music streaming service (Spotify, Deezer, Apple)
 
 ### Events
 
 - List of events performed.
 - Reviews of band performances.
-- Calendar of events clickable if tickets are to be purchased.
+- Calendar of Events
+    * Ticket purchase button for each.
+    * Places clicked links to venue and map location.
+- Quotes from fans and followers.
 
 ### Contact
 
