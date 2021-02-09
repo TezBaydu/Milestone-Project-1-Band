@@ -36,8 +36,8 @@ There is potential for this kind of music to break the market and give the under
 
 ### Design
 
-1.  The design was initally inspired by an image found on Pixably of a ghettoblaster and once discussed with Graphic Designer (Terry Downs) who sent over images and logo ideasit breathed the initial elements of the project. Based on some user stories I've decided to focus on the following pages: Home, Events, Music, Contact.
-2. Pages not developed but potential to add: Merchandise
+1.  The design was initally inspired by an image found on Pixably of a ghettoblaster and once discussed with Graphic Designer (Terry Downs) who sent over images and logo ideas, it breathed the initial elements of the project. Based on some user stories I've decided to focus on the following pages: Home, Events, Music, Contact.
+2. Pages not developed but potential to add: Merchandise, Videos
 
 ---[update once starting design]---
 
@@ -57,7 +57,7 @@ This project has four separate pages found by clicking on the relevant name foun
 
 - Design with menu placing in the same position.
  A Band logo which leads the user back to 'Home' when clicked.
-- Footer with links to social media.
+- Footer with links to social media, download/purchase options.
 - Consistent colours: 
     * lightgoldenrodyellow 
         * #ffffd5 / #ffd / hsl(60,100,91) / rgb(255,255,213)
@@ -81,15 +81,14 @@ This project has four separate pages found by clicking on the relevant name foun
 ### Music
 
 - Reviews of music. 
-List of Albums and tracks.
+- List of albums and tracks.
 - Images of album covers.
 - Downloadable music content.
 - Clicking on album or song title gives option to purchase and download or listen via Music streaming service (Spotify, Deezer, Apple)
 
 ### Events
 
-- List of events performed.
-- Reviews of band performances.
+- Reviews of past band performances.
 - Calendar of Events
     * Ticket purchase button for each.
     * Places clicked links to venue and map location.
