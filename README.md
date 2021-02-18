@@ -20,7 +20,7 @@ There is potential for this kind of music to break the market and give the under
 - To give users a visual experience of what the bands music is portraying.
     * 80's & 90's style punk rock with shades of colour to help represent funk, groove and reggae.
 
-- Easy navigation to musical tracks and contacts page
+- Easy navigation to musical tracks, events and contact page
 
 - To be fully responsive to all screens and sizes
 
@@ -37,7 +37,7 @@ There is potential for this kind of music to break the market and give the under
 ### Design
 
 1.  The design was initally inspired by an image found on Pixably of a ghettoblaster and once discussed with Graphic Designer (Terry Downs) who sent over images and logo ideas, it breathed the initial elements of the project. Based on some user stories I've decided to focus on the following pages: Home, Events, Music, Contact.
-2. Pages not developed but potential to add: Merchandise, Videos
+2. Pages not developed but potential to add: Merchandise, Videos, Gallery
 
 ---[update once starting design]---
 
@@ -56,7 +56,8 @@ This project has four separate pages found by clicking on the relevant name foun
 ### Consistency
 
 - Design with menu placing in the same position.
- A Band logo which leads the user back to 'Home' when clicked.
+    * A Band logo which leads the user back to 'Home' when clicked.
+    * Mobile versio to be a dropdown menu
 - Footer with links to social media, download/purchase options.
 - Consistent colours: 
     * lightgoldenrodyellow 
@@ -71,16 +72,20 @@ This project has four separate pages found by clicking on the relevant name foun
         * #4e618c / #569 / hsl(221,28,42) / rgb(78,97,140)
     * mediumturquoise
         * #4fb7bc / #5bc / hsl(182,44,52) / rgb(79,183,188)
+- Consistent font:
+    * montserrat
+    * to use additional in case montserrat isn't available for users:
+        * Ariel & sans serif
 
 ### Home
 
 - Concert image and other images of band members
 - Statement of the bands music, influence and history
 - Individual synopsis of band members
+- Music Reviews
 
 ### Music
 
-- Reviews of music. 
 - List of albums and tracks.
 - Images of album covers.
 - Downloadable music content.
@@ -90,7 +95,7 @@ This project has four separate pages found by clicking on the relevant name foun
 
 - Reviews of past band performances.
 - Calendar of Events
-    * Ticket purchase button for each.
+    * Ticket purchase button for each. Leads to Ticketmaster site.
     * Places clicked links to venue and map location.
 - Quotes from fans and followers.
 
@@ -99,6 +104,7 @@ This project has four separate pages found by clicking on the relevant name foun
 - Form to be filled in for 
     * event enquiries to book band to perform
     * to receive regular newsletters
+    * General enquiries - potentially from music/media journalists
 
 ## Technologies Used
 
@@ -120,4 +126,16 @@ This project has four separate pages found by clicking on the relevant name foun
 - [Bootstrap](https://getbootstrap.com/)
     * Version 4.5 (Latest version at the time of this projects creation)
 
-- [lipsum for wireframe](https://www.lipsum.com/)
+- [figma for wireframe](https://www.figma.com)
+    * [project wireframe](https://www.figma.com/proto/IADuVbH1W00VbiRkhlDqdY/milestone-project-1-band?node-id=5%3A71&scaling=min-zoom)
+
+## Questions for Mentor
+- Have tested desktop and mobile version wireframes but do not have access to a tablet to appropriately test. Widths differ per product.
+    * Is the width approprate for tablet?
+- Font sizes have been manipulated several times and opinion at the moment from users state satisfaction.
+    * Based on experience are fonts appropriately sized?
+- Figma has CSS guides for each elements
+    * Can these be used to help design once HTML content has been placed?
+- 3 weeks to deadline
+    * Is this enough time?
+- 
