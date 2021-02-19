@@ -123,19 +123,41 @@ This project has four separate pages found by clicking on the relevant name foun
     * Band logo
     * Images
 
+- [Github](https://github.com/)
+
+- [Gitpod](https://www.gitpod.io/)
+
 - [Bootstrap](https://getbootstrap.com/)
     * Version 4.5 (Latest version at the time of this projects creation)
 
-- [figma for wireframe](https://www.figma.com)
+- [Figma](https://www.figma.com)
     * [project wireframe](https://www.figma.com/proto/IADuVbH1W00VbiRkhlDqdY/milestone-project-1-band?node-id=5%3A71&scaling=min-zoom)
+
+- [Font Awesome](https://fontawesome.com/v4.7.0/)
+    * version 4.7
+
+- [Bootstrapcdn](https://www.bootstrapcdn.com/)
 
 ## Questions for Mentor
 - Have tested desktop and mobile version wireframes but do not have access to a tablet to appropriately test. Widths differ per product.
     * Is the width approprate for tablet?
+    - When designing apply for each element to each device version - saves time in the long run - remember to use % sizes and padding as scope for device differences.
 - Font sizes have been manipulated several times and opinion at the moment from users state satisfaction.
     * Based on experience are fonts appropriately sized?
+    - They are readable and so are acceptable
 - Figma has CSS guides for each elements
     * Can these be used to help design once HTML content has been placed?
+    - Defenitiely not !
 - 3 weeks to deadline
-    * Is this enough time?
-- 
+    * Considering other students deadlines, is this enough time?
+    - On Average coding takes 2-3 weeks and so tight but on course
+- Music page
+    * Make album sizes the same size and shape - done
+    * Apply Spotify and Apple aymbols under each album - this should be fine. - done
+- Events page
+    * Colour on payment icons and Titles - done
+    * Bring quote down to separate - done
+- Contacts page
+    * Apply Submit button !! - done
+- Start Coding
+    * Book Mentor meeting when about 60% finished...
