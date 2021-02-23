@@ -13,4 +13,9 @@ body {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+    z-index: 1;
+}
+
+.navbar-expand-lg {
+    color: #4fb7bc;
 }
