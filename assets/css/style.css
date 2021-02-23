@@ -4,18 +4,49 @@ body {
     font-family: "Montserrat", Arial, sans-serif;
 }
 
-.logo {
+ /*----------- Navigation Bar -----------------*/
+
+.bg-nav {
+        background-color: #4fb7bc;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff!important;
+}
+
+.navbar-toggler {
+    background-color: #ffffff
+}
+
+ .logo {
     background-image: url(../images/Council-Culture-Boombox-Logo.gif);
+    height: 100px;
+    width: 150px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 100px;
+    z-index: 2;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
-    z-index: 1;
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-left: 0px;
+
 }
 
-.navbar-expand-lg {
-    color: #4fb7bc;
+.navbar {
+    max-width: 100%;
+}
+
+.navbar-nav {
+    margin-left: 70%;
+}
+
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
 }
