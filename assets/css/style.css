@@ -7,7 +7,11 @@ body {
  /*----------- Navigation Bar -----------------*/
 
 .bg-nav {
-        background-color: #4fb7bc;
+        background-color: #4fb7bcb5;
+}
+
+.nav-item {
+    justify-content: end;
 }
 
 .navbar-nav .nav-link {
@@ -32,21 +36,26 @@ body {
     padding-top: 5px;
     margin-top: 5px;
     margin-left: 0px;
-
 }
 
 .navbar {
     max-width: 100%;
+    justify-content: flex-end;
 }
 
-.navbar-nav {
-    margin-left: 70%;
+.navbar-collapse {
+    background-color: #4fb7bc;
+    border-radius: 15px;
+    justify-content: flex-end;
 }
 
+.fixed-top {
+    z-index: 5
+}
 .fixed-nav {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
-    z-index: 1;
+    z-index: 4;
 }
