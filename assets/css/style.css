@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+
+ /*----------- Body -----------------*/
+
 body {
     font-family: "Montserrat", Arial, sans-serif;
     background-color: #dfd8d8;
+    font-style: #ffffff;
 }
 
+.container-header {
+    max-height: 50vh;
+    background: center 50% / cover no-repeat;
+    background-image: url(../images/concert-blur.jpg);
+}
+*/
  /*----------- Navigation Bar -----------------*/
 
 .bg-nav {
@@ -146,7 +156,42 @@ footer {
     }
 }
 
+ /*----------- Header -----------------*/
 
+.single-release {
+    text-align: center;
+    padding-top: 10%;
+    background-color: rgba(196, 196, 196, 0.24);
+    background-clip: content-box;
+
+}
+
+.header-download li a i {
+    width: 40px;
+    height: 40px;
+    padding: 12px 0px;
+    border-radius: 50%;
+    font-size: 18px;
+    line-height: 15px;
+    text-align: center;
+    color: #ffffff;
+    background: #000000;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.header-download li a i:hover {
+    background: #4fb7bc;
+}
+
+.header-text {
+    text-align: center;
+    color: #ed2224;
+}
 
 
 
