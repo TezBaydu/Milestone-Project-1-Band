@@ -138,7 +138,7 @@ This project has four separate pages found by clicking on the relevant name foun
 
 - [Bootstrapcdn](https://www.bootstrapcdn.com/)
 
-## Questions for Mentor
+## Questions for Mentor meeting 1
 - Have tested desktop and mobile version wireframes but do not have access to a tablet to appropriately test. Widths differ per product.
     * Is the width approprate for tablet?
     - When designing apply for each element to each device version - saves time in the long run - remember to use % sizes and padding as scope for device differences.
@@ -161,3 +161,13 @@ This project has four separate pages found by clicking on the relevant name foun
     * Apply Submit button !! - done
 - Start Coding
     * Book Mentor meeting when about 60% finished...
+
+### Questions for mentor  meeting 2
+
+- Logo 
+    * Trying to adjust so logo is removed for mobile devices.
+    * have used query @media screen and 
+
+
+### Bugs
+
