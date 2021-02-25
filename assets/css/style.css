@@ -2,6 +2,7 @@
 
 body {
     font-family: "Montserrat", Arial, sans-serif;
+    background-color: #dfd8d8;
 }
 
  /*----------- Navigation Bar -----------------*/
@@ -31,18 +32,15 @@ body {
 
  .logo {
     background-image: url(../images/Council-Culture-Boombox-Logo.gif);
-    height: 100px;
-    width: 150px;
+    height: 150px;
+    width: 200px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     z-index: 2;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
     padding-top: 5px;
     margin-top: 5px;
-    margin-left: 0px;
+    margin-left: 20px;
 }
 
 .navbar {
@@ -98,7 +96,7 @@ footer {
     line-height: 15px;
     text-align: center;
     color: #ffffff;
-    background: #8f8f8f;
+    background: #000000;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -130,7 +128,7 @@ footer {
     line-height: 15px;
     text-align: center;
     color: #ffffff;
-    background: #8f8f8f;
+    background: #000000;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
