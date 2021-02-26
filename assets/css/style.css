@@ -17,9 +17,13 @@ body {
 */
  /*----------- Navigation Bar -----------------*/
 
-.bg-nav {
-        background-color: #4fb7bcb5;
+.navbar-expand-lg {
+    background-color: #4fb7bcb5;
 }
+
+.bg-nav {
+    background-color: #4fb7bcb5;
+} 
 
 .navbar-collapse {
     background-color: #4fb7bc;
@@ -72,6 +76,10 @@ body {
 @media (max-width: 992px) {
     .navbar-nav {
         text-align: center;
+    }
+
+    .navbar-expand-lg {
+        background: none;
     }
 
     .nav-item {

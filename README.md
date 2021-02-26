@@ -172,5 +172,8 @@ This project has four separate pages found by clicking on the relevant name foun
 ### Bugs
 
 - h2 Latest single release
-    * centre vertically on page
+    * centre vertically on page - Done !
+
+- Nav background color has to be associated to 2 classes: .navbar-expand-lg and .bg-nav....
+    * WHY ?!
 
