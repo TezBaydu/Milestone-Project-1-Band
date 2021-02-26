@@ -171,3 +171,6 @@ This project has four separate pages found by clicking on the relevant name foun
 
 ### Bugs
 
+- h2 Latest single release
+    * centre vertically on page
+
