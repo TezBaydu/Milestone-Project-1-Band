@@ -9,44 +9,11 @@ body {
     font-style: #ffffff;
 }
 
-.container-header {
-    max-height: 100vh;
-    background: center 50% / cover no-repeat;
-    background-image: url(../images/concert-blur.jpg);
+.concert-blur img {
+    margin-bottom: -68%;
+    width: 100%;
 }
-
-@media (max-width: 1100px) {
-    .container-header {
-        max-height: 70vh;
-        
-    }
-}
-
-@media (max-width: 992px) {
-    .container-header {
-        max-height: 60vh;
-        background: center 100% / cover no-repeat;
-        background-image: url(/assets/images/concert-blur.jpg);
-    }
-}
-
-@media (max-width: 700px) {
-    .container-header {
-        max-height: 45vh;
-        background: center 100% / cover no-repeat;
-        background-image: url(/assets/images/concert-blur.jpg);
-    }
-}
-
-@media (max-width: 450px) {
-    .container-header {
-        max-height: 40vh;
-        background: center 70% / cover no-repeat;
-        background-image: url(/assets/images/concert-blur.jpg);
-    }
-}
-
-
+    
 
  /*----------- Navigation Bar -----------------*/
 
@@ -59,13 +26,14 @@ body {
 } 
 
 .navbar-collapse {
-    background-color: #4fb7bc;
-    border-radius: 15px;
+    background-color: #4fb7bcc6;
+    border-radius: 5px;
     justify-content: flex-end;
+    max-width: inherit;
 }
 
 .nav-item {
-    padding-right: 3rem;
+    padding: 0 3rem;
     justify-content: end;
 }
 
@@ -93,6 +61,7 @@ body {
 .navbar {
     max-width: 100%;
     justify-content: flex-end;
+    display: inline-grid;
 }
 
 .fixed-top {
@@ -116,7 +85,7 @@ body {
     }
 
     .nav-item {
-        padding-right: 0;
+        padding: 0 1rem;
     }
     
 }
@@ -205,7 +174,7 @@ footer {
 
 .single-release {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 0;
     background-color: rgba(196, 196, 196, 0.24);
     display: inline-flex;
     margin-left: 33%;
@@ -265,7 +234,7 @@ footer {
 
 @media (max-width: 1100px) {
     .single-release {
-        margin: 7% 30% 0%;
+        margin: 0% 30%;
     }
 
     h2 {
@@ -275,7 +244,7 @@ footer {
 
 @media (max-width: 992px) {
     .single-release {
-        margin: 3% 2% 0%;
+        margin: 0% 2%;
     }
     .logo {
         visibility: hidden;
@@ -284,7 +253,7 @@ footer {
 
 @media (max-width: 700px) {
     .single-release {
-        margin: 2% 2% 0%;
+        margin: 0% 2%;
     }
     h2 {
         font-size: 0.6rem;
