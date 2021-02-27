@@ -10,7 +10,7 @@ body {
 }
 
 .concert-blur img {
-    margin-bottom: -68%;
+    margin-bottom: -94%;
     width: 100%;
 }
     
@@ -75,7 +75,7 @@ body {
     z-index: 4;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .navbar-nav {
         text-align: center;
     }
@@ -90,7 +90,7 @@ body {
     
 }
 
-@media (max-width: 700px) {
+@media (max-width: 767px) {
     .logo {
         visibility: hidden;
     }
@@ -137,7 +137,7 @@ footer {
     padding: 10px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 767px) {
     .social-links {
     padding-top: 10px;
     justify-content: center;
@@ -214,6 +214,7 @@ footer {
 .header-text {
     text-align: center;
     color: #ed2224;
+    text-transform: uppercase;
 }
 
 .bandgroup {
@@ -231,29 +232,57 @@ footer {
     margin-left: 33%;
 }
 
+.col-12 {
+    border-bottom: solid;
+    border-color: #4fc3c3;
+}
 
-@media (max-width: 1100px) {
+.col-6 {
+    padding-top: 1%;
+}
+
+.mobile-row {
+    display: none;
+}
+
+.border-bottom {
+    display: none;
+}
+
+
+@media (max-width: 1199px) {
     .single-release {
         margin: 0% 30%;
+        height: 4rem;
     }
 
     h2 {
         font-size: 1rem;
     }
+    .header-text {
+        font-size: 1.5rem;
+    }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .single-release {
         margin: 0% 2%;
     }
     .logo {
         visibility: hidden;
     }
+    .header-text {
+        font-size: 1.5rem;
+    }
+    .col-6 {
+        font-size: 14px;
+    }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 767px) {
     .single-release {
         margin: 0% 2%;
+        height: 2.5rem;
     }
     h2 {
         font-size: 0.6rem;
@@ -271,7 +300,31 @@ footer {
     }
     .list-inline-item:not(:last-child) {
     margin-right: 0;
-}
+    }
+
+    .header-text {
+        font-size: 0.6rem;
+    }
+
+    .tabletsizeandabove-row {
+        display: none;
+    }
+
+    .mobile-row {
+        display: inherit;
+        margin-bottom: 0.2rem;
+    }
+
+    .col-10 {
+        font-size: 8px;
+        margin: 3px auto 0px;
+    }
+
+    .border-synopsis-bottom {
+        display: inherit;
+        border-style: solid;
+        border-color: #ec3135;
+    }
 
 }
 
