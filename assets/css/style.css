@@ -419,11 +419,17 @@ footer {
 }
 
  .band-members .murder-scene .container .row .col p {
-     width: 150%;
+     width: 140%;
+     color: #ffffff;
 }
 
+.band-members .murder-scene {
+    background-color:rgba(255, 255, 213, 0.29);
+}
+
+
 .px-md-5 {
-    height: 280px;
+    height: 400px;
     text-align: center;
 }
 
@@ -452,7 +458,7 @@ footer {
 }
 
 .band-members {
-    background-image: url(../images/murder-scene.jpg);
+    background-image: url(../images/murder-scene2.jpg);
     background-size: cover;
     background-position-y: center;
     display: block;
