@@ -382,6 +382,7 @@ footer {
 
 .grafitti-image p {
     margin-top: 6px;
+    margin-bottom: 2px;
 }
 
 .uncut-color {
@@ -407,3 +408,53 @@ footer {
     }
 }
 
+ /*----------- Individual band members -----------------*/
+
+ .band-members .murder-scene .container .row .col img {
+     text-align: center;
+     width: 120%;
+     margin: 2% 14%;
+     padding: 0 -14%;
+     height: 100%;
+}
+
+ .band-members .murder-scene .container .row .col p {
+     width: 150%;
+}
+
+.px-md-5 {
+    height: 280px;
+    text-align: center;
+}
+
+.racer-border {
+    border-bottom: solid;
+    border-color: #66ab4e;
+    font-size: 28px;
+}
+
+.max-border {
+    border-bottom: solid;
+    border-color: #42a0a0;
+    font-size: 28px;
+}
+
+.tuned-border {
+    border-bottom: solid;
+    border-color: #af65af;
+    font-size: 28px;
+}
+
+.walker-border {
+    border-bottom: solid;
+    border-color: #e1dea0;
+    font-size: 28px;
+}
+
+.band-members {
+    background-image: url(../images/murder-scene.jpg);
+    background-size: cover;
+    background-position-y: center;
+    display: block;
+    height: 600px;
+}
