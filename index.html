@@ -30,46 +30,43 @@
 </head>
 
 <body>
-    <div>
-        <div class="concert-blur">
-            <img src="assets/images/concert-blur4.jpg" alt="Blurred concert image from fans viewpoint">
-        </div>
-
-        <!-- Council Culture Home logo -->
+    <div class="concert-blur">
         <div>
+            <!-- <img src="assets/images/concert-blur4.jpg" alt="Blurred concert image from fans viewpoint"> -->
+
+            <!-- Council Culture Home logo -->
+
             <a href="index.html" class="col-sm-3 fixed-top logo"
                 alt="Council Culture logo, Boombox with flats designed within it and wording Council Culture on front"
                 position="z-index: 3"></a>
-        </div>
 
-        <!-- Navigation bar from Bootstrap -->
+            <!-- Navigation bar from Bootstrap -->
+            <nav class="col-md-5 navbar navbar-expand-lg fixed-nav navbar-light bg-nav">
 
-        <nav class="col-md-5 navbar navbar-expand-lg fixed-nav navbar-light bg-nav">
+                <!-- <a class="navbar-brand" href="#">Removed to overlay image</a> -->
 
-            <!-- <a class="navbar-brand" href="#">Removed to overlay image</a> -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <span class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Music</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Music</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
+                        <!-- Navigation bar dropdown removed / potential to use in future -->
 
-                    <!-- Navigation bar dropdown removed / potential to use in future -->
-
-                    <!-- <li class="nav-item dropdown">
+                        <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Download links</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -78,13 +75,13 @@
                                 <a class="dropdown-item" href="#">Spotify icon</a>
                             </div>
                         </li> -->
-                </ul>
-            </div>
-        </nav>
-
+                    </ul>
+                </span>
+            </nav>
+        </div>
         <header>
 
-            <!-- Top Opening Home section  -->
+            <!-- Latest Release section  -->
 
             <div class="text-white single-release">
                 <h2>Latest single release<br><strong>'Rise the rebellion'</strong></h2>
@@ -110,6 +107,8 @@
                 </ul>
             </div>
 
+            <!-- Band image  and logo -->
+
             <div class="bandgroup">
                 <img src="/assets/images/band-group.png" alt="Band members image" width="100%">
             </div>
@@ -117,6 +116,9 @@
                 <img src="/assets/images/Council-Culture-Logo-white.gif" alt="Council Culture white logo"
                     class="cc-logo-white">
             </div>
+
+            <!-- Header synopsis -->
+
             <div>
                 <h1 class="header-text">Council Culture, the band that is <br> the underbelly of modern society</h1>
             </div>
@@ -134,10 +136,17 @@
                             Times have changed but Council Culture remains the same.<br>Don’t be embarrassed, be proud
                             of being underprivileged and make sure the rest of the world knows it, yeah !
                         </div>
+                        <div>
+                            <img src="assets/images/advisory-notice.jpg" alt="Parental Guidance advisory notice"
+                                class="advisory-notice">
+                        </div>
                     </div>
                 </div>
             </div>
-            <div>
+
+            <!-- Header synopsis mobile sizing adjustment -->
+
+            <div style="display: inline-block">
                 <div class="container">
                     <div class="row text-white">
                         <div class="col-8 border-synopsis-bottom">
@@ -151,29 +160,30 @@
                             </p>
                         </div>
                         <div class="col-10">
-                            <p class="mobile-row">Times have changed but Council Culture remains the same.<br>Don’t be embarrassed, be
+                            <p class="mobile-row">Times have changed but Council Culture remains the same.<br>Don’t be
+                                embarrassed, be
                                 proud of being underprivileged and make sure the rest of the world knows it, yeah !
                             </p>
+                        </div>
+                        <div>
+                            <img src="assets/images/advisory-notice.jpg" alt="Parental Guidance advisory notice"
+                                class="advisory-notice-mobile">
                         </div>
                     </div>
                 </div>
             </div>
+
         </header>
     </div>
+
     <!-- Media quotes -->
 
     <section>
-        <image>--Graffitti image--</image>
-        <div>
+        <div class="grafitti-image max-width">
+            <!-- <img src="assets/images/graffiti.jpg" alt="Grafitti on walls"> -->
             <p>“ Filled with Anthems and belief, Peckham Punk sends chills ”<br><strong>UNCUT</strong></p>
-        </div>
-        <div>
             <p>“ Council Culture bringing you to the estate and blindsides you ”<br><strong>NME</strong></p>
-        </div>
-        <div>
             <p>“ Who do they think they are?! A bunch of talented revolutionaries ! ”<br><strong>MOJO</strong></p>
-        </div>
-        <div>
             <p>“ Punk, Soul with a hell of a lot of angry love. If you ain’t got it, GET IT ! ”<br><strong>Q
                     magazine</strong></p>
         </div>
