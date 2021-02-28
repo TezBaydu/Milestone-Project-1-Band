@@ -362,10 +362,48 @@ footer {
 
  /*----------- Grafitti and quotes -----------------*/
 
+
 .grafitti-image {
     background-image: url(../images/graffiti.jpg);
-    display: inline-block;
-    width: 100%;
+    /* width: 100%; */
     background-size: cover;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 700;
+    font-size: larger;
+    font-stretch: condensed;
+
+}
+
+.grafitti-image .row {
+    color: #ffffff;
+    background-color: rgba(78, 97, 140, 0.5);
+}
+
+.grafitti-image p {
+    margin-top: 6px;
+}
+
+.uncut-color {
+    color: #e1dea0;
+}
+
+.nme-color {
+    color:#ec3135
+}
+
+.mojo-color {
+    color:#4fb7bc
+}
+
+.q-color {
+    color:#000000
+}
+
+@media (max-width: 767px) {
+    .grafitti-image {
+    font-weight: 600;
+    font-size: xx-small;
+    }
 }
 
