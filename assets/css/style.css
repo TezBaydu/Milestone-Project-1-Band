@@ -587,16 +587,99 @@ footer {
 
  /*----------- Music Page -----------------*/
 
+.estate {
+    background-image: url(../images/Estate-stretch.jpg);
+    display: flow-root;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .banner {
-    margin-top: 13%;
+    margin-top: 8%;
 }
 
 .music-banner {
     background-color: #ec3134bd;
     text-align: center;
     color: #ffffff;
+    margin-bottom: 1%;
 }
+
+.album-image-section .container {
+    padding: 0;
+}
+
+.album-image-section .row {
+    background-color: #ffffffa6;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.album-image-section .col {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 
 .album-image-section img {
     width: 100%;
+    margin: 8% auto 0;
+    padding: 0 auto;
+    height: 60%;
+    image-rendering: -webkit-optimize-contrast;
+    border-style: solid;
+    border-width: thick;
+    border-color: #ffffff;
+    border-radius: 20px;
+}
+
+.album-image-section .container .row .col .list-inline {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 1199px) {
+    .album-image-section .container {
+        max-width: 1300px;
+    }
+}
+
+.titles {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: x-large;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.titles li {
+    text-align: left;
+    margin-left: 15%;
+    color: #ffffff;
+    font-size: large;
+}
+
+.sc-ones {
+    color: #4fb7bc;
+}
+
+.afterlife {
+    color:#ec3135;
+}
+
+.routes {
+    color: #ffffd5;
+}
+
+.invisible-title {
+    color: #ffffff;
+}
+
+.aftermath {
+    color: #969696;
+}
+
+@media (min-width: 1199px) {
+    .titles .container {
+        max-width: 1300px;
+    }
 }
