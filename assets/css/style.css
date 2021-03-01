@@ -110,12 +110,12 @@ body {
  /*----------- Footer -----------------*/
 
 footer {
-    background-color: rgba(0,0,0,0.35);
-    min-height: 100px;
+    background-color: rgba(0,0,0,0.5);
+    min-height: auto;
 }
 
 .social-links {
-    padding-top: 20px;
+    padding-top: 0px;
 }
 
 .social-links li a i {
@@ -132,8 +132,7 @@ footer {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-    margin-top: 5px;
-    margin-left: 25px;
+    margin: 5px 0 5px 25px;
 }
 
 .social-links li a i:hover {
@@ -141,7 +140,11 @@ footer {
 }
 
 #footer-details {
-    padding: 10px;
+    padding: 10px auto;
+}
+
+#footer-details ul {
+    margin-bottom: 0;
 }
 
 @media (max-width: 767px) {
@@ -209,7 +212,7 @@ footer {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
     margin-top: 5px;
-    margin-left: 25px;
+    margin-left: 3px;
     margin-bottom: 7px;
 }
 
@@ -401,36 +404,54 @@ footer {
     color:#000000
 }
 
+@media (max-width: 991px) {
+    .grafitti-image p {
+        font-size: 16px;
+    }
+}
+
 @media (max-width: 767px) {
     .grafitti-image {
     font-weight: 600;
     font-size: xx-small;
     }
+
+    .grafitti-image p {
+        font-size: 9px;
+    }
 }
 
  /*----------- Individual band members -----------------*/
 
- .band-members .murder-scene .container .row .col img {
-     text-align: center;
-     width: 120%;
-     margin: 2% 14%;
-     padding: 0 -14%;
-     height: 100%;
+.band-members .container {
+    padding: 0;
 }
 
- .band-members .murder-scene .container .row .col p {
-     width: 140%;
-     color: #ffffff;
+.band-members .container .row .col img {
+    width: 90%;
+    margin: 5% auto 0;
+    padding: 0 auto;
+    height: 90%;
+    border-radius: 50px;
+    image-rendering: -webkit-optimize-contrast;
 }
 
-.band-members .murder-scene {
+.band-quotes {
+    color: #ffffff;
+    text-align: center;
+}
+
+.band-members {
     background-color:rgba(255, 255, 213, 0.29);
 }
 
+.band-members .container {
+    max-width: 1300px;
+}
 
-.px-md-5 {
-    height: 400px;
-    text-align: center;
+.band-quotes .container {
+    max-width: 1300px;
+    padding-left: 0;
 }
 
 .racer-border {
@@ -457,10 +478,110 @@ footer {
     font-size: 28px;
 }
 
-.band-members {
+.murder-scene {
     background-image: url(../images/murder-scene2.jpg);
     background-size: cover;
     background-position-y: center;
     display: block;
-    height: 600px;
+    height: auto;
+}
+
+.band-members-mobile {
+    display: none;
+}
+
+.band-quotes-mobile {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .band-quotes p {
+    font-size: 15px;
+    }
+
+    .walker-border strong {
+        font-size: 20px;
+    }
+
+    .tuned-border strong {
+        font-size: 20px;
+    }
+
+    .max-border strong {
+        font-size: 20px;
+    }
+
+    .racer-border strong {
+        font-size: 20px;
+    }  
+}
+
+@media (max-width: 767px) {
+    .band-quotes-mobile p {
+        font-size: 8px;
+    }
+
+    .band-members {
+        display: none;
+    }
+
+    .band-quotes {
+        display: none;
+    }
+
+    .band-members-mobile {
+        display: inherit;
+        background-color:rgba(255, 255, 213, 0.29);
+    }
+
+    .band-quotes-mobile {
+        display: inherit;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .band-members-mobile .container {
+        padding: 0;
+    }
+
+    .band-members-mobile .container .row .col img {
+        width: 90%;
+        margin: 5% auto 0;
+        padding: 0 auto;
+        height: 90%;
+        border-radius: 50px;
+        image-rendering: -webkit-optimize-contrast;
+    }
+
+
+
+    .band-members-mobile .container {
+        max-width: 1300px;
+    }
+
+    .band-quotes-mobile .container {
+        max-width: 1300px;
+        padding-left: 0;
+    }
+
+    .murder-scene {
+        background-position-x: center;
+    }
+
+    .walker-border strong {
+        font-size: 16px;
+    }
+
+    .tuned-border strong {
+        font-size: 16px;
+    }
+
+    .max-border strong {
+        font-size: 16px;
+    }
+
+    .racer-border strong {
+        font-size: 16px;
+    }  
+    
 }
