@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
+ /*----------- Home Page -----------------*/
+
  /*----------- Body -----------------*/
 
 body {
@@ -18,13 +20,6 @@ body {
 .row {
     margin: 0 auto;
 }
-
-/* .concert-blur img {
-    margin-bottom: -94%;
-    width: 100%;
-    display: inline-block;
-} */
-    
 
  /*----------- Navigation Bar -----------------*/
 
@@ -184,7 +179,7 @@ footer {
     }
 }
 
- /*----------- Header includes to Synopsis -----------------*/
+ /*----------- Header includes to Group Synopsis -----------------*/
 
 .single-release {
     text-align: center;
@@ -588,4 +583,20 @@ footer {
         font-size: 16px;
     }  
     
+}
+
+ /*----------- Music Page -----------------*/
+
+.banner {
+    margin-top: 13%;
+}
+
+.music-banner {
+    background-color: #ec3134bd;
+    text-align: center;
+    color: #ffffff;
+}
+
+.album-image-section img {
+    width: 100%;
 }
