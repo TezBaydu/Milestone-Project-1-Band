@@ -595,7 +595,7 @@ footer {
 }
 
 .banner {
-    margin-top: 8%;
+    margin-top: 160px;
 }
 
 .music-banner {
@@ -620,10 +620,26 @@ footer {
     padding-right: 30px;
 }
 
+@media (max-width: 1199px) {
+    .album-image-section .col {
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+
+    .titles ol {
+        padding-left: inherit;
+    }
+
+    .titles p {
+        margin-block-end: auto;
+        margin-left: -10px;
+    }
+}
+
 
 .album-image-section img {
     width: 100%;
-    margin: 8% auto 0;
+    margin: 20% auto 0;
     padding: 0 auto;
     height: 60%;
     image-rendering: -webkit-optimize-contrast;
@@ -683,3 +699,10 @@ footer {
         max-width: 1300px;
     }
 }
+
+
+/*
+@media (max-width: 1199px) {
+@media (max-width: 991px) {
+@media (max-width: 767px) {
+*/
