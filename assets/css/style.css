@@ -109,7 +109,7 @@ body {
  /*----------- Footer -----------------*/
 
 footer {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(78, 78, 78, 0.7);
     min-height: auto;
 }
 
@@ -594,6 +594,13 @@ footer {
     background-attachment: fixed;
 }
 
+@media (max-width: 1199px) {
+    .estate {
+        background-position: right;
+    }
+}
+
+
 .banner {
     margin-top: 160px;
 }
@@ -607,6 +614,7 @@ footer {
 
 .album-image-section .container {
     padding: 0;
+    margin-bottom: 20px;
 }
 
 .album-image-section .row {
@@ -618,6 +626,10 @@ footer {
 .album-image-section .col {
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.album-image-section ul {
+    margin-bottom: -1rem;
 }
 
 @media (max-width: 1199px) {
@@ -636,12 +648,70 @@ footer {
     }
 }
 
+@media (max-width: 991px) {
+    .album-image-section .col {
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+
+    .titles ol {
+        padding-left: inherit;
+    }
+
+    .titles p {
+        margin-block-end: auto;
+        margin-left: -10px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .titles .container strong {
+        text-align: initial;
+        font-size: large;
+    }
+
+    .titles .container li {
+        padding-left: inherit;
+        font-size: small;
+    }
+
+    
+    .titles p {
+        margin-left: 0;
+        text-align: start;
+    }
+
+    .titles .container {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 43px;
+    }
+
+    .titles .container li {
+        margin-left: 0%;
+    }
+
+    .titles .col {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .aftermath {
+        padding-left: 10px;
+    }
+
+    .sc-ones {
+        padding-right: 10px;
+    }
+}
+
 
 .album-image-section img {
     width: 100%;
     margin: 20% auto 0;
     padding: 0 auto;
-    height: 60%;
+    height: 50%;
     image-rendering: -webkit-optimize-contrast;
     border-style: solid;
     border-width: thick;
@@ -649,10 +719,24 @@ footer {
     border-radius: 20px;
 }
 
+@media (max-width: 991px) {
+    .album-image-section .col {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
 .album-image-section .container .row .col .list-inline {
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 991px) {
+    .album-image-section .container .row .col .list-inline-item {
+        margin-right: 0;
+    }
+}
+
 
 @media (min-width: 1199px) {
     .album-image-section .container {
@@ -665,6 +749,12 @@ footer {
     text-align: center;
     font-size: x-large;
     background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 1199px) {
+    .titles {
+        margin-bottom: 40%;
+    }
 }
 
 .titles li {
@@ -699,6 +789,44 @@ footer {
         max-width: 1300px;
     }
 }
+
+.logo-music .row {
+    display: hidden;
+}
+
+@media (max-width:991px) {
+    .logo-music .row {
+        visibility: inherit;
+        place-content: center;
+        background-image: url(../images/Council-Culture-Boombox-Logo.gif);
+        height: 250px;
+        width: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 2;
+    }
+
+    .banner {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        place-content: center;
+        background-color: #ec3134bd;
+    }
+
+    .music-banner {
+        background: transparent;
+        vertical-align: center;
+        color: #ffffff;
+        margin-bottom: 1%;
+    }
+
+    .banner .row {
+        justify-content: center;
+    }
+}
+
+
 
 
 /*
