@@ -584,9 +584,7 @@ footer {
     
 }
 
- /*----------- Music Page -----------------*/
-
-  /*----------- Backdrop -----------------*/
+ /*----------- Music Page Backdrop -----------------*/
 
 .estate {
     background-image: url(../images/Estate-stretch.jpg);
@@ -601,10 +599,16 @@ footer {
     }
 }
 
-  /*----------- Body -----------------*/
+  /*----------- Music and Events Banner -----------------*/
 
-.banner {
+.banner-music {
     margin-top: 160px;
+    text-transform: uppercase;
+}
+
+.banner-gigs {
+    margin-top: 160px;
+    text-transform: uppercase;
 }
 
 .music-banner {
@@ -613,6 +617,23 @@ footer {
     color: #ffffff;
     margin-bottom: 1%;
 }
+
+.gigs-banner {
+    background-color: #66ab4e;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 1%;
+}
+
+.banner-mobile-music {
+    display: none;
+}
+
+.banner-mobile-gigs {
+    display: none;
+}
+
+    /*----------- Music -----------------*/
 
 .logo-music .row {
     display: hidden;
@@ -687,10 +708,6 @@ footer {
 
 .aftermath {
     color: #969696;
-}
-
-.banner-mobile {
-    display: none;
 }
 
 .titles-mobile {
@@ -800,13 +817,20 @@ footer {
         z-index: 2;
     }
 
-    .banner {
+    .banner-music {
         margin-top: 10px;
         margin-bottom: 10px;
         place-content: center;
-        background-color: #ec3134bd;
+        background-color: #ec3134bd
     }
 
+    .banner-gigs {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        place-content: center;
+        background-color: #66ab4e
+    }
+    
     .music-banner {
         background: transparent;
         vertical-align: center;
@@ -814,7 +838,18 @@ footer {
         margin-bottom: 1%;
     }
 
-    .banner .row {
+    .gigs-banner {
+        background: transparent;
+        vertical-align: center;
+        color: #000000;
+        margin-bottom: 1%;
+    }
+
+    .banner-music .row {
+        justify-content: center;
+    }
+
+    .banner-gigs .row {
         justify-content: center;
     }
 }
@@ -912,33 +947,81 @@ footer {
         margin-top: 10px;
     }
 
-    .banner {
+    .banner-music {
         display: none;
     }
 
-    .banner-mobile{
+    .banner-gigs {
+        display: none;
+    }
+
+    .banner-mobile-music{
         display: inherit;
         margin-top: -100px;
         margin-bottom: 10px;
         place-content: center;
         background-color: #ec3134bd;
+        text-transform: uppercase;
     }
 
-    .banner-mobile .row {
+    .banner-mobile-gigs{
+        display: inherit;
+        margin-top: -100px;
+        margin-bottom: 10px;
+        place-content: center;
+        background-color: #66ab4e;
+        text-transform: uppercase;
+    }
+
+    .banner-mobile-music .row {
         justify-content: center;
     }
 
-    .banner-mobile .music-banner {
+    .banner-mobile-gigs .row {
+        justify-content: center;
+    }
+
+    .banner-mobile-music .music-banner {
         margin-bottom: 0;
     }
 
-    .banner-mobile h1 {
+    .banner-mobile-gigs .gigs-banner {
+        margin-bottom: 0;
+    }
+
+    .banner-mobile-music h1 {
+        margin-bottom: 0;
+        font-size: 1.5rem;
+    }
+
+    .banner-mobile-gigs h1 {
         margin-bottom: 0;
         font-size: 1.5rem;
     }
 }
 
+ /*----------- Events Page -----------------*/
 
+  /*----------- Backdrop -----------------*/
+
+
+@media (max-width: 1199px) {
+    
+}
+
+@media (min-width: 1199px) {
+}
+
+@media (max-width: 991px) {
+    
+}
+
+@media (min-width:768px) {
+}
+
+@media (max-width:767px) {
+       
+}
 
 
 /*
