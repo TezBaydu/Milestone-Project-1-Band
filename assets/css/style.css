@@ -240,12 +240,12 @@ footer {
     margin-left: 33%;
 }
 
-.col-12 {
+.tabletsizeandabove-row .col-12 {
     border-bottom: solid;
     border-color: #4fc3c3;
 }
 
-.col-6 {
+.tabletsizeandabove-row .col-6 {
     padding-top: 1%;
 }
 
@@ -291,7 +291,7 @@ footer {
     .header-text {
         font-size: 1.5rem;
     }
-    .col-6 {
+    .tabletsizeandabove-row .col-6 {
         font-size: 14px;
     }
 }
@@ -619,7 +619,7 @@ footer {
 }
 
 .gigs-banner {
-    background-color: #66ab4e;
+    background-color: #65ab4e83;
     text-align: center;
     color: #000000;
     margin-bottom: 1%;
@@ -828,7 +828,7 @@ footer {
         margin-top: 10px;
         margin-bottom: 10px;
         place-content: center;
-        background-color: #66ab4e
+        background-color: #65ab4e83
     }
     
     .music-banner {
@@ -969,7 +969,7 @@ footer {
         margin-top: -100px;
         margin-bottom: 10px;
         place-content: center;
-        background-color: #66ab4e;
+        background-color: #65ab4e83;
         text-transform: uppercase;
     }
 
@@ -1003,6 +1003,40 @@ footer {
  /*----------- Events Page -----------------*/
 
   /*----------- Backdrop -----------------*/
+
+  /*----------- Event media quotes -----------------*/
+
+.event-media-quotes {
+    text-align: center;
+    height: 200px;
+}
+
+.event-media-quotes .row {
+    height: 300px;
+    font-weight: 500;
+}
+
+.event-media-quotes .col-6 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*----------- Event table -----------------*/
+
+.table {
+    width: 60%;
+    margin-left: 20px;
+}
+
+.table .table-hover {
+    width: 60%;
+    margin-left: 20px;
+}
+
+.table .table-titles {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
 
 
 @media (max-width: 1199px) {
