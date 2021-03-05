@@ -1004,40 +1004,74 @@ footer {
 
   /*----------- Backdrop -----------------*/
 
+.glass-hole {
+    background-image: url(../images/glass-broken-icarus-napa.jpg);
+    display: flow-root;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
   /*----------- Event media quotes -----------------*/
 
 .event-media-quotes {
+    margin-top: -100px;
     text-align: center;
     height: 200px;
 }
 
 .event-media-quotes .row {
     height: 300px;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .event-media-quotes .col-6 {
     padding-left: 0;
-    padding-right: 0;
+    padding-right: 20px;
 }
 
 /*----------- Event table -----------------*/
 
-.table {
-    width: 60%;
-    margin-left: 20px;
+.table-section {
+    min-width: fit-content;
 }
 
-.table .table-hover {
-    width: 60%;
-    margin-left: 20px;
+.table {
+    margin-left: 10%;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #4fb7bc;
+    display: table-cell;
+    width: max-content;
 }
 
 .table .table-titles {
     text-transform: uppercase;
     text-decoration: underline;
+    background-color: #65ab4e83;
 }
 
+.table td {
+    border-top: hidden;
+}
+
+.table th {
+    border-top: hidden;
+}
+
+.table a {
+    color: #000000;
+}
+
+.room-2 img {
+    width: 400px;
+    mix-blend-mode: color-burn;
+    margin-left: 400px;
+}
+
+.table-section {
+    display: flex;
+}
 
 @media (max-width: 1199px) {
     
