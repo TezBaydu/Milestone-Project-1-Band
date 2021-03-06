@@ -24,7 +24,8 @@ body {
  /*----------- Navigation Bar -----------------*/
 
 .navbar-expand-lg {
-    background-color: #4fb7bcb5;
+    /*background-color: #4fb7bcb5;*/
+    background-image:linear-gradient(to bottom, rgba(79,183,188,1), rgba(79,183,188,0));
 }
 
 .bg-nav {
@@ -32,13 +33,14 @@ body {
 } 
 
 .navbar-collapse {
-    background-color: #4fb7bcc6;
+    background-image:linear-gradient(to bottom, rgba(79,183,188,1), rgba(79,183,188,0));
     border-radius: 5px;
     justify-content: flex-end;
     max-width: inherit;
 }
 
 .nav-item {
+    background-color: transparent;
     padding: 0 3rem;
     justify-content: end;
 }
@@ -1203,6 +1205,18 @@ footer {
         margin-top: 0;
         margin-left: 0;
     }      
+}
+
+
+/*----------- Contacts Page -----------------*/
+
+.court-estate {
+    background-image: url(../images/Elkston\ Court\ Blue.jpg);
+    display: inline-block;
+    background-size: cover;
+    width:100%;
+    height: 2000px;
+    background-position-y: center;
 }
 
 
