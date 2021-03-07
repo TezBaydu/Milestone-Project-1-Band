@@ -1215,8 +1215,52 @@ footer {
     display: inline-block;
     background-size: cover;
     width:100%;
-    height: 2000px;
+    height: 1500px;
     background-position-y: center;
+}
+
+.contact-boombox {
+    background-image: url(/assets/images/Boombox-Blue-only-tall.gif);
+    background-size: cover;
+}
+
+.centre-p {
+    text-align: center;
+    color: #000000;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    font-weight: 600;
+
+}
+
+.contact-boombox .row {
+    padding-top: 80px;
+    width: 800px;
+}
+
+.contact-boombox .col {
+    padding-left: 0;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.contact-boombox form {
+    padding-left: 10px;
+}
+
+.message-area {
+    background-color: #ffffd5;
+}
+
+.btn-outline-danger {
+    background-color: aliceblue;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: center;
 }
 
 

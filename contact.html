@@ -80,110 +80,191 @@
     </div>
 
     <div class="court-estate">
-        <div class="container">
-            <form>
-                <div class="row">
-                    <div class="col">
-                        <input type="text" class="form-control" placeholder="First name">
-                    </div>
-                    <div class="col">
-                        <input type="text" class="form-control" placeholder="Last name">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlInput1">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="name@example.com">
-                </div>
-                <div class="mb-3">
-                    <select class="custom-select" required>
-                        <option value="">Choose...</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                    </select>
-                </div>
-                <div class="invalid-feedback">Example invalid custom select feedback</div>
+        <div class="centre-p">
+            <p>Complete below to book us for events, regular updates or general enquiries.</p>
+        </div>
 
-                <div class="was-validated">
-                    <div class="mb-3">
-                        <label for="validationTextarea">Textarea</label>
-                        <textarea class="form-control is-invalid" id="validationTextarea"
-                            placeholder="Required example textarea" required></textarea>
-                        <div class="invalid-feedback">
-                            Please enter a message in the textarea.
+        <div class="container">
+            <div class="row contact-boombox">
+                <div class="col">
+                    <div class="row">
+                        <div class="col">
+                            <form>
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="First name" required>
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Last name" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1"></label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="Email: name@example.com" required>
+                                </div>
+                                <!-- <div class="form-group">
+                                    <label for="exampleFormControlSelect1"></label>
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                        <option>Newsletter subscription</option>
+                                        <option>Booking enquiry</option>
+                                        <option>General enquiry</option>
+                                    </select>
+                                </div> -->
+                                <div class="mb-3">
+                                    <select class="custom-select" required>
+                                        <option value="">Choose...</option>
+                                        <option value="1">Newsletter subscription</option>
+                                        <option value="2">Band booking enquiry</option>
+                                        <option value="3">General enquiry</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1"></label>
+                                    <textarea class="form-control message-area" id="exampleFormControlTextarea1"
+                                        placeholder="Message" required rows="10"></textarea>
+                                </div>
+                                <div class="modal fade show" id="exampleModalCenter" tabindex="-1"
+                                    aria-labelledby="exampleModalCenterTitle"
+                                    style="display: block; padding-right: 17px;" aria-modal="true" role="dialog">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">×</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+                                                    dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta
+                                                    ac consectetur ac, vestibulum at eros.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-outline-danger" data-toggle="modal"
+                                    data-target="#exampleModalCenter">Submit</button>
+                            </form>
                         </div>
                     </div>
                 </div>
-            </form>
+            </div>
         </div>
+
+        <!-- <div class="container">
+            <div class="row contact-boombox">
+                <div class="col">
+                    
+                    <form>
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="First name">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Last name">
+                            </div>
+                            <div class="row form-group">
+                            <label for="exampleFormControlInput1"></label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <select class="custom-select" required>
+                                    <option value="">Choose...</option>
+                                    <option value="1">Newsletter subscription</option>
+                                    <option value="2">Booking enquiry</option>
+                                    <option value="3">General enquiry</option>
+                                </select>
+                            </div>
+                            <div class="invalid-feedback">Example invalid custom select feedback</div>
+
+                            <div class="row was-validated">
+                                <div class="mb-3">
+                                    <label for="validationTextarea"></label>
+                                    <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Message"
+                                        required></textarea>
+                                    <div class="invalid-feedback">
+                                        Please enter a message in the textarea.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div> -->
     </div>
 
-    <footer class="container-fluid sticky-bottom">
-                <div id="footer-details" class="row justify-content-center">
-                    <div class="cover justify-content-center">
-                        <ul class="list-inline social-links">
-                            <li class="list-inline-item">
-                                <a target="_blank" href="https://www.facebook.com/" alt="Facebook url link">
-                                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                                    <span class="sr-only">Facebook</span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a target="_blank" href="https://twitter.com/" alt="Twitter url link">
-                                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                                    <span class="sr-only">Twitter</span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a target="_blank" href="https://www.linkedin.com/" alt="Linkedin url link">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                    <span class="sr-only">LinkedIn</span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a target="_blank" href="https://www.pinterest.com/" alt="Pinterest url link">
-                                    <i class="fa fa-pinterest" aria-hidden="true"></i>
-                                    <span class="sr-only">Pinterest</span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a target="_blank" href="https://www.instagram.com/" alt="Instagram url link">
-                                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                                    <span class="sr-only">Instagram</span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a target="_blank" href="https://www.youtube.com/" alt="Youtube url link">
-                                    <i class="fa fa-youtube" aria-hidden="true"></i>
-                                    <span class="sr-only">Youtube</span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a target="_blank" href="https://www.apple.com/uk/itunes/"
-                                    alt="Apple url music download link">
-                                    <i class="fa fa-apple" aria-hidden="true"></i>
-                                    <span class="sr-only">Apple</span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a target="_blank" href="https://www.deezer.com/" alt="Deezer url music download link">
-                                    <i class="fa fa-signal" aria-hidden="true"></i>
-                                    <span class="sr-only">Deezer</span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a target="_blank" href="https://www.spotify.com/"
-                                    alt="Spotify url music download link">
-                                    <i class="fa fa-spotify" aria-hidden="true"></i>
-                                    <span class="sr-only">Spotify</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-    </footer>
 
+    <footer class="container-fluid sticky-bottom">
+        <div id="footer-details" class="row justify-content-center">
+            <div class="cover justify-content-center">
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.facebook.com/" alt="Facebook url link">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://twitter.com/" alt="Twitter url link">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.linkedin.com/" alt="Linkedin url link">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.pinterest.com/" alt="Pinterest url link">
+                            <i class="fa fa-pinterest" aria-hidden="true"></i>
+                            <span class="sr-only">Pinterest</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.instagram.com/" alt="Instagram url link">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.youtube.com/" alt="Youtube url link">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">Youtube</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.apple.com/uk/itunes/" alt="Apple url music download link">
+                            <i class="fa fa-apple" aria-hidden="true"></i>
+                            <span class="sr-only">Apple</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.deezer.com/" alt="Deezer url music download link">
+                            <i class="fa fa-signal" aria-hidden="true"></i>
+                            <span class="sr-only">Deezer</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.spotify.com/" alt="Spotify url music download link">
+                            <i class="fa fa-spotify" aria-hidden="true"></i>
+                            <span class="sr-only">Spotify</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    </div>
 </body>
 
 </html>
