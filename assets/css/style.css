@@ -1263,6 +1263,114 @@ form {
     text-align: center;
 }
 
+.bd-example::after {
+    clear: both;
+    display: block;
+    content:"";
+}
+
+.darren-quote {
+    text-align: center;
+    margin-top: 350px;
+    color: #ffffff;
+    font-size: large;
+    font-weight: 600;
+}
+
+@media (max-width: 1199px) {
+    .contact-boombox .row {
+        width: 680px;
+    }
+
+    .court-estate {
+        background-position: right;
+        height: 1560px;
+    }
+}
+
+@media (max-width: 991px) {
+    .logo-contact {
+        visibility: inherit;
+
+    }
+
+    .logo-contact .row {
+        visibility: inherit;
+        place-content: center;
+        background-image: url(../images/Council-Culture-Logo-white.gif);
+        height: 200px;
+        width: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 2;
+    }
+    .centre-p {
+        margin-top: 10px;
+    }
+
+    .contact-boombox {
+        background-size: cover;
+        height: 580px;
+    }
+
+    .contact-boombox .row {
+        width: 490px;
+        padding-top: 50px;
+    }
+    .darren-quote {
+        margin-top: 410px;
+    }    
+}
+
+@media (max-width: 767px) {
+    .logo-contact .row {
+        width: 265px;
+        margin-top: -45px;
+    }
+
+    .contact-boombox {
+        background-image: url(/assets/images/Boombox-Blue-only-thin.gif);
+        height: 409px;
+    }
+
+    .contact-boombox .row {
+        width: 220px;
+        padding-top: 40px;
+    }
+    
+    .centre-p {
+        font-size: x-small;
+        margin-bottom: 0;
+    }
+
+    .form-control {
+        font-size: x-small;
+    }
+
+    .custom-select {
+        font-size: x-small;
+    }
+
+    .btn-outline-danger {
+        font-size: x-small;
+    }
+
+    .form-group {
+        margin-bottom: 0.5rem;
+        margin-top: -15px;
+    }
+
+    .court-estate {
+        height: 1150px;
+    }
+
+    .darren-quote {
+        margin-top: 316px;
+        font-size: small;
+    }
+}
+
 
 /*
 @media (max-width: 1199px) {
