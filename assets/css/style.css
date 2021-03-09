@@ -15,6 +15,7 @@ body {
     background-image: url(../images/concert-blur4.jpg);
     display: inline-block;
     background-size: cover;
+    background-position: center;
 }
 
 .row {
@@ -298,9 +299,10 @@ footer {
     }
     .header-text {
         font-size: 1.5rem;
+        margin-top: 10px;
     }
     .tabletsizeandabove-row .col-6 {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 
@@ -312,7 +314,7 @@ footer {
     }
 
     .bandgroup {
-        margin-top: 4%;
+        margin-top: 10%;
     }
 
     h2 {
@@ -346,7 +348,8 @@ footer {
 
     .mobile-row {
         display: inherit;
-        margin-bottom: 0.2rem;
+        margin-bottom: 0.5rem;
+        font-size: small;
     }
 
     .col-10 {
@@ -368,7 +371,7 @@ footer {
     }
     .advisory-notice-mobile {
         display: inline;
-        width: 10%;
+        width: 18%;
         vertical-align: baseline;
         margin: -2% 0 0 80%;
     }
@@ -389,7 +392,7 @@ footer {
     font-weight: 700;
     font-size: larger;
     font-stretch: condensed;
-
+    mix-blend-mode: multiply;
 }
 
 .grafitti-image .row {
@@ -432,6 +435,20 @@ footer {
 
     .grafitti-image p {
         font-size: 9px;
+    }
+
+    .grafitti-image .col-4 {
+        flex: none;
+        max-width: none;
+    }
+
+    .grafitti-image .col-8 {
+        flex: none;
+        max-width: none;
+    }
+
+    .grafitti-image p {
+        font-size: 11px;
     }
 }
 
@@ -510,7 +527,7 @@ footer {
 
 @media (max-width: 991px) {
     .band-quotes p {
-    font-size: 15px;
+    font-size: 16px;
     }
 
     .walker-border strong {
@@ -567,8 +584,6 @@ footer {
         image-rendering: -webkit-optimize-contrast;
     }
 
-
-
     .band-members-mobile .container {
         max-width: 1300px;
     }
@@ -576,6 +591,10 @@ footer {
     .band-quotes-mobile .container {
         max-width: 1300px;
         padding-left: 0;
+    }
+
+    .band-quotes-mobile p {
+        font-size: 10px;
     }
 
     .murder-scene {
@@ -1043,6 +1062,7 @@ footer {
     font-size: 20px;
     background-color: #e9e9e99c;
     border-radius: 10px;
+    padding-top: 5px;
 }
 
 .event-media-quotes .col-6 {
@@ -1075,6 +1095,7 @@ footer {
 
 .table td {
     border-top: hidden;
+    font-weight: 600;
 }
 
 .table th {
@@ -1084,6 +1105,7 @@ footer {
 .table a {
     color: #000000;
 }
+
 
 .room-2 img {
     width: 400px;
@@ -1208,6 +1230,14 @@ footer {
         font-size: 10px;
         margin-right: 4px;
         margin-left: 4px;
+    }
+
+    .table td {
+        padding:0.4rem;
+    }
+
+    .table th {
+        padding: 0.4rem;
     }
 
     .room-2 {
@@ -1376,12 +1406,16 @@ form {
     }
 
     .court-estate {
-        height: 1150px;
+        height: 1050px;
     }
 
     .darren-quote {
         margin-top: 316px;
         font-size: small;
+    }
+
+    .contact-container {
+        margin-top: -50px;
     }
 }
 
