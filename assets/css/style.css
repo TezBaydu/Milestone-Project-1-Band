@@ -197,6 +197,10 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
+.single-release .header-download {
+    z-index: 50;
+}
+
 .header-download li a i {
     width: 40px;
     height: 40px;
@@ -234,12 +238,14 @@ footer {
     vertical-align: middle;
 }
 
+.cc-header-logo {
+    text-align: center;
+}
+
 .cc-logo-white {
     mask-image: transparent;
-    vertical-align: middle;
-    width: 30%;
-    margin-top: -15%;
-    margin-left: 33%;
+    width: 70%;
+    margin-top: -5%;
 }
 
 .tabletsizeandabove-row .col-12 {
@@ -301,10 +307,16 @@ footer {
 @media (max-width: 767px) {
     .single-release {
         margin: 0% 2%;
-        height: 2.5rem;
+        height: 3rem;
+        width: 228px;
     }
+
+    .bandgroup {
+        margin-top: 4%;
+    }
+
     h2 {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
     ul {
         margin-bottom: 0;
@@ -322,8 +334,10 @@ footer {
     }
 
     .header-text {
-        font-size: 0.6rem;
+        font-size: 0.9rem;
         color: #4fb7bc;
+        margin-top: 5px;
+        margin-bottom: -10px;
     }
 
     .tabletsizeandabove-row {
