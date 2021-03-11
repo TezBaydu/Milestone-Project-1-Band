@@ -177,3 +177,13 @@ This project has four separate pages found by clicking on the relevant name foun
 - Nav background color has to be associated to 2 classes: .navbar-expand-lg and .bg-nav....
     * WHY ?!
 
+- Modal
+    * loaded in but potential of lack of java link, not required for this course and so have removed
+
+
+
+### User Testing
+
+- Align mobile contact image
+- Make buttons slightly bigger for mobile, however still work when small (similar size as letters when typing)
+
