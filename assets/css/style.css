@@ -1337,6 +1337,12 @@ form {
     font-weight: 600;
 }
 
+@media (min-width: 1199px) {
+    .darren-quote {
+        margin-top: 450px;
+    }
+}
+
 @media (max-width: 1199px) {
     .contact-boombox .row {
         width: 680px;
@@ -1345,6 +1351,11 @@ form {
     .court-estate {
         background-position: right;
         height: 1560px;
+    }
+
+    .darren-quote {
+        margin-top: 410px;
+        font-size: x-large;
     }
 }
 
@@ -1379,7 +1390,8 @@ form {
         padding-top: 50px;
     }
     .darren-quote {
-        margin-top: 410px;
+        margin-top: 380px;
+        font-size: x-large;
     }    
 }
 
