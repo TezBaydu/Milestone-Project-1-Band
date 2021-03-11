@@ -1320,6 +1320,7 @@ footer {
 
 form {
     text-align: center;
+    z-index: 60;
 }
 
 .bd-example::after {
