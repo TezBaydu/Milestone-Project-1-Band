@@ -302,7 +302,7 @@ footer {
 
 @media (max-width: 991px) {
     .single-release {
-        margin: 0% 2%;
+        margin: 1% 2%;
     }
     .logo {
         visibility: hidden;
@@ -728,7 +728,7 @@ footer {
 
 .titles {
     text-transform: uppercase;
-    text-align: center;
+    text-align: start;
     font-size: x-large;
     background-color: rgba(0, 0, 0, 0.6);
 }
@@ -738,6 +738,14 @@ footer {
     margin-left: 15%;
     color: #ffffff;
     font-size: large;
+}
+
+.titles row {
+    width: inherit;
+}
+
+.titles p {
+    margin-left: 43px;
 }
 
 .sc-ones {
@@ -776,7 +784,7 @@ footer {
 
     .titles p {
         margin-block-end: auto;
-        margin-left: -10px;
+        margin-left: 18px;
     }
 
     .titles {
@@ -819,7 +827,7 @@ footer {
     }
     
     .titles p {
-        margin-left: 0;
+        margin-left: -10px;
         text-align: start;
     }
 
@@ -836,14 +844,6 @@ footer {
     .titles .col {
         padding-left: 5px;
         padding-right: 5px;
-    }
-
-    .aftermath {
-        padding-left: 10px;
-    }
-
-    .sc-ones {
-        padding-right: 10px;
     }
 
     .album-image-section .col {
