@@ -118,11 +118,11 @@ body {
 
 footer {
     background-color: rgba(214, 16, 32, 0.7);
-    min-height: auto;
+    min-height: 60px;
 }
 
 .social-links {
-    padding-top: 0px;
+    padding-top: 4px;
 }
 
 .social-links li a i {
@@ -252,6 +252,28 @@ footer {
     text-align: center;
     color: #ed2224;
     text-transform: uppercase;
+}
+
+button {
+    background-color: transparent;
+}
+
+.audio {
+    color: #ffffff;
+    border: none;
+    
+}
+
+
+.audio :hover {
+    color: #000000;
+    /* background-color: #ec3135; */
+    border: none;
+    transition: all 0.35s ease-in-out;
+}
+
+.audio em {
+    text-decoration: underline;
 }
 
 .bandgroup {
@@ -763,7 +785,7 @@ footer {
     text-align: left;
     margin-left: 15%;
     color: #ffffff;
-    font-size: large;
+    font-size: medium;
 }
 
 .titles row {
@@ -772,6 +794,19 @@ footer {
 
 .titles p {
     margin-left: 43px;
+}
+
+.titles button {
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.titles .audio :hover {
+    color: #ec3135;
+    /* background-color: #ec3135; */
+    border: none;
+    transition: all 0.35s ease-in-out;
 }
 
 .sc-ones {
@@ -964,6 +999,20 @@ footer {
 
     .titles-mobile {
         display: inherit;
+    }
+
+    .titles-mobile button {
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 0;
+    padding-left: 0;
+    }
+
+    .titles-mobile .audio :hover {
+    color: #ec3135;
+    /* background-color: #ec3135; */
+    border: none;
+    transition: all 0.35s ease-in-out;
     }
 
     .titles-mobile ol {
@@ -1480,25 +1529,7 @@ form {
     }
 }
 
-button {
-    background-color: transparent;
-}
 
-.audio {
-    color: #ffffff;
-    border: none;
-}
-
-.audio :hover {
-    color: #000000;
-    /* background-color: #ec3135; */
-    border: none;
-    transition: all 0.35s ease-in-out;
-}
-
-.audio em {
-    text-decoration: underline;
-}
 
 /*
 @media (max-width: 1199px) {
