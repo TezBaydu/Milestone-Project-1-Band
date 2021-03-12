@@ -202,7 +202,6 @@ footer {
     text-align: center;
     margin: 6% 33% 0;
     background-color: rgba(196, 196, 196, 0.7);
-    display: inline-flex;
     border-style: solid;
     border-radius: 10px;
     padding: 3px;
@@ -211,6 +210,14 @@ footer {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
     border-color: darkmagenta;
+}
+
+.single-release h2 {
+    margin-bottom: 0;
+}
+
+.single-release ul {
+    margin-bottom: 1px;
 }
 
 .single-release .header-download {
@@ -294,7 +301,7 @@ footer {
 @media (max-width: 1199px) {
     .single-release {
         margin: 6% 30% 0%;
-        height: 4rem;
+        height: 6rem;
     }
 
     h2 {
@@ -1469,7 +1476,25 @@ form {
     }
 }
 
+button {
+    background-color: transparent;
+}
 
+.audio {
+    color: #ffffff;
+    border: none;
+}
+
+.audio :hover {
+    color: #000000;
+    /* background-color: #ec3135; */
+    border: none;
+    transition: all 0.35s ease-in-out;
+}
+
+.audio em {
+    text-decoration: underline;
+}
 
 /*
 @media (max-width: 1199px) {
