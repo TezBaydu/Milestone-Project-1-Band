@@ -301,7 +301,7 @@ footer {
 @media (max-width: 1199px) {
     .single-release {
         margin: 6% 30% 0%;
-        height: 6rem;
+        height: 7rem;
     }
 
     h2 {
@@ -310,12 +310,12 @@ footer {
     .header-text {
         font-size: 1.5rem;
     }
+    button {
+        margin-bottom: 2%;
+    }
 }
 
 @media (max-width: 991px) {
-    .single-release {
-        margin: 1% 2%;
-    }
     .logo {
         visibility: hidden;
     }
@@ -335,8 +335,8 @@ footer {
 
 @media (max-width: 767px) {
     .single-release {
-        margin: 1% 2%;
-        height: 5rem;
+        margin: 7% 2% 0%;
+        height: 6rem;
         width: 228px;
         padding:2%;
     }
@@ -350,6 +350,10 @@ footer {
     }
     ul {
         margin-bottom: 0;
+    }
+
+    .single-release ul {
+        text-align: -webkit-center;
     }
 
     .header-download li a i {
