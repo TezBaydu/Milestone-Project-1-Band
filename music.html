@@ -11,7 +11,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"
+        integrity="sha256-Ls0pXSlb7AYs7evhd+VLnWsZ/AqEHcXBeMZUycz/CcA=" crossorigin="anonymous"></script>
+    <script src="player.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.mediPlayer').mediaPlayer();
+        });
+    </script>
 
     <!-- Latest Bootstrap link 4.5.3 as advised to copy in Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
@@ -276,23 +287,104 @@
                     <div class="col">
                         <p><strong class="afterlife">Afterlife</strong></p>
                         <ol>
-                            <li><audio id="wbib" src="assets/music/wbib-snip.mp3" preload="auto"></audio>
-                                <button class="audio" onclick="document.getElementById('wbib').play();">WBIB <i class="fa fa-play" aria-hidden="true"></i></button></li>
+                            <li>
+                                <div class="mediPlayer">WBIB
+                                    <audio class="listen" preload="none" data-size="250"
+                                        src="assets/music/wbib-snip.mp3"></audio>
+                                </div>
+
+                                <!-- <audio class="player">
+                                    <source src="assets/music/wbib-snip.mp3" />
+                                </audio>
+                                <button class="play" style="color: white;"><i class="fa fa-play"
+                                        aria-hidden="true"></i></button>
+
+                                <script type="text/javascript">
+                                    $(document).ready(function () {
+
+                                        var $players = $('.player');
+                                        var $playButtons = $('.play');
+
+                                        function onPlayClick(playButton, player) {
+                                            if (player.paused) {
+                                                player.play();
+                                                $(playButton).html('Pause');
+                                            } else {
+                                                player.pause();
+                                                $(playButton).html('Play');
+                                            }
+                                        }
+
+                                        for (var i = 0; i < $playButtons.length; i++) {
+                                            var playButton = $playButtons[i];
+                                            var player = $players[i];
+
+                                            $(playButton).click(onPlayClick.bind(null, playButton, player));
+                                        }
+
+                                    });
+                                </script> -->
+
+                                <!-- <audio id="wbib" src="assets/music/wbib-snip.mp3" preload="auto"></audio>
+                                <input type="button" value="WBIB" onclick="togglePlay()" />
+                                <script type="text/javascript">
+                                    function togglePlay() {
+                                        var myAudio = document.getElementById("wbib");
+                                        return wbib.paused ? wbib.play() : wbib.pause();
+                                    };
+                                </script> -->
+
+                                <!--<button class="audio" onclick="document.getElementById('wbib').play().pause();">WBIB <i class="fa fa-play" aria-hidden="true"></i></button></li> -->
                             <li>Afterlife</li>
-                            <li><audio id="rudeboy" src="assets/music/rudeboy-snip.mp3" preload="auto"></audio>
-                                <button class="audio" onclick="document.getElementById('rudeboy').play();">Rudeboy
-                                <i class="fa fa-play" aria-hidden="true"></i></button></li>
+                            <li>
+
+                                <div class="mediPlayer">Rudeboy
+                                    <audio class="listen" preload="none" data-size="250"
+                                        src="assets/music/rudeboy-snip.mp3"></audio>
+                                </div>
+
+
+
+                                <!-- <audio class="player">
+                                    <source src="assets/music/rudeboy-snip.mp3" />
+                                </audio>
+                                <button class="play" style="color: white;"><i class="fa fa-play"
+                                        aria-hidden="true"></i></button> -->
+
+
+
+                                <!-- <audio id="rudeboy" src="assets/music/rudeboy-snip.mp3" preload="auto"></audio>
+                                <input type="button" value="rudeboy" onclick="togglePlay()" />
+                                <script type="text/javascript">
+                                    function togglePlay() {
+                                        var myAudio = document.getElementById("rudeboy");
+                                        return rudeboy.paused ? rudeboy.play() : rudeboy.pause();
+                                    };
+                                </script> -->
+
+
+                                <!-- <button class="audio" onclick="document.getElementById('rudeboy').play();">Rudeboy
+                                    <i class="fa fa-play" aria-hidden="true"></i></button> -->
+
+                            </li>
                             <li>Double-Dragon</li>
-                            <li><audio id="darren" src="assets/music/anyone-seen-darren-snip.mp3" preload="auto"></audio>
-                                <button class="audio" onclick="document.getElementById('darren').play();">Darren?
-                                <i class="fa fa-play" aria-hidden="true"></i></button></li>
+
+                            <li>
+                                <div class="mediPlayer">Darren?
+                                    <audio class="listen" preload="none" data-size="250"
+                                        src="assets/music/anyone-seen-darren-snip.mp3"></audio>
+                                </div>
+                            </li>
                             <li>Room 2</li>
                             <li>What he thinks</li>
                             <li>Bus song</li>
                             <li>Rogue</li>
-                            <li><audio id="rise-rebellion" src="assets/music/rise-rebellion-snip.mp3" preload="auto"></audio>
-                                <button class="audio" onclick="document.getElementById('rise-rebellion').play();">Rise the Rebellion
-                                <i class="fa fa-play" aria-hidden="true"></i></button></li>
+                            <li>
+                                <div class="mediPlayer">Rise the Rebellion
+                                    <audio class="listen" preload="none" data-size="250"
+                                        src="assets/music/rise-rebellion-snip.mp3"></audio>
+                                </div>
+                            </li>
                             <li>Underdogs</li>
                         </ol>
                     </div>
@@ -436,22 +528,26 @@
                         <p><strong class="afterlife">Afterlife</strong></p>
                         <ol>
                             <li><audio id="wbib-mob" src="assets/music/wbib-snip.mp3" preload="auto"></audio>
-                                <button class="audio" onclick="document.getElementById('wbib-mob').play();">WBIB <i class="fa fa-play" aria-hidden="true"></i></button></li>
+                                <button class="audio" onclick="document.getElementById('wbib-mob').play();">WBIB <i
+                                        class="fa fa-play" aria-hidden="true"></i></button></li>
                             <li>Afterlife</li>
                             <li><audio id="rudeboy-mob" src="assets/music/rudeboy-snip.mp3" preload="auto"></audio>
                                 <button class="audio" onclick="document.getElementById('rudeboy-mob').play();">Rudeboy
-                                <i class="fa fa-play" aria-hidden="true"></i></button></li>
+                                    <i class="fa fa-play" aria-hidden="true"></i></button></li>
                             <li>Double-Dragon</li>
-                            <li><audio id="darren-mob" src="assets/music/anyone-seen-darren-snip.mp3" preload="auto"></audio>
+                            <li><audio id="darren-mob" src="assets/music/anyone-seen-darren-snip.mp3"
+                                    preload="auto"></audio>
                                 <button class="audio" onclick="document.getElementById('darren-mob').play();">Darren?
-                                <i class="fa fa-play" aria-hidden="true"></i></button></li>
+                                    <i class="fa fa-play" aria-hidden="true"></i></button></li>
                             <li>Room 2</li>
                             <li>What he thinks</li>
                             <li>Bus song</li>
                             <li>Rogue</li>
-                            <li><audio id="rise-rebellion-mob" src="assets/music/rise-rebellion-snip.mp3" preload="auto"></audio>
-                                <button class="audio" onclick="document.getElementById('rise-rebellion-mob').play();">Rise the Rebellion
-                                <i class="fa fa-play" aria-hidden="true"></i></button></li>
+                            <li><audio id="rise-rebellion-mob" src="assets/music/rise-rebellion-snip.mp3"
+                                    preload="auto"></audio>
+                                <button class="audio"
+                                    onclick="document.getElementById('rise-rebellion-mob').play();">Rise the Rebellion
+                                    <i class="fa fa-play" aria-hidden="true"></i></button></li>
                             <li>Underdogs</li>
                         </ol>
                     </div>
