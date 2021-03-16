@@ -142,6 +142,8 @@ This project has four separate pages found by clicking on the relevant name foun
 
 - [Responsive design checker](https://responsivedesignchecker.com/)
 
+- [HTML code checker](https://validator.w3.org/)
+
 ## Questions for Mentor meeting 1
 - Have tested desktop and mobile version wireframes but do not have access to a tablet to appropriately test. Widths differ per product.
     * Is the width approprate for tablet?
