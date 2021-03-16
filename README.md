@@ -1,21 +1,47 @@
 # Project Council Culture
 
-## Code Institute Milestone Project 1
+- image Code Institute Milestone Project 1
 
-[Council Culture](../images/cc-3.jpeg)
+[Council Culture](https://tezbaydu.github.io/Milestone-Project-1-Band/)
 
-*Council Culture* is a new fictional band about a group of musicians who are friends that grew up in South London through the 80's and 90's.
+## Contents
+1. [Introduction](#Introduction)
+2. [UX](#UX)
+    1. [Aims](#Aims)
+    2. [User Stories](#User-stories)
+    3. [Design](#Design)
+    4. [Wireframe](#Wireframe)
+3. [Features](#Features)
+    1. [Consistency](#Consistency)
+    2. [Home](#Home)
+    3. [Music](#Music)
+    4. [Events](#Events)
+    5. [Contact](Contact)
+4. [Issues and Bugs](#Issues-and-Bugs)
+5. [Technologies Used](#Technologies-Used)
+6. [Mentor questions](#Questions-for-Mentor)
+    1. [Meeting 1](#Meeting-1)
+    2. [Meeting 2](#Meeting-2)
+7. [Bugs and Issues](#Bugs)
+8. [Testing](#Testing)
+     1. [User Testing](#User-testing)
+     2. [Code testing](#Code-testing)
+
+9. [Credits](#Credits)
+***
+
+## Introduction
+
+*Council Culture* is a new fictional band about a group of musicians who are friends that grew up in London during the 1980's and 1990's.
 The idea came to me as I too had grown up in London and influenced by various types of music and culture.
 This band's genre is mainly punk rock but has shades of funk, groove and reggae.
 There is potential for this kind of music to break the market and give the under-privileged a perspective, especially once the pandemic is over there may well be some controversial political decisions that could affect the vulnerable.
 
----[Link to the site]---
+### UX
 
-## UX
+#### Aims
 
-### Aims
-
-- Aimed at nostalgic punk rock audience, music producers and events organisers looking to hire bands.
+- Aimed at nostalgic punk rock audience, music producers and event organisers looking to hire bands.
 
 - To give users a visual experience of what the bands music is portraying.
     * 80's & 90's style punk rock with shades of colour to help represent funk, groove and reggae.
@@ -24,24 +50,30 @@ There is potential for this kind of music to break the market and give the under
 
 - To be fully responsive to all screens and sizes
 
-### User stories
+#### User stories
 
-1.  This user is an events organiser looking for a punk rock band to be part of a group of bands for a weekend event. They look for other events the band have performed and reviews they have had.
+1.  This user is an events organiser looking for a punk rock band to be part of a group of bands for an event. They look for other events the band have performed and reviews they have had.
 
-2. This user is in their early 50's who is a fan of punk rock looking for other music to listen to. The user is a fan and subscriber of many other groups and may well look to know more of this bands progress in the future.
+2. This user is in their early 50's who is a fan of punk rock looking for other music to listen to. The user is a fan and subscriber of many other groups and may want to know more of this bands progress in the future.
 
 3. This user is a journalist working on a piece about new bands breaking the market. They are completely independent and will also look to give honest opinion of their music based on their own experiences of the band genre.
 
 4. This user has no interest in punk rock music at all but is looking for imagery or influence for another project.
 
-### Design
+#### Design
 
-1.  The design was initally inspired by an image found on Pixably of a ghettoblaster and once discussed with Graphic Designer (Terry Downs) who sent over images and logo ideas, it breathed the initial elements of the project. Based on some user stories I've decided to focus on the following pages: Home, Events, Music, Contact.
+1.  The design was initally inspired by an image found on Pixabay of a ghettoblaster and once discussed with Graphic Designer (Terry Downs) who sent over images and logo ideas, it breathed the initial elements of the project. Based on some user stories I've decided to focus on the following pages: Home, Events, Music, Contact.
 2. Pages not developed but potential to add: Merchandise, Videos, Gallery
+3. Colour focus is mainly based on the band logo.
+4. Imagery has associations to council estates, crime and considered poverty.
+5. Band members have been given names associated to brands of Nike, this being the preferred trainer footwear at the time.
+6. Band members have been given hats, glasses and certain colour shades to allow for mystique.
+7. Home page is to draw the user and other pages to be more focussed on user requirements.
+8. Pages to have a snippet of music for users to listen to and if wanting to download, these buttons are available also.
+9. Check codes for validation
+10. Check site works on various browsers
 
----[update once starting design]---
-
-### Wireframe
+#### Wireframe
 
 [Design for desktop](link to github wireframe image)
 
@@ -49,11 +81,11 @@ There is potential for this kind of music to break the market and give the under
 
 [Design for mobile](link to github wireframe image)
 
-## Features
+### Features
 
 This project has four separate pages found by clicking on the relevant name found in a menu
 
-### Consistency
+#### Consistency
 
 - Design with menu placing in the same position.
     * A Band logo which leads the user back to 'Home' when clicked.
@@ -77,21 +109,21 @@ This project has four separate pages found by clicking on the relevant name foun
     * to use additional in case montserrat isn't available for users:
         * Ariel & sans serif
 
-### Home
+#### Home
 
 - Concert image and other images of band members
 - Statement of the bands music, influence and history
 - Individual synopsis of band members
 - Music Reviews
 
-### Music
+#### Music
 
 - List of albums and tracks.
 - Images of album covers.
 - Downloadable music content.
 - Clicking on album or song title gives option to purchase and download or listen via Music streaming service (Spotify, Deezer, Apple)
 
-### Events
+#### Events
 
 - Reviews of past band performances.
 - Calendar of Events
@@ -99,14 +131,14 @@ This project has four separate pages found by clicking on the relevant name foun
     * Places clicked links to venue and map location.
 - Quotes from fans and followers.
 
-### Contact
+#### Contact
 
 - Form to be filled in for 
     * event enquiries to book band to perform
     * to receive regular newsletters
     * General enquiries - potentially from music/media journalists
 
-## Technologies Used
+### Technologies Used
 
 - HTML5
     * Code used to provide content to the website
@@ -144,7 +176,8 @@ This project has four separate pages found by clicking on the relevant name foun
 
 - [HTML code checker](https://validator.w3.org/)
 
-## Questions for Mentor meeting 1
+### Questions for Mentor 
+#### Meeting 1
 - Have tested desktop and mobile version wireframes but do not have access to a tablet to appropriately test. Widths differ per product.
     * Is the width approprate for tablet?
     - When designing apply for each element to each device version - saves time in the long run - remember to use % sizes and padding as scope for device differences.
@@ -168,17 +201,13 @@ This project has four separate pages found by clicking on the relevant name foun
 - Start Coding
     * Book Mentor meeting when about 60% finished...
 
-### Questions for mentor  meeting 2
-
-- Logo 
-    * Trying to adjust so logo is removed for mobile devices.
-    * have used query @media screen and 
-
-
-### Bugs
+#### Meeting 2
 
 - Nav background color has to be associated to 2 classes: .navbar-expand-lg and .bg-nav....
     * WHY ?!
+
+
+### Bugs
 
 - Media play buttons
     * Found a way of having a play button using HTML only, however this caused issues as was unable to toggle between play and pause and when there were several instances in one page music would overplay each other or would play and pause one song ata time, regardless of which button it was associated to.
@@ -191,5 +220,18 @@ This project has four separate pages found by clicking on the relevant name foun
 ### User Testing
 
 - Align mobile contact image
+    * done
 - Make buttons slightly bigger for mobile, however still work when small (similar size as letters when typing)
+    * Adjusted larger as design has carried on. - done.
+
+### Credits
+
+- Terry Downs
+    * Band images and logos
+
+- kuantal/Multiple-circular-player
+    * Play button for multiple tracks to play and pause
+
+- Friends and family
+    * For plenty of user testing
 
