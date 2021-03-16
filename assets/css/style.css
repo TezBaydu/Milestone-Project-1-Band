@@ -283,6 +283,10 @@ button {
     vertical-align: middle;
 }
 
+.bandgroup img {
+    width: 100%;
+}
+
 .cc-header-logo {
     text-align: center;
 }
