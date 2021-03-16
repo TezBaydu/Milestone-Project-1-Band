@@ -140,6 +140,8 @@ This project has four separate pages found by clicking on the relevant name foun
 
 - [Audio Trimmer](https://audiotrimmer.com/)
 
+- [Responsive design checker](https://responsivedesignchecker.com/)
+
 ## Questions for Mentor meeting 1
 - Have tested desktop and mobile version wireframes but do not have access to a tablet to appropriately test. Widths differ per product.
     * Is the width approprate for tablet?
@@ -179,6 +181,10 @@ This project has four separate pages found by clicking on the relevant name foun
 - Media play buttons
     * Found a way of having a play button using HTML only, however this caused issues as was unable to toggle between play and pause and when there were several instances in one page music would overplay each other or would play and pause one song ata time, regardless of which button it was associated to.
         * After much searching I found a solution using Java through the Github user "kuantal/Multiple-circular-player" and was able to use the scripts as shown on thier gitpod to make a successful play pause action for songs.
+
+- Index.html
+    * list-inline header-download
+        * needs page to reload for it to sit horizontally....? Even on responsive design checker
 
 ### User Testing
 

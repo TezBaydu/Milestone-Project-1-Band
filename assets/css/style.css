@@ -696,8 +696,8 @@ button {
 
 .estate {
     background-image: url(../images/Estate-stretch.jpg);
-    display: flow-root;
-    background-size: cover;
+    /* display: flow-root;
+    background-size: cover; */
     background-attachment: fixed;
 }
 

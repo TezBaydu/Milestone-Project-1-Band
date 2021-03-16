@@ -14,7 +14,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-1.11.2.min.js"
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"
         integrity="sha256-Ls0pXSlb7AYs7evhd+VLnWsZ/AqEHcXBeMZUycz/CcA=" crossorigin="anonymous"></script>
     <script src="player.js"></script>
 
@@ -48,9 +48,7 @@
 
             <!-- Council Culture Home logo -->
 
-            <a href="index.html" class="col-sm-3 fixed-top logo"
-                alt="Council Culture logo, Boombox with flats designed within it and wording Council Culture on front"
-                position="z-index: 3"></a>
+            <a href="index.html" class="col-sm-3 fixed-top logo"></a>
 
             <!-- Navigation bar from Bootstrap -->
             <nav class="col-md-5 navbar navbar-expand-lg fixed-nav navbar-light bg-nav">
@@ -61,7 +59,7 @@
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <span class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
                             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
@@ -88,7 +86,7 @@
                             </div>
                         </li> -->
                     </ul>
-                </span>
+                </div>
             </nav>
         </div>
 
@@ -98,50 +96,31 @@
 
             <div class="text-white single-release">
                 <h2>Latest single release<br>'Rise the Rebellion'
-                    <div class="mediPlayer">
+                    <span class="mediPlayer">
                         <audio class="listen" preload="none" data-size="250"
                             src="assets/music/rise-rebellion-snip.mp3"></audio>
-                    </div>
+                    </span>
                 </h2>
-                
-
-
-
-                    <!-- <audio id="riserebellion" src="assets/music/rise-rebellion-snip.mp3" preload="auto"></audio>
-                    <input type="button" value="'Rise the Rebellion'" onclick="togglePlay()" />
-                    <script type="text/javascript">
-                        function togglePlay() {
-                            var myAudio = document.getElementById("riserebellion");
-                            return riserebellion.paused ? riserebellion.play() : riserebellion.pause();
-                        };
-                    </script> -->
-
-                    <!-- <audio id="rise-rebellion" src="assets/music/rise-rebellion-snip.mp3" preload="auto"></audio>
-                    <button class="audio" onclick="document.getElementById('rise-rebellion').play();"><em>'Rise the Rebellion'</em>
-                        <i class="fa fa-play" aria-hidden="true"></i></button> -->
-
-
-                    <ul class="list-inline header-download">
-                        <li class="list-inline-item">
-                            <a target="_blank" href="https://www.apple.com/uk/itunes/"
-                                alt="Apple url music download link">
-                                <i class="fa fa-apple" aria-hidden="true"></i>
-                                <span class="sr-only">Apple</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="https://www.deezer.com/" alt="Deezer url music download link">
-                                <i class="fa fa-signal" aria-hidden="true"></i>
-                                <span class="sr-only">Deezer</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="https://www.spotify.com/" alt="Spotify url music download link">
-                                <i class="fa fa-spotify" aria-hidden="true"></i>
-                                <span class="sr-only">Spotify</span>
-                            </a>
-                        </li>
-                    </ul>
+                <ul class="list-inline header-download">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.apple.com/uk/itunes/">
+                            <i class="fa fa-apple" aria-hidden="true" alt="Apple url music download link"></i>
+                            <span class="sr-only">Apple</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.deezer.com/">
+                            <i class="fa fa-signal" aria-hidden="true" alt="Deezer url music download link"></i>
+                            <span class="sr-only">Deezer</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.spotify.com/">
+                            <i class="fa fa-spotify" aria-hidden="true" alt="Spotify url music download link"></i>
+                            <span class="sr-only">Spotify</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
 
             <!-- Band image  and logo -->
@@ -276,13 +255,13 @@
                             <img src="assets/images/racer-green.gif" alt="Image of band member Racer" />
                         </div>
                         <div class="col">
-                            <img src="assets/images/max-blue.gif" alt="Image of band member Racer" />
+                            <img src="assets/images/max-blue.gif" alt="Image of band member Max" />
                         </div>
                         <div class="col">
-                            <img src="assets/images/tuned-purple.gif" alt="Image of band member Racer" />
+                            <img src="assets/images/tuned-purple.gif" alt="Image of band member Tuned" />
                         </div>
                         <div class="col">
-                            <img src="assets/images/walker-yellow.gif" alt="Image of band member Racer" />
+                            <img src="assets/images/walker-yellow.gif" alt="Image of band member Walker" />
                         </div>
                     </div>
                 </div>
@@ -326,7 +305,7 @@
                                 <img src="assets/images/racer-green.gif" alt="Image of band member Racer" />
                             </div>
                             <div class="col">
-                                <img src="assets/images/max-blue.gif" alt="Image of band member Racer" />
+                                <img src="assets/images/max-blue.gif" alt="Image of band member Max" />
                             </div>
                         </div>
                     </div>
@@ -352,10 +331,10 @@
                     <div class="container">
                         <div class="row">
                             <div class="col">
-                                <img src="assets/images/tuned-purple.gif" alt="Image of band member Racer" />
+                                <img src="assets/images/tuned-purple.gif" alt="Image of band member Tuned" />
                             </div>
                             <div class="col">
-                                <img src="assets/images/walker-yellow.gif" alt="Image of band member Racer" />
+                                <img src="assets/images/walker-yellow.gif" alt="Image of band member Walker" />
                             </div>
                         </div>
                     </div>
@@ -384,59 +363,57 @@
                     <div class="cover justify-content-center">
                         <ul class="list-inline social-links">
                             <li class="list-inline-item">
-                                <a target="_blank" href="https://www.facebook.com/" alt="Facebook url link">
-                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                <a target="_blank" href="https://www.facebook.com/">
+                                    <i class="fa fa-facebook" aria-hidden="true" alt="Facebook url link"></i>
                                     <span class="sr-only">Facebook</span>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a target="_blank" href="https://twitter.com/" alt="Twitter url link">
-                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                <a target="_blank" href="https://twitter.com/">
+                                    <i class="fa fa-twitter" aria-hidden="true" alt="Twitter url link"></i>
                                     <span class="sr-only">Twitter</span>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a target="_blank" href="https://www.linkedin.com/" alt="Linkedin url link">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                <a target="_blank" href="https://www.linkedin.com/">
+                                    <i class="fa fa-linkedin" aria-hidden="true" alt="Linkedin url link"></i>
                                     <span class="sr-only">LinkedIn</span>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a target="_blank" href="https://www.pinterest.com/" alt="Pinterest url link">
-                                    <i class="fa fa-pinterest" aria-hidden="true"></i>
+                                <a target="_blank" href="https://www.pinterest.com/">
+                                    <i class="fa fa-pinterest" aria-hidden="true" alt="Pinterest url link"></i>
                                     <span class="sr-only">Pinterest</span>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a target="_blank" href="https://www.instagram.com/" alt="Instagram url link">
-                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <a target="_blank" href="https://www.instagram.com/">
+                                    <i class="fa fa-instagram" aria-hidden="true" alt="Instagram url link"></i>
                                     <span class="sr-only">Instagram</span>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a target="_blank" href="https://www.youtube.com/" alt="Youtube url link">
-                                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                                <a target="_blank" href="https://www.youtube.com/">
+                                    <i class="fa fa-youtube" aria-hidden="true" alt="Youtube url link"></i>
                                     <span class="sr-only">Youtube</span>
                                 </a>
                             </li>
                             <br class="mobile-br">
                             <li class="list-inline-item">
-                                <a target="_blank" href="https://www.apple.com/uk/itunes/"
-                                    alt="Apple url music download link">
-                                    <i class="fa fa-apple" aria-hidden="true"></i>
+                                <a target="_blank" href="https://www.apple.com/uk/itunes/">
+                                    <i class="fa fa-apple" aria-hidden="true" alt="Apple url music download link"></i>
                                     <span class="sr-only">Apple</span>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a target="_blank" href="https://www.deezer.com/" alt="Deezer url music download link">
-                                    <i class="fa fa-signal" aria-hidden="true"></i>
+                                <a target="_blank" href="https://www.deezer.com/">
+                                    <i class="fa fa-signal" aria-hidden="true" alt="Deezer url music download link"></i>
                                     <span class="sr-only">Deezer</span>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a target="_blank" href="https://www.spotify.com/"
-                                    alt="Spotify url music download link">
-                                    <i class="fa fa-spotify" aria-hidden="true"></i>
+                                <a target="_blank" href="https://www.spotify.com/">
+                                    <i class="fa fa-spotify" aria-hidden="true" alt="Spotify url music download link"></i>
                                     <span class="sr-only">Spotify</span>
                                 </a>
                             </li>
