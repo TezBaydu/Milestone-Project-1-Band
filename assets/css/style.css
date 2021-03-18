@@ -121,6 +121,10 @@ footer {
     min-height: 60px;
 }
 
+footer .list-inline {
+    text-align: center;
+}
+
 .social-links {
     padding-top: 4px;
 }
@@ -154,10 +158,6 @@ footer {
     margin-bottom: 0;
 }
 
-.social-links br {
-    display: none;
-}
-
 @media (max-width: 767px) {
     .social-links {
     padding-top: 0;
@@ -189,10 +189,6 @@ footer {
 
     #footer-details {
         padding: 0;
-    }
-
-    .social-links  br {
-        display: inherit;
     }
 }
 
