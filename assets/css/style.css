@@ -154,7 +154,7 @@ footer {
     margin-bottom: 0;
 }
 
-.mobile-br {
+.social-links br {
     display: none;
 }
 
@@ -191,7 +191,7 @@ footer {
         padding: 0;
     }
 
-    .mobile-br {
+    .social-links  br {
         display: inherit;
     }
 }
