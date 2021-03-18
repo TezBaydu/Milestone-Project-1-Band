@@ -224,6 +224,12 @@ This project has four separate pages found by clicking on the relevant name foun
 - Make buttons slightly bigger for mobile, however still work when small (similar size as letters when typing)
     * Adjusted larger as design has carried on. - done.
 
+### Code Testing
+
+- HTML 
+
+### Deployment
+
 ### Credits
 
 - Terry Downs
