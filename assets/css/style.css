@@ -139,9 +139,6 @@ footer .list-inline {
     color: #ffffff;
     background: #000000;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
     margin: 5px 0 5px 25px;
 }
 
@@ -171,9 +168,6 @@ footer .list-inline {
     color: #ffffff;
     background: #000000;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
     margin-top: 5px;
     margin-left: 5px;
     }
@@ -197,9 +191,6 @@ footer .list-inline {
     border-radius: 10px;
     padding: 3px;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
     border-color: darkmagenta;
 }
 
@@ -227,9 +218,6 @@ footer .list-inline {
     color: #ffffff;
     background: #000000;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
     margin-top: 5px;
     margin-left: 3px;
     margin-bottom: 7px;

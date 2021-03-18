@@ -217,6 +217,14 @@ This project has four separate pages found by clicking on the relevant name foun
     * list-inline header-download
         * needs page to reload for it to sit horizontally....? Even on responsive design checker
 
+- css code checker
+    * Sorry! We found the following errors (2)
+    * URI : https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css
+        * 6	abbr[data-original-title], abbr[title]	Property text-decoration-skip-ink doesn't exist : none
+        * 6	.accordion	Property overflow-anchor doesn't exist : none
+    - This is the code asked to be copied from bootstrap but is showing errors on a couple of styles not encoded...please advise
+    
+
 ### User Testing
 
 - Align mobile contact image
