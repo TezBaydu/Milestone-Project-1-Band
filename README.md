@@ -223,6 +223,9 @@ This project has four separate pages found by clicking on the relevant name foun
         * 6	abbr[data-original-title], abbr[title]	Property text-decoration-skip-ink doesn't exist : none
         * 6	.accordion	Property overflow-anchor doesn't exist : none
     - This is the code asked to be copied from bootstrap but is showing errors on a couple of styles not encoded...please advise
+
+    * Warnings
+        * these extensions are recognised in chrome but not in validator - please advise
     
 
 ### User Testing
@@ -235,6 +238,12 @@ This project has four separate pages found by clicking on the relevant name foun
 ### Code Testing
 
 - HTML 
+
+- CSS
+
+- Java
+    * Checked Javascript code against [Extends Class JavaScript validator](https://extendsclass.com/javascript-fiddle.html)
+        * Updated to add semicolons where expected
 
 ### Deployment
 

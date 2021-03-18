@@ -177,7 +177,7 @@
                         obj.activeAudio[0].play();
                         var audioId = document.getElementById(obj.activeAudio.attr('id'));
                         audioId.addEventListener('timeupdate', function (e) {
-                            _.reportPosition(el, audioId)
+                            _.reportPosition(el, audioId);
                         });
                         obj.playObj.attr('class', 'playing');
                         break;
