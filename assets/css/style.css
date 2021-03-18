@@ -1449,7 +1449,6 @@ form {
 @media (max-width: 991px) {
     .logo-contact {
         visibility: inherit;
-
     }
 
     .logo-contact .row {
@@ -1463,6 +1462,7 @@ form {
         background-size: contain;
         z-index: 2;
     }
+    
     .centre-p {
         margin-top: 10px;
     }
