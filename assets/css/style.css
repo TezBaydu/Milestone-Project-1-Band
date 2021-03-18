@@ -1046,10 +1046,6 @@ button {
         width: 80%;
     }
 
-    .album-mobile .list-inline {
-        padding-left: 10px;
-    }
-
     .album-mobile .header-download li a i {
         width: 30px;
         height: 30px;
