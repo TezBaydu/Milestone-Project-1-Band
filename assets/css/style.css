@@ -1069,6 +1069,11 @@ button {
 
     }
 
+    .aftermath-mobile-list {
+        max-width: fit-content; 
+        text-align: start;
+    }
+
     .album-mobile p {
         margin-bottom: 0;
     }
