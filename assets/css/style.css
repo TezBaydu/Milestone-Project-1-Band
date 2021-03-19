@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-
  /*----------- Home Page -----------------*/
 
  /*----------- Body -----------------*/
@@ -231,6 +230,12 @@ footer .list-inline {
     text-align: center;
     color: #ed2224;
     text-transform: uppercase;
+    background-color: #4fb6bc41;
+    margin-top: 5px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
 }
 
 button {
@@ -671,8 +676,8 @@ button {
 
 .estate {
     background-image: url(../images/Estate-stretch.jpg);
-    /* display: flow-root;
-    background-size: cover; */
+    /* display: flow-root; */
+    background-size: cover;
     background-attachment: fixed;
 }
 

@@ -1,6 +1,6 @@
 # Project Council Culture
 
-- image Code Institute Milestone Project 1
+![image Code Institute Milestone Project 1](assets/images/band-group.png)
 
 [Council Culture](https://tezbaydu.github.io/Milestone-Project-1-Band/)
 
@@ -62,7 +62,7 @@ There is potential for this kind of music to break the market and give the under
 
 #### Design
 
-1.  The design was initally inspired by an image found on Pixabay of a ghettoblaster and once discussed with Graphic Designer (Terry Downs) who sent over images and logo ideas, it breathed the initial elements of the project. Based on some user stories I've decided to focus on the following pages: Home, Events, Music, Contact.
+1.  The design was initally inspired by an image found on Pixabay of a ghettoblaster and once discussed with Graphic Designer (Terry Downs) who sent over images and logo ideas, it breathed the initial elements of the project. Based on some user stories I've decided to focus on the following pages: Home, Music, Events, Contact.
 2. Pages not developed but potential to add: Merchandise, Videos, Gallery
 3. Colour focus is mainly based on the band logo.
 4. Imagery has associations to council estates, crime and considered poverty.
@@ -70,16 +70,23 @@ There is potential for this kind of music to break the market and give the under
 6. Band members have been given hats, glasses and certain colour shades to allow for mystique.
 7. Home page is to draw the user and other pages to be more focussed on user requirements.
 8. Pages to have a snippet of music for users to listen to and if wanting to download, these buttons are available also.
-9. Check codes for validation
-10. Check site works on various browsers
+.
 
 #### Wireframe
 
-[Design for desktop](link to github wireframe image)
+- Designed in [Figma](https://www.figma.com/file/IADuVbH1W00VbiRkhlDqdY/milestone-project-1-band?node-id=0%3A1)
 
-[Design for tablet](link to github wireframe image)
+- Home Page
+![Home page wireframes on all devices](assets/images/figma-wireframe-councilculture-home.jpg)
 
-[Design for mobile](link to github wireframe image)
+- Music Page
+![Music page wireframes on all devices](assets/images/figma-wireframe-councilculture-music.jpg)
+
+- Events Page
+![Events page wireframes on all devices](assets/images/figma-wireframe-councilculture-events.jpg)
+
+- Contact Page
+![Contact page wireframes on all devices](assets/images/figma-wireframe-councilculture-contact.jpg)
 
 ### Features
 
@@ -115,19 +122,20 @@ This project has four separate pages found by clicking on the relevant name foun
 - Statement of the bands music, influence and history
 - Individual synopsis of band members
 - Music Reviews
+- Latest single bulletin with a snippet of playable track
 
 #### Music
 
-- List of albums and tracks.
-- Images of album covers.
-- Downloadable music content.
-- Clicking on album or song title gives option to purchase and download or listen via Music streaming service (Spotify, Deezer, Apple)
+- List of albums and tracks
+- Images of album covers
+- Downloadable music content
+- Snippets of some playable tracks to lure user
 
 #### Events
 
 - Reviews of past band performances.
 - Calendar of Events
-    * Ticket purchase button for each. Leads to Ticketmaster site.
+    * Ticket purchase button for each. Leads to livenation site.
     * Places clicked links to venue and map location.
 - Quotes from fans and followers.
 
@@ -148,12 +156,9 @@ This project has four separate pages found by clicking on the relevant name foun
 
 - [Coolors - colour collage](https://coolors.co/)
 
-- [Pixabay - images](https://pixabay.com/)
-- [decades.com - advisory notice](https://www.decades.com/)
+- [Pixabay - images](https://pixabay.com)
 
-- Terry Downs
-    * Band logo
-    * Images
+- [Decades.com - advisory notice](https://www.decades.com/)
 
 - [Github](https://github.com/)
 
@@ -176,46 +181,24 @@ This project has four separate pages found by clicking on the relevant name foun
 
 - [HTML code checker](https://validator.w3.org/)
 
-### Questions for Mentor 
-#### Meeting 1
-- Have tested desktop and mobile version wireframes but do not have access to a tablet to appropriately test. Widths differ per product.
-    * Is the width approprate for tablet?
-    - When designing apply for each element to each device version - saves time in the long run - remember to use % sizes and padding as scope for device differences.
-- Font sizes have been manipulated several times and opinion at the moment from users state satisfaction.
-    * Based on experience are fonts appropriately sized?
-    - They are readable and so are acceptable
-- Figma has CSS guides for each elements
-    * Can these be used to help design once HTML content has been placed?
-    - Defenitiely not !
-- 3 weeks to deadline
-    * Considering other students deadlines, is this enough time?
-    - On Average coding takes 2-3 weeks and so tight but on course
-- Music page
-    * Make album sizes the same size and shape - done
-    * Apply Spotify and Apple aymbols under each album - this should be fine. - done
-- Events page
-    * Colour on payment icons and Titles - done
-    * Bring quote down to separate - done
-- Contacts page
-    * Apply Submit button !! - done
-- Start Coding
-    * Book Mentor meeting when about 60% finished...
+- [Browser test site - Browser|Shots](http://browsershots.org/)
 
-#### Meeting 2
+- [RGBlind chrome extension]
+
+#### Mentor Meeting 2
 
 - Nav background color has to be associated to 2 classes: .navbar-expand-lg and .bg-nav....
     * WHY ?!
-
-
+    
 ### Bugs
 
 - Media play buttons
-    * Found a way of having a play button using HTML only, however this caused issues as was unable to toggle between play and pause and when there were several instances in one page music would overplay each other or would play and pause one song ata time, regardless of which button it was associated to.
-        * After much searching I found a solution using Java through the Github user "kuantal/Multiple-circular-player" and was able to use the scripts as shown on thier gitpod to make a successful play pause action for songs.
+    * Found a way of having a play button using HTML only, however this caused issues as was unable to toggle between play and pause and when there were several instances in one page music would overplay each other or would play and pause one song at a time, regardless of which button it was associated to.
+        * After much searching I found a solution using Java through the Github user "kuantal/Multiple-circular-player" and was able to use the scripts as shown on their gitpod to make a successful play pause action for songs. sizes and style adjusted to suit site. Is this ok?
 
 - Index.html
     * list-inline header-download
-        * needs page to reload for it to sit horizontally....? Even on responsive design checker
+        * needs page to reload for it to sit horizontally....? Even on responsive design checker, is this ok?
 
 - css code checker
     * Sorry! We found the following errors (2)
@@ -226,15 +209,7 @@ This project has four separate pages found by clicking on the relevant name foun
 
     * Warnings
         * these extensions are recognised in chrome but not in validator - please advise
-    
-
-### User Testing
-
-- Align mobile contact image
-    * done
-- Make buttons slightly bigger for mobile, however still work when small (similar size as letters when typing)
-    * Adjusted larger as design has carried on. - done.
-
+## Testing
 ### Code Testing
 
 - HTML 
@@ -245,15 +220,50 @@ This project has four separate pages found by clicking on the relevant name foun
     * Checked Javascript code against [Extends Class JavaScript validator](https://extendsclass.com/javascript-fiddle.html)
         * Updated to add semicolons where expected
 
-### Deployment
+### Browser testing
 
-### Credits
+- Tested on Browsershots.org
+    *HTTP_USER_AGENT 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'
+    * One error: What does it mean....?
+        * Exception Type:	AttributeError
+        Exception Value:	'SafeText' object has no attribute 'status_code'
+        Exception Location:	/usr/local/lib/python2.7/dist-packages/django/middleware/locale.py in process_response, line 41
+        Python Executable:	/usr/bin/python
+        Python Version:	2.7.17
+
+        * Looked online in stack overflow and has been answered but involves Django:
+            *https://stackoverflow.com/questions/43987462/django-safetext-object-has-no-attribute-get
+
+### Colour blindness testing
+
+- Adjusted Home page h1 to have a contrasting background to work with Protanopia
+
+### User Testing
+
+- Align mobile contact image
+
+- Make buttons slightly bigger for mobile, however still work when small (similar size as letters when typing)
+    * Adjusted larger as design has carried on.
+
+## Deployment
+
+- GitHub Pages
+    - Log into GitHub and look for [https://github.com/TezBaydu/Milestone-Project-1-Band]
+    - click on settings and ensure repository name is selected to Milestone-Project-1-Band
+    - scroll down to GitHub Pages section and ensure Branch is 'Master' and folder is 'root'
+    - click save and wait for site to be published.
+    - click link above GitHub Pages section to view published site.
+
+## Credits
 
 - Terry Downs
     * Band images and logos
 
 - kuantal/Multiple-circular-player
     * Play button for multiple tracks to play and pause
+
+- Seun Owinokoko
+    * For her positive, excitable response to the design and advice
 
 - Friends and family
     * For plenty of user testing
