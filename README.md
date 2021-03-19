@@ -37,6 +37,8 @@ The idea came to me as I too had grown up in London and influenced by various ty
 This band's genre is mainly punk rock but has shades of funk, groove and reggae.
 There is potential for this kind of music to break the market and give the under-privileged a perspective, especially once the pandemic is over there may well be some controversial political decisions that could affect the vulnerable.
 
+[Back to top ⇧](#Project-Council-Culture)
+
 ### UX
 
 #### Aims
@@ -70,9 +72,10 @@ There is potential for this kind of music to break the market and give the under
 6. Band members have been given hats, glasses and certain colour shades to allow for mystique.
 7. Home page is to draw the user and other pages to be more focussed on user requirements.
 8. Pages to have a snippet of music for users to listen to and if wanting to download, these buttons are available also.
-.
 
-#### Wireframe
+[Back to top ⇧](#Project-Council-Culture)
+
+### Wireframe
 
 - Designed in [Figma](https://www.figma.com/file/IADuVbH1W00VbiRkhlDqdY/milestone-project-1-band?node-id=0%3A1)
 
@@ -87,6 +90,8 @@ There is potential for this kind of music to break the market and give the under
 
 - Contact Page
 ![Contact page wireframes on all devices](assets/images/figma-wireframe-councilculture-contact.jpg)
+
+[Back to top ⇧](#Project-Council-Culture)
 
 ### Features
 
@@ -146,6 +151,8 @@ This project has four separate pages found by clicking on the relevant name foun
     * to receive regular newsletters
     * General enquiries - potentially from music/media journalists
 
+[Back to top ⇧](#Project-Council-Culture)
+
 ### Technologies Used
 
 - HTML5
@@ -185,6 +192,8 @@ This project has four separate pages found by clicking on the relevant name foun
 
 - [RGBlind chrome extension]
 
+[Back to top ⇧](#Project-Council-Culture)
+
 #### Mentor Meeting 2
 
 - Nav background color has to be associated to 2 classes: .navbar-expand-lg and .bg-nav....
@@ -213,8 +222,11 @@ This project has four separate pages found by clicking on the relevant name foun
 
     * Warnings
         * these extensions are recognised in chrome but not in validator - please advise
-## Testing
-### Code Testing
+
+[Back to top ⇧](#Project-Council-Culture)
+
+### Testing
+#### Code Testing
 
 - HTML 
 
@@ -224,7 +236,7 @@ This project has four separate pages found by clicking on the relevant name foun
     * Checked Javascript code against [Extends Class JavaScript validator](https://extendsclass.com/javascript-fiddle.html)
         * Updated to add semicolons where expected
 
-### Browser testing
+#### Browser testing
 
 - Tested on Browsershots.org
     *HTTP_USER_AGENT 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'
@@ -238,18 +250,20 @@ This project has four separate pages found by clicking on the relevant name foun
         * Looked online in stack overflow and has been answered but involves Django:
             *https://stackoverflow.com/questions/43987462/django-safetext-object-has-no-attribute-get
 
-### Colour blindness testing
+#### Colour blindness testing
 
 - Adjusted Home page h1 to have a contrasting background to work with Protanopia
 
-### User Testing
+#### User Testing
 
 - Align mobile contact image
 
 - Make buttons slightly bigger for mobile, however still work when small (similar size as letters when typing)
     * Adjusted larger as design has carried on.
 
-## Deployment
+[Back to top ⇧](#Project-Council-Culture)
+
+### Deployment
 
 - GitHub Pages
     - Log into GitHub and look for [https://github.com/TezBaydu/Milestone-Project-1-Band]
@@ -258,7 +272,9 @@ This project has four separate pages found by clicking on the relevant name foun
     - click save and wait for site to be published.
     - click link above GitHub Pages section to view published site.
 
-## Credits
+[Back to top ⇧](#Project-Council-Culture)
+
+### Credits
 
 - Terry Downs
     * Band images and logos
