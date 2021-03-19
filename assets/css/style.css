@@ -1,29 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
- /*----------- Home Page -----------------*/
-
- /*----------- Body -----------------*/
-
-body {
-    font-family: "Montserrat", Arial, sans-serif;
-    background-color: #dfd8d8;
-}
-
-.concert-blur {
-    background-image: url(../images/concert-blur4.jpg);
-    display: inline-block;
-    background-size: cover;
-    background-position: center;
-}
-
-.row {
-    margin: 0 auto;
-}
-
- /*----------- Navigation Bar -----------------*/
+ /*----------- Navigation Bar - Same for all pages -----------------*/
 
 .navbar-expand-lg {
-    /*background-color: #4fb7bcb5;*/
     background-image:linear-gradient(to bottom, rgba(79,183,188,1), rgba(79,183,188,0));
 }
 
@@ -83,6 +62,8 @@ body {
     z-index: 4;
 }
 
+ /*----------- Navigation Bar - Device adjustment -----------------*/
+
 @media (max-width: 991px) {
     .navbar-nav {
         text-align: center;
@@ -99,7 +80,6 @@ body {
     .nav-link {
         font-size: 16px;
     }
-    
 }
 
 @media (max-width: 767px) {
@@ -112,7 +92,7 @@ body {
     }
 }
 
- /*----------- Footer -----------------*/
+ /*----------- Footer Same for all pages -----------------*/
 
 footer {
     background-color: rgba(214, 16, 32, 0.7);
@@ -149,6 +129,8 @@ footer .list-inline {
     margin-bottom: 0;
 }
 
+ /*----------- Footer - Device adjustment -----------------*/
+
 @media (max-width: 767px) {
     .social-links {
     padding-top: 0;
@@ -180,7 +162,29 @@ footer .list-inline {
     }
 }
 
- /*----------- Header includes to Group Synopsis -----------------*/
+ /*----------- Home Page -----------------*/
+
+ /*----------- Home Page - Body -----------------*/
+
+body {
+    font-family: "Montserrat", Arial, sans-serif;
+    background-color: #dfd8d8;
+}
+
+.concert-blur {
+    background-image: url(../images/concert-blur4.jpg);
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+}
+
+.row {
+    margin: 0 auto;
+}
+
+ /*----------- Home Page - Header includes Group Synopsis -----------------*/
+
+ /*----------- Home Page - Latest release banner  -----------------*/
 
 .single-release {
     text-align: center;
@@ -230,35 +234,21 @@ footer .list-inline {
     text-align: center;
     color: #ed2224;
     text-transform: uppercase;
-    background-color: #4fb6bc41;
+    background-color: #dee2e6;
     margin-top: 5px;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
+    border-style: double;
+    border-color: #4fb7bc;
 }
 
 button {
     background-color: transparent;
 }
 
-.audio {
-    color: #ffffff;
-    border: none;
-    
-}
-
-
-.audio :hover {
-    color: #000000;
-    /* background-color: #ec3135; */
-    border: none;
-    transition: all 0.35s ease-in-out;
-}
-
-.audio em {
-    text-decoration: underline;
-}
+ /*----------- Home Page - Group band image  -----------------*/
 
 .bandgroup {
     mix-blend-mode: color-burn;
@@ -269,6 +259,8 @@ button {
 .bandgroup img {
     width: 100%;
 }
+
+ /*----------- Home Page - Council Culture white logo  -----------------*/
 
 .cc-header-logo {
     text-align: center;
@@ -296,6 +288,8 @@ button {
     display: none;
 }
 
+ /*----------- Home Page - Parental advisory notice  -----------------*/
+
 .advisory-notice {
     width: 10%;
     vertical-align: baseline;
@@ -306,149 +300,11 @@ button {
     display: none;
 }
 
-@media (max-width: 1199px) {
-    .single-release {
-        margin: 6% 30% 0%;
-        height: 8rem;
-    }
-
-    h2 {
-        font-size: 1.3rem;
-    }
-    .header-text {
-        font-size: 1.5rem;
-    }
-    button {
-        margin-bottom: 2%;
-    }
-
-    .header-download li a i {
-        width: 45px;
-        height: 45px;
-        padding: 12px 0px;
-        font-size: 19px;
-    }
-}
-
-@media (max-width: 991px) {
-    .logo {
-        visibility: hidden;
-    }
-    .header-text {
-        font-size: 1.5rem;
-        margin-top: 10px;
-    }
-    .tabletsizeandabove-row .col-6 {
-        font-size: 16px;
-    }
-
-    .tabletsizeandabove-row .container {
-        width:100%;
-        max-width: none;
-    }
-
-    .header-download li a i {
-        width: 40px;
-        height: 40px;
-        padding: 12px 0px;
-        font-size: 19px;
-    }
-}
-
-@media (max-width: 767px) {
-    .single-release {
-        margin: 7% 2% 0%;
-        height: 7rem;
-        width: 228px;
-        padding:2%;
-    }
-
-    .bandgroup {
-        margin-top: 10%;
-    }
-
-    h2 {
-        font-size: 0.8rem;
-    }
-    ul {
-        margin-bottom: 0;
-    }
-
-    .single-release ul {
-        text-align: -webkit-center;
-    }
-
-    .header-download li a i {
-        width: 35px;
-        height: 35px;
-        padding: 7px 0px;
-        font-size: 16px;
-        margin-left: 2px;
-    }
-    .list-inline-item:not(:last-child) {
-    margin-right: 0;
-    }
-
-    .single-release .list-inline-item {
-        display: table-cell;
-    }
-
-    .header-text {
-        font-size: 0.9rem;
-        color: #4fb7bc;
-        margin-top: 5px;
-        margin-bottom: -10px;
-    }
-
-    .tabletsizeandabove-row {
-        display: none;
-    }
-
-    .header-text-mobile {
-        display: inline-block;
-        max-width: none;
-    }
-
-    .mobile-row {
-        display: inherit;
-        margin-bottom: 0.5rem;
-        font-size: small;
-    }
-
-    .col-10 {
-        font-size: 8px;
-        margin: 3px auto 0px;
-    }
-
-    .col-12{
-        display: none;
-    }
-
-    .border-synopsis-bottom {
-        display: inherit;
-        border-style: solid;
-        border-color: #ec3135;
-        margin: 0 auto;
-        border-width: thin;
-        margin-bottom: 1%;
-    }
-    .advisory-notice-mobile {
-        display: inline;
-        width: 18%;
-        vertical-align: baseline;
-        margin: -2% 0 0 80%;
-    }
-    .advisory-notice {
-        display: none;
-    }
-}
-
- /*----------- Grafitti and quotes -----------------*/
+ /*----------- Home Page - Grafitti and quotes -----------------*/
 
 
 .grafitti-image {
     background-image: url(../images/graffiti.jpg);
-    /* width: 100%; */
     background-size: cover;
     letter-spacing: 1px;
     text-align: center;
@@ -484,34 +340,7 @@ button {
     color:#000000
 }
 
-@media (max-width: 991px) {
-    .grafitti-image h5 {
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 767px) {
-    .grafitti-image {
-    font-weight: 600;
-    font-size: xx-small;
-    }
-
-    .grafitti-image h5 {
-        font-size: 11px;
-    }
-
-    .grafitti-image .col-4 {
-        flex: none;
-        max-width: none;
-    }
-
-    .grafitti-image .col-8 {
-        flex: none;
-        max-width: none;
-    }
-}
-
- /*----------- Individual band members -----------------*/
+ /*----------- Home Page - Individual band members -----------------*/
 
 .band-members .container {
     padding: 0;
@@ -583,7 +412,64 @@ button {
     display: none;
 }
 
+ /*----------- Home Page - device adjustments -----------------*/
+
+@media (max-width: 1199px) {
+    .single-release {
+        margin: 6% 30% 0%;
+        height: 8rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .header-text {
+        font-size: 1.5rem;
+    }
+
+    button {
+        margin-bottom: 2%;
+    }
+
+    .header-download li a i {
+        width: 45px;
+        height: 45px;
+        padding: 12px 0px;
+        font-size: 19px;
+    }
+}
+
 @media (max-width: 991px) {
+    .logo {
+        visibility: hidden;
+    }
+
+    .header-text {
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+
+    .tabletsizeandabove-row .col-6 {
+        font-size: 16px;
+    }
+
+    .tabletsizeandabove-row .container {
+        width:100%;
+        max-width: none;
+    }
+
+    .header-download li a i {
+        width: 40px;
+        height: 40px;
+        padding: 12px 0px;
+        font-size: 19px;
+    }
+
+    .grafitti-image h5 {
+        font-size: 16px;
+    }
+
     .band-quotes p {
     font-size: 16px;
     }
@@ -602,10 +488,118 @@ button {
 
     .racer-border strong {
         font-size: 20px;
-    }  
+    }
 }
 
 @media (max-width: 767px) {
+    .single-release {
+        margin: 7% 2% 0%;
+        height: 7rem;
+        width: 228px;
+        padding:2%;
+    }
+
+    .bandgroup {
+        margin-top: 10%;
+    }
+
+    h2 {
+        font-size: 0.8rem;
+    }
+
+    ul {
+        margin-bottom: 0;
+    }
+
+    .single-release ul {
+        text-align: -webkit-center;
+    }
+
+    .header-download li a i {
+        width: 35px;
+        height: 35px;
+        padding: 7px 0px;
+        font-size: 16px;
+        margin-left: 2px;
+    }
+
+    .list-inline-item:not(:last-child) {
+    margin-right: 0;
+    }
+
+    .single-release .list-inline-item {
+        display: table-cell;
+    }
+
+    .header-text {
+        font-size: 0.9rem;
+        margin-top: 5px;
+        margin-bottom: -10px;
+    }
+
+    .tabletsizeandabove-row {
+        display: none;
+    }
+
+    .header-text-mobile {
+        display: inline-block;
+        max-width: none;
+    }
+
+    .mobile-row {
+        display: inherit;
+        margin-bottom: 0.5rem;
+        font-size: small;
+    }
+
+    .col-10 {
+        font-size: 8px;
+        margin: 3px auto 0px;
+    }
+
+    .col-12{
+        display: none;
+    }
+
+    .border-synopsis-bottom {
+        display: inherit;
+        border-style: solid;
+        border-color: #ec3135;
+        margin: 0 auto;
+        border-width: thin;
+        margin-bottom: 1%;
+    }
+
+    .advisory-notice-mobile {
+        display: inline;
+        width: 18%;
+        vertical-align: baseline;
+        margin: -2% 0 0 80%;
+    }
+
+    .advisory-notice {
+        display: none;
+    }
+
+    .grafitti-image {
+    font-weight: 600;
+    font-size: xx-small;
+    }
+
+    .grafitti-image h5 {
+        font-size: 11px;
+    }
+
+    .grafitti-image .col-4 {
+        flex: none;
+        max-width: none;
+    }
+
+    .grafitti-image .col-8 {
+        flex: none;
+        max-width: none;
+    }
+
     .band-members {
         display: none;
     }
@@ -668,33 +662,12 @@ button {
 
     .racer-border strong {
         font-size: 16px;
-    }  
-    
-}
-
- /*----------- Music Page Backdrop -----------------*/
-
-.estate {
-    background-image: url(../images/Estate-stretch.jpg);
-    /* display: flow-root; */
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-@media (max-width: 1199px) {
-    .estate {
-        background-position: right;
     }
 }
 
-  /*----------- Music and Events Banner -----------------*/
+ /*----------- Music Page - Music and Events Banner -----------------*/
 
 .banner-music {
-    margin-top: 160px;
-    text-transform: uppercase;
-}
-
-.banner-gigs {
     margin-top: 160px;
     text-transform: uppercase;
 }
@@ -706,22 +679,21 @@ button {
     margin-bottom: 1%;
 }
 
-.gigs-banner {
-    background-color: #65ab4e83;
-    text-align: center;
-    color: #000000;
-    margin-bottom: 1%;
-}
-
 .banner-mobile-music {
     display: none;
 }
 
-.banner-mobile-gigs {
-    display: none;
+ /*----------- Music Page -----------------*/
+
+ /*----------- Music Page - Backdrop -----------------*/
+
+.estate {
+    background-image: url(../images/Estate-stretch.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-    /*----------- Music -----------------*/
+ /*----------- Music Page - Album covers -----------------*/
 
 .album-image-section .container {
     padding: 0;
@@ -759,6 +731,8 @@ button {
     justify-content: center;
 }
 
+ /*----------- Music Page - Title Tracks -----------------*/
+
 .titles {
     text-transform: uppercase;
     text-align: start;
@@ -787,13 +761,6 @@ button {
     margin-bottom: 0;
 }
 
-.titles .audio :hover {
-    color: #ec3135;
-    /* background-color: #ec3135; */
-    border: none;
-    transition: all 0.35s ease-in-out;
-}
-
 .sc-ones {
     color: #4fb7bc;
 }
@@ -818,7 +785,13 @@ button {
     display: none;
 }
 
+ /*----------- Music Page - Device adjustment -----------------*/
+
 @media (max-width: 1199px) {
+    .estate {
+        background-position: right;
+    }
+
     .album-image-section .col {
     padding-left: 15px;
     padding-right: 15px;
@@ -846,6 +819,7 @@ button {
     .album-image-section .container {
         max-width: 1300px;
     }
+
     .titles .container {
         max-width: 1300px;
     }
@@ -924,13 +898,6 @@ button {
         text-align: -webkit-center;
     }
 
-    .banner-gigs {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        place-content: center;
-        background-color: #65ab4e83
-    }
-    
     .music-banner {
         background: transparent;
         vertical-align: center;
@@ -938,18 +905,7 @@ button {
         margin-bottom: 1%;
     }
 
-    .gigs-banner {
-        background: transparent;
-        vertical-align: center;
-        color: #000000;
-        margin-bottom: 1%;
-    }
-
     .banner-music .row {
-        justify-content: center;
-    }
-
-    .banner-gigs .row {
         justify-content: center;
     }
 }
@@ -995,13 +951,6 @@ button {
     padding-left: 0;
     }
 
-    .titles-mobile .audio :hover {
-    color: #ec3135;
-    /* background-color: #ec3135; */
-    border: none;
-    transition: all 0.35s ease-in-out;
-    }
-
     .titles-mobile ol {
         display: contents;
     }
@@ -1038,7 +987,6 @@ button {
         background-color: rgba(78, 78, 78, 0.7);
         border-radius: 5px;
         margin-bottom: 10px;
-
     }
 
     .aftermath-mobile-list {
@@ -1065,10 +1013,6 @@ button {
         display: none;
     }
 
-    .banner-gigs {
-        display: none;
-    }
-
     .banner-mobile-music{
         display: inherit;
         margin-top: -160px;
@@ -1078,20 +1022,7 @@ button {
         text-transform: uppercase;
     }
 
-    .banner-mobile-gigs{
-        display: inherit;
-        margin-top: -100px;
-        margin-bottom: 10px;
-        place-content: center;
-        background-color: #65ab4e83;
-        text-transform: uppercase;
-    }
-
     .banner-mobile-music .row {
-        justify-content: center;
-    }
-
-    .banner-mobile-gigs .row {
         justify-content: center;
     }
 
@@ -1099,24 +1030,17 @@ button {
         margin-bottom: 0;
     }
 
-    .banner-mobile-gigs .gigs-banner {
-        margin-bottom: 0;
-    }
-
     .banner-mobile-music h1 {
-        margin-bottom: 0;
-        font-size: 1.5rem;
-    }
-
-    .banner-mobile-gigs h1 {
         margin-bottom: 0;
         font-size: 1.5rem;
     }
 }
 
+
+
  /*----------- Events Page -----------------*/
 
-  /*----------- Backdrop -----------------*/
+  /*----------- Events Page - Backdrop -----------------*/
 
 .glass-hole {
     background-image: url(../images/glass-broken-icarus-napa-crop.jpg);
@@ -1125,7 +1049,25 @@ button {
     background-attachment: fixed;
 }
 
-  /*----------- Event media quotes -----------------*/
+ /*----------- Events Page - Gigs banner -----------------*/
+
+.banner-gigs {
+    margin-top: 160px;
+    text-transform: uppercase;
+}
+
+.gigs-banner {
+    background-color: #65ab4e83;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 1%;
+}
+
+.banner-mobile-gigs {
+    display: none;
+}
+
+  /*----------- Events Page - Event media quotes -----------------*/
 
 .event-media-quotes {
     margin-top: 10px;
@@ -1148,7 +1090,7 @@ button {
     padding-right: 20px;
 }
 
-/*----------- Event table -----------------*/
+/*----------- Events Page - Event table -----------------*/
 
 .table-section {
     min-width: fit-content;
@@ -1184,6 +1126,7 @@ button {
     color: #000000;
 }
 
+/*----------- Events Page - Room 2 Jam Jar image -----------------*/
 
 .room-2 img {
     width: 400px;
@@ -1195,6 +1138,8 @@ button {
 .table-section {
     display: flex;
 }
+
+  /*----------- Events Page - Device adjustment -----------------*/
 
 @media (max-width: 1199px) {
     .glass-hole {
@@ -1213,11 +1158,7 @@ button {
     .room-2 img {
         margin-top: -140px;
         margin-left: 620px;
-    }
-    
-}
-
-@media (min-width: 1199px) {
+    } 
 }
 
 @media (max-width: 991px) {
@@ -1245,12 +1186,27 @@ button {
     }
 
     .banner-gigs {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        place-content: center;
+        background-color: #65ab4e83;
         text-align: -webkit-center;
     }
 
+    .gigs-banner {
+        background: transparent;
+        vertical-align: center;
+        color: #000000;
+        margin-bottom: 1%;
+    }
+
+    .banner-gigs .row {
+        justify-content: center;
+    }
+
+
     .logo-events {
         visibility: inherit;
-
     }
 
     .logo-events .row {
@@ -1263,11 +1219,7 @@ button {
         background-repeat: no-repeat;
         background-size: contain;
         z-index: 2;
-    }
-    
-}
-
-@media (min-width:768px) {
+    }   
 }
 
 @media (max-width:767px) {
@@ -1275,9 +1227,31 @@ button {
         height: 150px;
         width: 100%;
     }
+    
+    .banner-gigs {
+        display: none;
+    }
 
-    .banner-mobile-gigs {
+    .banner-mobile-gigs{
+        display: inherit;
         margin-top: 0;
+        margin-bottom: 10px;
+        place-content: center;
+        background-color: #65ab4e83;
+        text-transform: uppercase;
+    }
+    
+    .banner-mobile-gigs .row {
+        justify-content: center;
+    }
+
+    .banner-mobile-gigs .gigs-banner {
+        margin-bottom: 0;
+    }
+
+    .banner-mobile-gigs h1 {
+        margin-bottom: 0;
+        font-size: 1.5rem;
     }
 
     .event-media-quotes .row {
@@ -1285,6 +1259,7 @@ button {
         height: 160px;
         font-weight: 500;
     }
+    
     .event-media-quotes .col-12 {
         display: inherit;
     }
@@ -1332,6 +1307,8 @@ button {
 
 /*----------- Contacts Page -----------------*/
 
+/*----------- Contacts Page - Backdrop  -----------------*/
+
 .court-estate {
     background-image: url(../images/Elkston\ Court\ Blue.jpg);
     display: inline-block;
@@ -1341,10 +1318,7 @@ button {
     background-position-y: center;
 }
 
-.contact-boombox {
-    background-image: url(../images/Boombox-Blue-only-tall.gif);
-    background-size: cover;
-}
+/*----------- Contacts Page - contact statement  -----------------*/
 
 .centre-p {
     text-align: center;
@@ -1352,7 +1326,13 @@ button {
     margin-top: 130px;
     margin-bottom: 50px;
     font-weight: 600;
+}
 
+/*----------- Contacts Page - contact form image  -----------------*/
+
+.contact-boombox {
+    background-image: url(../images/Boombox-Blue-only-tall.gif);
+    background-size: cover;
 }
 
 .contact-boombox .row {
@@ -1364,12 +1344,14 @@ button {
     padding-left: 0;
 }
 
-.form-group {
-    margin-bottom: 1.5rem;
-}
-
 .contact-boombox form {
     padding-left: 10px;
+}
+
+/*----------- Contacts Page - contact form  -----------------*/
+
+.form-group {
+    margin-bottom: 1.5rem;
 }
 
 .message-area {
@@ -1392,6 +1374,8 @@ form {
     content:"";
 }
 
+/*----------- Contacts Page - Darren the Rudeboy quote  -----------------*/
+
 .darren-quote {
     text-align: center;
     margin-top: 350px;
@@ -1399,6 +1383,8 @@ form {
     font-size: large;
     font-weight: 600;
 }
+
+/*----------- Contacts Page - Device adjustment -----------------*/
 
 @media (min-width: 1199px) {
     .darren-quote {
@@ -1517,7 +1503,7 @@ form {
     }
 }
 
-/*----------- Play buttons -----------------*/
+/*----------- Play buttons on Home page and Music page -----------------*/
 
 .mediPlayer {
     display: contents;
@@ -1534,7 +1520,6 @@ form {
     -o-font-smoothing      : antialiased;
    /*  font-smoothing         : antialiased; */
     text-rendering         : optimizeLegibility;
-
 }
 
 .mediPlayer .control {
@@ -1545,12 +1530,10 @@ form {
 
 .mediPlayer .not-started .play, .mediPlayer .paused .play {
     opacity : 1;
-
 }
 
 .mediPlayer .playing .pause {
     opacity : 1;
-
 }
 
 .mediPlayer .playing .play {
@@ -1581,10 +1564,3 @@ form {
     stroke-dasharray  : 298.1371428256714;
     stroke-dashoffset : 298.1371428256714;
 }
-
-
-/*
-@media (max-width: 1199px) {
-@media (max-width: 991px) {
-@media (max-width: 767px) {
-*/

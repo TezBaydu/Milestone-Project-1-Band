@@ -189,7 +189,11 @@ This project has four separate pages found by clicking on the relevant name foun
 
 - Nav background color has to be associated to 2 classes: .navbar-expand-lg and .bg-nav....
     * WHY ?!
-    
+
+- CSS device size adjustments
+    * seemed like there was quite a lot at first with the Home Page
+    * Can we review to see if is suitable?
+
 ### Bugs
 
 - Media play buttons
