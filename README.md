@@ -19,7 +19,7 @@
     5. [Contact](#Contact)
 4. [Technologies Used](#Technologies-Used)
 5. [Mentor questions](#Mentor-Questions)
-    2. [Meeting 2](#Mentor-Meeting-2)
+    1. [Meeting 2](#Mentor-Meeting-2)
 6. [Bugs and Issues](#Bugs)
 7. [Testing](#Testing)
      1. [Code testing](#Code-testing)
@@ -197,7 +197,7 @@ This project has four separate pages found by clicking on the relevant name foun
 
 ### Mentor Questions
 
-#### Mentor Meeting 2
+ #### Mentor Meeting 2
 
 - Nav background color has to be associated to 2 classes: .navbar-expand-lg and .bg-nav....
     * WHY ?!
