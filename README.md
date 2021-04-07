@@ -16,18 +16,19 @@
     2. [Home](#Home)
     3. [Music](#Music)
     4. [Events](#Events)
-    5. [Contact](Contact)
-4. [Issues and Bugs](#Issues-and-Bugs)
-5. [Technologies Used](#Technologies-Used)
-6. [Mentor questions](#Questions-for-Mentor)
-    1. [Meeting 1](#Meeting-1)
-    2. [Meeting 2](#Meeting-2)
-7. [Bugs and Issues](#Bugs)
-8. [Testing](#Testing)
-     1. [User Testing](#User-testing)
-     2. [Code testing](#Code-testing)
-
+    5. [Contact](#Contact)
+4. [Technologies Used](#Technologies-Used)
+5. [Mentor questions](#Mentor-Questions)
+    2. [Meeting 2](#Mentor-Meeting-2)
+6. [Bugs and Issues](#Bugs)
+7. [Testing](#Testing)
+     1. [Code testing](#Code-testing)
+     2. [Browser testing](#Browser-testing)
+     3. [Colour blindness Testing](#Colour-blindness-testing)
+     2. [User testing](#User-testing)
+8. [Deployment](#Deployment)
 9. [Credits](#Credits)
+
 ***
 
 ## Introduction
@@ -75,7 +76,7 @@ There is potential for this kind of music to break the market and give the under
 
 [Back to top ⇧](#Project-Council-Culture)
 
-### Wireframe
+#### Wireframe
 
 - Designed in [Figma](https://www.figma.com/file/IADuVbH1W00VbiRkhlDqdY/milestone-project-1-band?node-id=0%3A1)
 
@@ -101,7 +102,7 @@ This project has four separate pages found by clicking on the relevant name foun
 
 - Design with menu placing in the same position.
     * A Band logo which leads the user back to 'Home' when clicked.
-    * Mobile versio to be a dropdown menu
+    * Mobile version to be a dropdown menu
 - Footer with links to social media, download/purchase options.
 - Consistent colours: 
     * lightgoldenrodyellow 
@@ -194,6 +195,8 @@ This project has four separate pages found by clicking on the relevant name foun
 
 [Back to top ⇧](#Project-Council-Culture)
 
+### Mentor Questions
+
 #### Mentor Meeting 2
 
 - Nav background color has to be associated to 2 classes: .navbar-expand-lg and .bg-nav....
@@ -202,6 +205,7 @@ This project has four separate pages found by clicking on the relevant name foun
 - CSS device size adjustments
     * seemed like there was quite a lot at first with the Home Page
     * Can we review to see if is suitable?
+
 
 ### Bugs
 
