@@ -219,7 +219,11 @@ This project has four separate pages found by clicking on the relevant name foun
     - updated by changing display from inline-block to contents for @media (max-width: 767px) 
     - done
 - Nav header text to make bolder
+    - done
 - Row below Grafitti image to wrap around text quotes. i.e. parent of
+    - Wasn't the actual issue. created a bar as was display row of 'header-text-mobile' in devices larger than 767px.
+        * Adjusted so this div has Display as none
+        - done
 - Grafitti quotes padding top and bottom (15px)
 - Band quotes padding
 

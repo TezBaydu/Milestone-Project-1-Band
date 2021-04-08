@@ -304,6 +304,9 @@ button {
 
  /*----------- Home Page - Grafitti and quotes -----------------*/
 
+.header-text-mobile {
+    display: none;
+}
 
 .grafitti-image {
     background-image: url(../images/graffiti.jpg);
