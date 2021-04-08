@@ -205,13 +205,18 @@ This project has four separate pages found by clicking on the relevant name foun
 
 - CSS device size adjustments
     * seemed like there was quite a lot at first with the Home Page
-    * Can we review to see if is suitable? - Ok as shows understanding of CSS
+    * Can we review to see if is suitable? 
+        - Ok as shows understanding of CSS
 
 - Commits to be mentioned as part of test
+    - done
 - Use image from am i responsive design checker in readme
 - Change Java to JavaScript in credit notes
     - done
 - Add comment in player.js of source and link
+    - done
+- list-inline-item in header download formats only when url refreshes
+    - updated by changing display from inline-block to contents for @media (max-width: 767px) 
     - done
 - Nav header text to make bolder
 - Row below Grafitti image to wrap around text quotes. i.e. parent of
@@ -319,6 +324,10 @@ This project has four separate pages found by clicking on the relevant name foun
 [Back to top ⇧](#Project-Council-Culture)
 
 ### Credits
+
+- Council Culture
+    * Music by band Council Culture
+        * Watch this space!
 
 - Terry Downs
     * Band images and logos

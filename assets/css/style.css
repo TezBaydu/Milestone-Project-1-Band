@@ -25,7 +25,8 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #ffffff
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .navbar-toggler {
