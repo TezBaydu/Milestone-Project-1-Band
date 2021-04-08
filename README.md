@@ -259,7 +259,9 @@ This project has four separate pages found by clicking on the relevant name foun
     - This is the code asked to be copied from bootstrap but is showing errors on a couple of styles not encoded...please advise
 
     * Warnings
-        * these extensions are recognised in chrome but not in validator - please advise
+        * these extensions are recognised in chrome but not in validator
+
+        * This issue is with bootstrap and is ok to be noted as does not affect website proficiency.
 
 [Back to top ⇧](#Project-Council-Culture)
 
