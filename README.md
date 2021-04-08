@@ -203,16 +203,53 @@ This project has four separate pages found by clicking on the relevant name foun
     * seemed like there was quite a lot at first with the Home Page
     * Can we review to see if is suitable? - Ok as shows understanding of CSS
 
+- Commits to be mentioned as part of test
+- Use image from am i responsive design checker in readme
+- Change Java to JavaScript in credit notes
+    - done
+- Add comment in player.js of source and link
+    - done
+- Nav header text to make bolder
+- Row below Grafitti image to wrap around text quotes. i.e. parent of
+- Grafitti quotes padding top and bottom (15px)
+- Band quotes padding
+
+- IPAD
+    - Nav bar, not Nav button
+    - Home
+        - Band mambers 4 split as looks squashed
+    - Music
+        - To look like mobile splits
+
+- Music
+    - Padding on text top and bottom
+    - Potential text spacing
+    - issue with 991px responsive design
+
+- Events
+    - Space above jar doesn't look right - responsivedesignchecker
+    - Mobile view looks perfect
+    - Ipad Pro design events table can widen
+
+- Contact
+    - Form on mobile to have fields Align
+    - Ipad Pro - statement bring down as too close to CC logo
+    - Potential note change prior to submission
+
+- Test doc to be placed in new md file and to be detailed
+    
+
+
 
 ### Bugs
 
 - Media play buttons
     * Found a way of having a play button using HTML only, however this caused issues as was unable to toggle between play and pause and when there were several instances in one page music would overplay each other or would play and pause one song at a time, regardless of which button it was associated to.
-        * After much searching I found a solution using JavaScript through the Github user "Ilker Yilmaz" "https://github.com/kuantal/Multiple-circular-player" and was able to use the scripts as shown on their gitpod to make a successful play pause action for songs. sizes and style adjusted to suit site. Is this ok?
+        * After much searching I found a solution using JavaScript through the Github user "Ilker Yilmaz" "https://github.com/kuantal/Multiple-circular-player" and was able to use the scripts as shown on their gitpod to make a successful play pause action for songs. sizes and style adjusted to suit site.
 
 - Index.html
     * list-inline header-download
-        * needs page to reload for it to sit horizontally....? Even on responsive design checker, is this ok?
+        * needs page to reload for it to sit horizontally....? Even on responsive design checker - associated to list-inline-item style.css line 532: to work on.
 
 - css code checker
     * Sorry! We found the following errors (2)
