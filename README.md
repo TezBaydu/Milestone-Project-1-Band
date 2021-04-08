@@ -199,19 +199,16 @@ This project has four separate pages found by clicking on the relevant name foun
 
  #### Mentor Meeting 2
 
-- Nav background color has to be associated to 2 classes: .navbar-expand-lg and .bg-nav....
-    * WHY ?!
-
 - CSS device size adjustments
     * seemed like there was quite a lot at first with the Home Page
-    * Can we review to see if is suitable?
+    * Can we review to see if is suitable? - Ok as shows understanding of CSS
 
 
 ### Bugs
 
 - Media play buttons
     * Found a way of having a play button using HTML only, however this caused issues as was unable to toggle between play and pause and when there were several instances in one page music would overplay each other or would play and pause one song at a time, regardless of which button it was associated to.
-        * After much searching I found a solution using Java through the Github user "kuantal/Multiple-circular-player" and was able to use the scripts as shown on their gitpod to make a successful play pause action for songs. sizes and style adjusted to suit site. Is this ok?
+        * After much searching I found a solution using JavaScript through the Github user "Ilker Yilmaz" "https://github.com/kuantal/Multiple-circular-player" and was able to use the scripts as shown on their gitpod to make a successful play pause action for songs. sizes and style adjusted to suit site. Is this ok?
 
 - Index.html
     * list-inline header-download

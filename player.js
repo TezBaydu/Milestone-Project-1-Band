@@ -1,3 +1,5 @@
+// Source: Ilker Yilmaz - https://github.com/kuantal/Multiple-circular-player#licence
+
 (function (root, factory) {
 
     if (typeof define === 'function' && define.amd) {
