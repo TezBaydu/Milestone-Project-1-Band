@@ -189,6 +189,10 @@ This project has four separate pages found by clicking on the relevant name foun
 
 - [HTML code checker](https://validator.w3.org/)
 
+- [CSS code checker](https://jigsaw.w3.org/css-validator/)
+
+- [Extends Class JavaScript validator](https://extendsclass.com/javascript-fiddle.html)
+
 - [Browser test site - Browser|Shots](http://browsershots.org/)
 
 - [RGBlind chrome extension]

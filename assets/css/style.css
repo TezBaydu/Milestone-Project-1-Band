@@ -530,7 +530,7 @@ button {
     }
 
     .single-release .list-inline-item {
-        display: table-cell;
+        display: contents;
     }
 
     .header-text {
