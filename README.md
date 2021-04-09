@@ -207,31 +207,44 @@ This project has four separate pages found by clicking on the relevant name foun
     * seemed like there was quite a lot at first with the Home Page
     * Can we review to see if is suitable? 
         - Ok as shows understanding of CSS
+            - done
 
 - Commits to be mentioned as part of test
     - done
+
 - Use image from am i responsive design checker in readme
+
 - Change Java to JavaScript in credit notes
     - done
+
 - Add comment in player.js of source and link
     - done
+
 - list-inline-item in header download formats only when url refreshes
     - updated by changing display from inline-block to contents for @media (max-width: 767px) 
     - done
+
 - Nav header text to make bolder
     - done
+
 - Row below Grafitti image to wrap around text quotes. i.e. parent of
     - Wasn't the actual issue. created a bar as was display row of 'header-text-mobile' in devices larger than 767px.
         * Adjusted so this div has Display as none in sizes larger than mobile.
         - done
+
 - Grafitti quotes padding top and bottom (15px)
     - done via container
     - also done for mobile adjustments
+
 - Band quotes padding
     - done via container
     - also done for mobile adjustments
+
 - CC Logo white
     - adjusted padding so shows spaced too
+
+- Footer
+    - Padding top and bottom added by 1%
 
 
 - IPAD
