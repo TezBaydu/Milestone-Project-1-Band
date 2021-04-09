@@ -275,6 +275,8 @@ This project has four separate pages found by clicking on the relevant name foun
 - Contact
     - Form on mobile to have fields Align
     - Ipad Pro - statement bring down as too close to CC logo
+        - Adjustment on all versions to be more responsive
+            - done
     - Potential note change prior to submission
 
 - Test doc to be placed in new md file and to be detailed
