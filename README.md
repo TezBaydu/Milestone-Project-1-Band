@@ -266,6 +266,7 @@ This project has four separate pages found by clicking on the relevant name foun
 
 - Events
     - Space above jar doesn't look right - responsivedesignchecker
+        - done
     - Mobile view looks perfect
     - Ipad Pro design events table can widen
         - done
