@@ -222,7 +222,7 @@ This project has four separate pages found by clicking on the relevant name foun
 
 - list-inline-item in header download formats only when url refreshes
     - updated by changing display from inline-block to contents for @media (max-width: 767px) 
-    - done
+        - done
 
 - Nav header text to make bolder
     - done
@@ -230,27 +230,31 @@ This project has four separate pages found by clicking on the relevant name foun
 - Row below Grafitti image to wrap around text quotes. i.e. parent of
     - Wasn't the actual issue. created a bar as was display row of 'header-text-mobile' in devices larger than 767px.
         * Adjusted so this div has Display as none in sizes larger than mobile.
-        - done
+            - done
 
 - Grafitti quotes padding top and bottom (15px)
     - done via container
-    - also done for mobile adjustments
+        - also done for mobile adjustments
 
 - Band quotes padding
     - done via container
-    - also done for mobile adjustments
+        - also done for mobile adjustments
 
 - CC Logo white
     - adjusted padding so shows spaced too
+        -done
 
 - Footer
     - Padding top and bottom added by 1%
+        - done
 
 
 - IPAD
     - Nav bar, not Nav button
+        -done
     - Home
         - Band mambers 4 split as looks squashed
+         - done
     - Music
         - To look like mobile splits
 

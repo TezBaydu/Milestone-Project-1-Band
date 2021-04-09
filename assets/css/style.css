@@ -519,24 +519,72 @@ button {
         font-size: 16px;
     }
 
-    .band-quotes p {
-    font-size: 16px;
+    .band-members {
+        display: none;
+    }
+
+    .band-quotes {
+        display: none;
+    }
+
+    .band-members-mobile {
+        display: inherit;
+        background-color:rgba(255, 255, 213, 0.29);
+    }
+
+    .band-quotes-mobile {
+        display: inherit;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .band-members-mobile .container {
+        padding: 0;
+    }
+
+    .band-members-mobile .container .row .col img {
+        width: 70%;
+        margin: 5% auto 0 5%;
+        height: 90%;
+        border-radius: 40px;
+        image-rendering: -webkit-optimize-contrast;
+    }
+
+    .band-members-mobile .container {
+        max-width: 1300px;
+        padding-left: 5%;
+    }
+
+    .band-quotes-mobile .container {
+        max-width: 1300px;
+        padding-left: 0;
+        background-color: #000000a6;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .band-quotes-mobile p {
+        font-size: 16px;
+    }
+
+    .murder-scene {
+        background-position-x: center;
     }
 
     .walker-border strong {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .tuned-border strong {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .max-border strong {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .racer-border strong {
-        font-size: 20px;
+        font-size: 22px;
     }
 }
 
@@ -654,55 +702,8 @@ button {
         max-width: none;
     }
 
-    .band-members {
-        display: none;
-    }
-
-    .band-quotes {
-        display: none;
-    }
-
-    .band-members-mobile {
-        display: inherit;
-        background-color:rgba(255, 255, 213, 0.29);
-    }
-
-    .band-quotes-mobile {
-        display: inherit;
-        color: #ffffff;
-        text-align: center;
-    }
-
-    .band-members-mobile .container {
-        padding: 0;
-    }
-
-    .band-members-mobile .container .row .col img {
-        width: 70%;
-        margin: 5% auto 0 5%;
-        height: 90%;
-        border-radius: 40px;
-        image-rendering: -webkit-optimize-contrast;
-    }
-
-    .band-members-mobile .container {
-        max-width: 1300px;
-    }
-
-    .band-quotes-mobile .container {
-        max-width: 1300px;
-        padding-left: 0;
-        background-color: #000000a6;
-        padding-top: 2%;
-        padding-bottom: 2%;
-    }
-
     .band-quotes-mobile p {
         font-size: 11px;
-    }
-
-    .murder-scene {
-        background-position-x: center;
     }
 
     .walker-border strong {
