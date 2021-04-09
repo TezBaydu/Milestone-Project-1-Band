@@ -1140,6 +1140,11 @@ button {
     margin-bottom: 20px;
 }
 
+.event-media-quotes p {
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
 .event-media-quotes .row {
     height: 200px;
     font-weight: 600;
@@ -1163,7 +1168,6 @@ button {
 .table {
     margin-left: 5%;
     border-style: solid;
-    border-radius: 10px;
     border-color: #4fb7bc;
     display: table-cell;
     width: max-content;
@@ -1180,10 +1184,6 @@ button {
 .table td {
     border-top: hidden;
     font-weight: 600;
-}
-
-.table th {
-    border-top: hidden;
 }
 
 .table a {
@@ -1245,6 +1245,16 @@ button {
         font-size: 16px;
     }
 
+    .event-media-quotes p {
+        padding-top: 1%;
+    }
+
+    .table {
+        width: 100%;
+        display: inline-table;
+        margin-right: 4%;
+    }
+
     .table-section {
         justify-content: center;
     }
@@ -1271,6 +1281,7 @@ button {
 
     .logo-events {
         visibility: inherit;
+        padding-top: 18%;
     }
 
     .logo-events .row {
@@ -1287,6 +1298,10 @@ button {
 }
 
 @media (max-width:767px) {
+    .logo-events {
+        padding-top: 0;
+    }
+
     .logo-events .row {
         height: 150px;
         width: 100%;
@@ -1351,10 +1366,6 @@ button {
 
     .table td {
         padding:0.4rem;
-    }
-
-    .table th {
-        padding: 0.4rem;
     }
 
     .room-2 {

@@ -268,6 +268,8 @@ This project has four separate pages found by clicking on the relevant name foun
     - Space above jar doesn't look right - responsivedesignchecker
     - Mobile view looks perfect
     - Ipad Pro design events table can widen
+        - done
+    - Padding in quotes updated for better spacing
 
 - Contact
     - Form on mobile to have fields Align
