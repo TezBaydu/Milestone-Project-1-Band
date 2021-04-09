@@ -63,9 +63,44 @@
     z-index: 4;
 }
 
+.navbar-toggler {
+    display: none;
+}
+
  /*----------- Navigation Bar - Device adjustment -----------------*/
 
-@media (max-width: 991px) {
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+    display: none;
+    flex-basis: none;
+    }
+
+    .navbar-collapse {
+        display: none;
+        flex-basis: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-expand-lg {
+    display: flex!important;
+    flex-basis: auto;
+    }
+
+    .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-toggler {
+        display: flex;
+    }
     .navbar-nav {
         text-align: center;
     }
@@ -81,9 +116,7 @@
     .nav-link {
         font-size: 16px;
     }
-}
 
-@media (max-width: 767px) {
     .logo {
         visibility: hidden;
     }
@@ -453,10 +486,6 @@ button {
 }
 
 @media (max-width: 991px) {
-    .logo {
-        visibility: hidden;
-    }
-
     .header-text {
         font-size: 1.5rem;
         margin-top: 10px;
@@ -504,6 +533,10 @@ button {
 }
 
 @media (max-width: 767px) {
+    .logo {
+        visibility: hidden;
+    }
+
     .single-release {
         margin: 7% 2% 0%;
         height: 7rem;
