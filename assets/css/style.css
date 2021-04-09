@@ -30,7 +30,8 @@
 }
 
 .navbar-toggler {
-    background-color: #ffffff
+    background-color: #ffffff;
+    justify-content: center;
 }
 
  .logo {
@@ -95,6 +96,10 @@
     .navbar-nav {
         flex-direction: row;
     }
+
+    .nav-item {
+        padding: 0 2rem;
+    }
 }
 
 @media (max-width: 767px) {
@@ -133,6 +138,7 @@ footer {
     min-height: 60px;
     padding-bottom: 1%;
     padding-top: 1%;
+    margin-bottom: -10%;
 }
 
 footer .list-inline {
@@ -490,10 +496,6 @@ button {
         margin: 10% 30% 0%;
     }
 
-    .nav-item {
-        padding: 0 2rem;
-    }
-
     .header-text {
         font-size: 1.5rem;
         margin-top: 10px;
@@ -749,6 +751,10 @@ button {
     background-image: url(../images/Estate-stretch.jpg);
     background-size: cover;
     background-attachment: fixed;
+}
+
+.estate div {
+    padding-top: 5px;
 }
 
  /*----------- Music Page - Album covers -----------------*/

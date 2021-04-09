@@ -246,6 +246,7 @@ This project has four separate pages found by clicking on the relevant name foun
 
 - Footer
     - Padding top and bottom added by 1%
+    - Margin bottom negative so sticks to bottom
         - done
 
 
