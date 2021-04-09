@@ -270,6 +270,7 @@ This project has four separate pages found by clicking on the relevant name foun
     - Ipad Pro design events table can widen
         - done
     - Padding in quotes updated for better spacing
+        - done
 
 - Contact
     - Form on mobile to have fields Align

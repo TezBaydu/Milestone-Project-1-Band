@@ -1398,7 +1398,7 @@ button {
 .centre-p {
     text-align: center;
     color: #000000;
-    margin-top: 130px;
+    margin-top: 7%;
     margin-bottom: 50px;
     font-weight: 600;
 }
@@ -1468,6 +1468,10 @@ form {
 }
 
 @media (max-width: 1199px) {
+    .centre-p {
+        margin-top: 15%;
+    }
+
     .contact-boombox .row {
         width: 680px;
     }
@@ -1484,24 +1488,8 @@ form {
 }
 
 @media (max-width: 991px) {
-    .logo-contact {
-        visibility: inherit;
-    }
-
-    .logo-contact .row {
-        visibility: inherit;
-        place-content: center;
-        background-image: url(../images/Council-Culture-Logo-white.gif);
-        height: 200px;
-        width: 500px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        z-index: 2;
-    }
-    
     .centre-p {
-        margin-top: 10px;
+        margin-top: 20%;
     }
 
     .contact-boombox {
@@ -1520,8 +1508,19 @@ form {
 }
 
 @media (max-width: 767px) {
+    .logo-contact {
+        visibility: inherit;
+    }
+
     .logo-contact .row {
-        width: 265px;
+        visibility: inherit;
+        place-content: center;
+        background-image: url(../images/Council-Culture-Logo-white.gif);
+        height: 200px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 2;
         margin-top: -45px;
     }
 
@@ -1538,6 +1537,7 @@ form {
     .centre-p {
         font-size: x-small;
         margin-bottom: 0;
+        margin-top: 7%;
     }
 
     .form-control {
