@@ -1438,6 +1438,10 @@ form {
     z-index: 60;
 }
 
+.last-name {
+    padding-right: 3%;
+}
+
 .bd-example::after {
     clear: both;
     display: block;
@@ -1496,6 +1500,11 @@ form {
         width: 490px;
         padding-top: 50px;
     }
+
+    .last-name {
+        padding-right: 4%;
+    }
+
     .darren-quote {
         margin-top: 380px;
         font-size: x-large;
@@ -1547,9 +1556,18 @@ form {
         font-size: x-small;
     }
 
+    .last-name {
+        padding-right: 5%;
+    }
+
     .form-group {
         margin-bottom: 0.5rem;
         margin-top: -15px;
+        width: 108%;
+    }
+
+    .custom-select {
+        width: 108%;
     }
 
     .court-estate {

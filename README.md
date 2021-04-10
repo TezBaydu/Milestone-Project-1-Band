@@ -253,9 +253,11 @@ This project has four separate pages found by clicking on the relevant name foun
 - IPAD
     - Nav bar, not Nav button
         -done
+
     - Home
         - Band mambers 4 split as looks squashed
          - done
+         
     - Music
         - To look like mobile splits
 
@@ -267,14 +269,18 @@ This project has four separate pages found by clicking on the relevant name foun
 - Events
     - Space above jar doesn't look right - responsivedesignchecker
         - done
+
     - Mobile view looks perfect
     - Ipad Pro design events table can widen
         - done
+
     - Padding in quotes updated for better spacing
         - done
 
 - Contact
     - Form on mobile to have fields Align
+        - done
+
     - Ipad Pro - statement bring down as too close to CC logo
         - Adjustment on all versions to be more responsive
             - done
