@@ -235,10 +235,12 @@ This project has four separate pages found by clicking on the relevant name foun
 - Grafitti quotes padding top and bottom (15px)
     - done via container
         - also done for mobile adjustments
+            -done
 
 - Band quotes padding
     - done via container
         - also done for mobile adjustments
+            - done
 
 - CC Logo white
     - adjusted padding so shows spaced too
@@ -261,11 +263,18 @@ This project has four separate pages found by clicking on the relevant name foun
     - Music
         - To look like mobile splits
             - Decided this would look too slim so have applied a different look for ipad device
+            - done
 
 - Music
     - Padding on text top and bottom
+        - done
+
     - Potential text spacing
+        - done
+
     - issue with 991px responsive design
+        - done
+
     - Mobile device version text and button alignment adjustments
         - done
 
@@ -282,11 +291,13 @@ This project has four separate pages found by clicking on the relevant name foun
 
 - Contact
     - Form on mobile to have fields Align
-        - done
+        - Also adjusted form design for % responsiveness
+            - done 
 
     - Ipad Pro - statement bring down as too close to CC logo
         - Adjustment on all versions to be more responsive
             - done
+
     - Potential note change prior to submission
 
 - Test doc to be placed in new md file and to be detailed

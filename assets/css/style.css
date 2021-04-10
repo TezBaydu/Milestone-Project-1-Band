@@ -848,6 +848,15 @@ button {
     display: none;
 }
 
+.album-ipad {
+    display: none;
+    margin-bottom: -8%;
+}
+
+.titles-ipad {
+    display: none;
+}
+
  /*----------- Music Page - Device adjustment -----------------*/
 
 @media (max-width: 1199px) {
@@ -890,56 +899,8 @@ button {
 }
 
 @media (max-width: 991px) {
-    .album-image-section .col {
-    padding-left: 15px;
-    padding-right: 15px;
-    }
-
-    .titles ol {
-        padding-left: inherit;
-    }
-
-    .titles p {
-        margin-left: -10px;
-    }
-
-    .titles .container strong {
-        text-align: initial;
-        font-size: large;
-    }
-
-    .titles .container li {
-        padding-left: inherit;
-        font-size: small;
-    }
-    
-    .titles p {
-        margin-left: -10px;
-        text-align: start;
-    }
-
-    .titles .container {
-        padding-left: 0;
-        padding-right: 0;
-        margin-left: 43px;
-    }
-
-    .titles .container li {
-        margin-left: 0%;
-    }
-
-    .titles .col {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
-    .album-image-section .col {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
-    .album-image-section .container .row .col .list-inline-item {
-        margin-right: 0;
+    .album-image-section {
+    display: none
     }
 
     .banner-music {
@@ -960,6 +921,113 @@ button {
     .banner-music .row {
         justify-content: center;
     }
+
+    .album-ipad {
+        display: inherit;
+        padding-top: 2%;
+    }
+    
+    .album-ipad img {
+    width: 40%;
+    margin: 0 auto 0;
+    height: 50%;
+    image-rendering: -webkit-optimize-contrast;
+    border-style: solid;
+    border-width: thick;
+    border-color: #ffffff;
+    border-radius: 20px;
+    }
+
+    .album-ipad li {
+        color: #ffffff;
+    }
+    .album-ipad .container {
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: -25px;
+        text-align: center;
+    }
+
+    .album-ipad img {
+        width: 10rem;
+    }
+
+    .album-ipad .header-download li a i {
+        width: 30px;
+        height: 30px;
+        padding: 5px 0;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .album-ipad p {
+        margin-bottom: 0;
+    }
+
+    .album-ipad ol {
+        padding-left: 10px;
+        font-size: small;
+    }
+
+    .titles {
+        display: none;
+    }
+
+    .titles-ipad {
+        display: inherit;
+    }
+
+    .titles-ipad button {
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 0;
+    padding-left: 0;
+    }
+
+    .titles-ipad ol {
+        display: contents;
+        line-height: 150%;
+    }
+
+    .titles-ipad li {
+        margin-right: 0;
+        font-size: 12px;
+    }
+
+    .titles-ipad .row {
+        padding-left: 10%;
+        padding-bottom: 3%;
+    }
+
+    .titles-ipad {
+        text-transform: uppercase;
+    }
+
+    .titles-ipad .row {
+        background-color: rgba(78, 78, 78, 0.9);
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .titles-ipad p {
+        margin-left: -12%;
+    }
+
+    .afterlife-ipad-col {
+        padding-left: 14%;
+    }
+
+    .aftermath-ipad-col {
+        padding-left: 14%;
+    }
+
+    .routes-ipad-col {
+        padding-left: 14%;
+    }
+
+    .invisible-ipad-col {
+        padding-left: 25%;
+    }
 }
 
 @media (min-width:768px) {
@@ -969,6 +1037,14 @@ button {
 }
 
 @media (max-width:767px) {
+    .album-ipad {
+        display: none;
+    }
+
+    .titles-ipad {
+        display: none
+    }
+
     .album-mobile img {
     width: 40%;
     margin: 0 auto 0;
@@ -983,10 +1059,6 @@ button {
     .album-mobile li {
         color: #ffffff;
     }   
-
-    .album-image-section {
-        display: none;
-    }
 
     .album-mobile .container {
         padding-left: 0;
@@ -1037,7 +1109,6 @@ button {
     }
 
     .titles-mobile li {
-        /* margin-left: 14px; */
         margin-right: 0;
         font-size: 12px;
     }
@@ -1063,7 +1134,6 @@ button {
 
     .afterlife-mobile-col {
         padding-left: 14%;
-
     }
 
     .invisible-mobile-col {
@@ -1103,10 +1173,6 @@ button {
 
     .banner-mobile-music .row {
         justify-content: center;
-    }
-
-    .banner-mobile-music .music-banner {
-        margin-bottom: 0;
     }
 
     .banner-mobile-music h1 {
@@ -1352,6 +1418,7 @@ button {
     
     .event-media-quotes .col-12 {
         display: inherit;
+        justify-content: center;
     }
 
     .event-media-quotes .col-6 {
@@ -1423,7 +1490,7 @@ button {
 
 .contact-boombox .row {
     padding-top: 80px;
-    width: 800px;
+    width: 75%;
 }
 
 .contact-boombox .col {
@@ -1487,10 +1554,6 @@ form {
         margin-top: 15%;
     }
 
-    .contact-boombox .row {
-        width: 680px;
-    }
-
     .court-estate {
         background-position: right;
         height: 1560px;
@@ -1513,12 +1576,7 @@ form {
     }
 
     .contact-boombox .row {
-        width: 490px;
-        padding-top: 50px;
-    }
-
-    .last-name {
-        padding-right: 4%;
+        padding-top: 56px;
     }
 
     .darren-quote {
@@ -1530,6 +1588,7 @@ form {
 @media (max-width: 767px) {
     .logo-contact {
         visibility: inherit;
+        margin-top: 6%;
     }
 
     .logo-contact .row {
@@ -1547,11 +1606,6 @@ form {
     .contact-boombox {
         background-image: url(../images/Boombox-Blue-only-thin.gif);
         height: 409px;
-    }
-
-    .contact-boombox .row {
-        width: 220px;
-        padding-top: 40px;
     }
     
     .centre-p {
@@ -1592,7 +1646,7 @@ form {
     }
 
     .darren-quote {
-        margin-top: 137px;
+        margin-top: 110px;
         font-size: small;
     }
 
@@ -1603,6 +1657,10 @@ form {
 
 @media (min-width: 576px) {
     .header-text-mobile .container {
+        max-width: none;
+    }
+
+    .banner-mobile-music .container {
         max-width: none;
     }
 }
