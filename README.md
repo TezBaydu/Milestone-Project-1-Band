@@ -260,11 +260,14 @@ This project has four separate pages found by clicking on the relevant name foun
          
     - Music
         - To look like mobile splits
+            - Decided this would look too slim so have applied a different look for ipad device
 
 - Music
     - Padding on text top and bottom
     - Potential text spacing
     - issue with 991px responsive design
+    - Mobile device version text and button alignment adjustments
+        - done
 
 - Events
     - Space above jar doesn't look right - responsivedesignchecker

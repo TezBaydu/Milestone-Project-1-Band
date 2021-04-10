@@ -862,6 +862,7 @@ button {
 
     .titles ol {
         padding-left: inherit;
+        line-height: 150%;
     }
 
     .titles p {
@@ -987,6 +988,34 @@ button {
         display: none;
     }
 
+    .album-mobile .container {
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: -25px;
+        text-align: center;
+    }
+
+    .album-mobile img {
+        width: 80%;
+    }
+
+    .album-mobile .header-download li a i {
+        width: 30px;
+        height: 30px;
+        padding: 5px 0;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .album-mobile p {
+        margin-bottom: 0;
+    }
+
+    .album-mobile ol {
+        padding-left: 10px;
+        font-size: small;
+    }
+
     .titles {
         display: none;
     }
@@ -1004,30 +1033,18 @@ button {
 
     .titles-mobile ol {
         display: contents;
+        line-height: 150%;
     }
 
     .titles-mobile li {
-        margin-left: 14px;
+        /* margin-left: 14px; */
         margin-right: 0;
         font-size: 12px;
     }
 
-    .album-mobile .container {
-        padding-left: 0;
-        padding-right: 0;
-        margin-bottom: -25px;
-    }
-
-    .album-mobile img {
-        width: 80%;
-    }
-
-    .album-mobile .header-download li a i {
-        width: 30px;
-        height: 30px;
-        padding: 5px 0;
-        font-size: 15px;
-        margin-top: 10px;
+    .titles-mobile .row {
+        padding-left: 10%;
+        padding-bottom: 3%;
     }
 
     .titles-mobile {
@@ -1040,18 +1057,22 @@ button {
         margin-bottom: 10px;
     }
 
+    .titles-mobile p {
+        margin-left: -12%;
+    }
+
+    .afterlife-mobile-col {
+        padding-left: 14%;
+
+    }
+
+    .invisible-mobile-col {
+        padding-left: 14%;
+    }
+
     .aftermath-mobile-list {
         max-width: fit-content; 
         text-align: start;
-    }
-
-    .album-mobile p {
-        margin-bottom: 0;
-    }
-
-    .album-mobile ol {
-        padding-left: 10px;
-        font-size: small;
     }
 
     .logo-music .row {
@@ -1066,7 +1087,6 @@ button {
         background-size: contain;
         z-index: 2;
     }
-
 
     .banner-music {
         display: none;
