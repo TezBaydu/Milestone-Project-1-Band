@@ -367,8 +367,15 @@ button {
 }
 
 .grafitti-image h5 {
-    padding-top: 2%;
-    padding-bottom: 2%;
+    line-height: 1;
+}
+
+.grafitti-image .col-8 {
+    margin-top: 1.5rem;
+}
+
+.last-grafitti-quote {
+    margin-bottom: 1.5rem;
 }
 
 .uncut-color {
@@ -405,6 +412,7 @@ button {
     color: #ffffff;
     text-align: center;
     background-color: #000000a6;
+    line-height: 1.9rem;
 }
 
 .band-members {
@@ -426,24 +434,28 @@ button {
     border-bottom: solid;
     border-color: #66ab4e;
     font-size: 28px;
+    padding-bottom: 4%;
 }
 
 .max-border {
     border-bottom: solid;
     border-color: #42a0a0;
     font-size: 28px;
+    padding-bottom: 4%;
 }
 
 .tuned-border {
     border-bottom: solid;
     border-color: #af65af;
     font-size: 28px;
+    padding-bottom: 4%;
 }
 
 .walker-border {
     border-bottom: solid;
     border-color: #e1dea0;
     font-size: 28px;
+    padding-bottom: 4%;
 }
 
 .murder-scene {
@@ -488,6 +500,10 @@ button {
         padding: 12px 0px;
         font-size: 19px;
     }
+
+    .band-quotes {
+        line-height: 1.5rem;
+    }
 }
 
 @media (max-width: 991px) {
@@ -520,6 +536,10 @@ button {
         font-size: 16px;
     }
 
+    .grafitti-image .col-8 {
+        margin-top: 1.5rem;
+    }
+
     .band-members {
         display: none;
     }
@@ -537,6 +557,7 @@ button {
         display: inherit;
         color: #ffffff;
         text-align: center;
+        line-height: 1.8rem;
     }
 
     .band-members-mobile .container {
@@ -636,7 +657,6 @@ button {
     .header-text {
         font-size: 0.9rem;
         margin-top: 5px;
-        margin-bottom: -10px;
     }
 
     .tabletsizeandabove-row {
@@ -669,7 +689,7 @@ button {
         border-color: #ec3135;
         margin: 0 auto;
         border-width: thin;
-        margin-bottom: 1%;
+        margin-bottom: 5%;
         margin-top: 5%;
     }
 
@@ -705,6 +725,7 @@ button {
 
     .band-quotes-mobile p {
         font-size: 11px;
+        line-height: 1rem;
     }
 
     .walker-border strong {
