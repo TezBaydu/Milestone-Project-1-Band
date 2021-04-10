@@ -941,20 +941,8 @@ button {
         margin-right: 0;
     }
 
-    .logo-music .row {
-        visibility: inherit;
-        place-content: center;
-        background-image: url(../images/Council-Culture-Boombox-Logo.gif);
-        height:300px;
-        width: 450px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        z-index: 2;
-    }
-
     .banner-music {
-        margin-top: 10px;
+        margin-top: 18%;
         margin-bottom: 10px;
         place-content: center;
         background-color: #ec3134bd;
@@ -1067,10 +1055,18 @@ button {
     }
 
     .logo-music .row {
+        visibility: inherit;
+        margin-top: 10px;
+        place-content: center;
+        background-image: url(../images/Council-Culture-Boombox-Logo.gif);
+        height:300px;
         width: 220px;
         background-position: top;
-        margin-top: 10px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 2;
     }
+
 
     .banner-music {
         display: none;
