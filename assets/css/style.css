@@ -322,6 +322,7 @@ button {
 
 .tabletsizeandabove-row .col-6 {
     padding-top: 1%;
+    line-height: 2;
 }
 
 .mobile-row {
@@ -1295,7 +1296,7 @@ button {
 
 .room-2 img {
     width: 400px;
-    mix-blend-mode: color-burn;
+    mix-blend-mode: darken;
     margin-left: 70%;
     margin-top: -500px;
     padding-bottom: 5%;
@@ -1516,10 +1517,12 @@ button {
 
 .contact-boombox .col {
     padding-left: 0;
+    padding-right: 0;
 }
 
 .contact-boombox form {
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 /*----------- Contacts Page - contact form  -----------------*/
@@ -1542,8 +1545,17 @@ form {
     z-index: 60;
 }
 
-.last-name {
+.contact-boombox .names-row {
+    width: auto;
+    padding-top: 8%;
+}
+
+.contact-boombox .first-name {
     padding-right: 3%;
+}
+
+.last-name {
+    padding-right: 0;
 }
 
 .bd-example::after {
@@ -1648,17 +1660,17 @@ form {
     }
 
     .last-name {
-        padding-right: 5%;
+        padding-right: 0;
     }
 
     .form-group {
         margin-bottom: 0.5rem;
         margin-top: -15px;
-        width: 108%;
+        width: 100%;
     }
 
     .custom-select {
-        width: 108%;
+        width: 100%;
     }
 
     .court-estate {
