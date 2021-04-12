@@ -1178,6 +1178,11 @@ button {
         margin-left: -5%;
     }
 
+    .last-album-container {
+        text-align: -webkit-center;
+        text-align: -moz-center;
+    }
+
     .aftermath-mobile-list {
         width: max-content;
         text-align: center;

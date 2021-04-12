@@ -83,7 +83,7 @@
             - change to max-content
     - music.html
         - .aftermath-mobile-list css max-width: fit-content not recognised.
-            - changed to width: max content and text-align: center
+            - changed to width: max content and text-align: -webkit-center AND -moz-center so works with firefox too
     - events.html
         - .table-section min-width: fit content not needed
             - removed
