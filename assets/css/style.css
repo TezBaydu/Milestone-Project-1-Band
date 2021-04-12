@@ -1508,6 +1508,10 @@ button {
     background-size: cover;
 }
 
+.back-contact-boombox {
+    background-color: #d3effb;
+}
+
 .contact-boombox .row {
     padding-top: 80px;
     width: 75%;
