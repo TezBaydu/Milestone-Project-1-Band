@@ -133,10 +133,6 @@
 
  /*----------- Footer Same for all pages -----------------*/
 
-svg {
-    display: none;
-}
-
 footer {
     background-color: rgba(214, 16, 32, 0.7);
     min-height: 60px;
@@ -1754,4 +1750,3 @@ form {
     stroke-dasharray  : 298.1371428256714;
     stroke-dashoffset : 298.1371428256714;
 }
-
