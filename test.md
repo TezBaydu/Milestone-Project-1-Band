@@ -3,7 +3,7 @@
 ## Testing
 
 #### Commits
-- 125 commits
+- Over 120 commits
 - Commits made in as many instances as possible and although not described well to begin with this got better during the length of the project.
 
 #### Code Testing

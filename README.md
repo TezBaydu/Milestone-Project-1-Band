@@ -25,7 +25,7 @@
      1. [Commits](#Commits)
      2. [Code testing](#Code-testing)
      3. [Browser testing](#Browser-testing)
-     4. [Device testing](#Device testing)
+     4. [Device testing](#Device-testing)
      5. [Colour blindness Testing](#Colour-blindness-testing)
      6. [User testing](#User-testing)
 8. [Deployment](#Deployment)
@@ -349,10 +349,10 @@ This project has four separate pages found by clicking on the relevant name foun
 [Back to top ⇧](#Project-Council-Culture)
 
 ## Testing 
-Look at [Test.md file](#Project-Council-Culture-Test-file) for more detail
+Look at [Test.md file](https://github.com/TezBaydu/Milestone-Project-1-Band/blob/master/test.md) for more detail
 
 #### Commits
-- 125
+- Over 120 commits
 
 #### Code Testing
 - HTML 
