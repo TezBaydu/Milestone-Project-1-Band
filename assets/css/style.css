@@ -73,12 +73,10 @@
 @media (min-width: 992px) {
     .navbar-expand-lg {
     display: none;
-    flex-basis: none;
     }
 
     .navbar-collapse {
         display: none;
-        flex-basis: none;
     }
 }
 

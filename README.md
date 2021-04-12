@@ -1,6 +1,6 @@
 # Project Council Culture
 
-![image Code Institute Milestone Project 1](assets/images/band-group.png)
+![Council Culture device image](assets/images/council-culture-devices.jpg)
 
 [Council Culture](https://tezbaydu.github.io/Milestone-Project-1-Band/)
 
@@ -104,7 +104,7 @@ This project has four separate pages found by clicking on the relevant name foun
     * A Band logo which leads the user back to 'Home' when clicked.
     * Mobile version to be a dropdown menu
 - Footer with links to social media, download/purchase options.
-- Consistent colours: 
+- Consistent colours (although variations may be used to suit): 
     * lightgoldenrodyellow 
         * #ffffd5 / #ffd / hsl(60,100,91) / rgb(255,255,213)
     * crimson
@@ -199,6 +199,8 @@ This project has four separate pages found by clicking on the relevant name foun
 
 - [RGBlind chrome extension]
 
+- [Eye Dropper extension]
+
 [Back to top ⇧](#Project-Council-Culture)
 
 ### Mentor Questions
@@ -215,6 +217,7 @@ This project has four separate pages found by clicking on the relevant name foun
     - done
 
 - Use image from am i responsive design checker in readme
+    - done
 
 - Change Java to JavaScript in credit notes
     - done
@@ -252,7 +255,6 @@ This project has four separate pages found by clicking on the relevant name foun
     - Padding top and bottom added by 1%
     - Margin bottom negative so sticks to bottom
         - done
-
 
 - IPAD
     - Nav bar, not Nav button
@@ -317,7 +319,7 @@ This project has four separate pages found by clicking on the relevant name foun
 - Index.html
     * list-inline header-download
         * needs page to reload for it to sit horizontally....? Even on responsive design checker - associated to list-inline-item style.css line 532: to work on.
-            - done
+            - done by adjusting css code on line 532.
 
 - css code checker
     * Sorry! We found the following errors (2)
@@ -326,15 +328,18 @@ This project has four separate pages found by clicking on the relevant name foun
         * 6	.accordion	Property overflow-anchor doesn't exist : none
     - This is the code asked to be copied from bootstrap but is showing errors on a couple of styles not encoded
         - Is a Bootstrap issue therefore no problem as long as it doesn't have an affect on the site.
+            - done
 
     * Warnings
         * these extensions are recognised in chrome but not in validator
             * This issue is with bootstrap and is ok to be noted as does not affect website proficiency.
+                - done
     
     * svg code for colourblindness not displayed as causes a row under footer.
         * by activating CSS display: none the row is removed visually, even though this did not impact on devices directly it was done this way to ensure assessments were not mis-directed.
             - Problem as this also removes the play button - Question for Mentor as adjustment isn't associated to CSS or HTML and directly affecting Browser as is part of colour blindness extension?
                 - Solution: RGBlind Extension was automatically applying to css. Updated extension so it only activates when RGBlind button is pressed in browser.
+                    - done
 
 [Back to top ⇧](#Project-Council-Culture)
 

@@ -12,20 +12,45 @@
     - Initial test highlighted several instances of unsutiable code of which have been updated.
         * Associated to commits on 16th March 2021 and 18th March 2021
 
+    - re-test performed 12/04/2021 after adjustments post 18/03/2021
+        - index.html: Document checking completed. No errors or warnings to show.
+        - music.html: Document checking completed. No errors or warnings to show.
+        - events.html: Document checking completed. No errors or warnings to show.
+        - contact.html: Document checking completed. No errors or warnings to show.
+
 - CSS
     - [CSS code checker](https://jigsaw.w3.org/css-validator/)
     - Initial test highlighted several instances of unsutiable code of which have been updated.
         * Associated to commits on 16th March 2021 and 18th March 2021
-    * Sorry! We found the following errors (2)
-        * URI : https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css
-            * 6	abbr[data-original-title], abbr[title]	Property text-decoration-skip-ink doesn't exist : none
-            * 6	.accordion	Property overflow-anchor doesn't exist : none
-        - This is the code asked to be copied from bootstrap but is showing errors on a couple of styles not encoded.
-        - As these are coding issues in bootstrap but doesn't affect website is considered accepatble.
+            * Sorry! We found the following errors (2)
+                * URI : https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css
+                    * 6	abbr[data-original-title], abbr[title]	Property text-decoration-skip-ink doesn't exist : none
+                    * 6	.accordion	Property overflow-anchor doesn't exist : none
+                        - This is the code asked to be copied from bootstrap but is showing errors on a couple of styles not encoded.
+                        - As these are coding issues in bootstrap but doesn't affect website is considered acceptable.
 
-    * Warnings
-        * Extensions recognised in browsers but not in validator
-        * Considered acceptable as doesn't affect website.
+    
+
+    - Re-test performed 12/04/2021 after adjustments post 18/03/2021
+        * Sorry! We found the following errors (4)
+                * URI : https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css
+                    * 6	abbr[data-original-title], abbr[title]	Property text-decoration-skip-ink doesn't exist : none
+                    * 6	.accordion	Property overflow-anchor doesn't exist : none
+                        - This is the code asked to be copied from bootstrap but is showing errors on a couple of styles not encoded.
+                        - As these are coding issues in bootstrap but doesn't affect website is considered acceptable.
+
+
+                * URI : https://tezbaydu.github.io/Milestone-Project-1-Band/assets/css/style.css
+                    * 76	.navbar-expand-lg	none is not a flex-basis value : none
+                    * 81	.navbar-collapse	none is not a flex-basis value : none
+                        - values removed from css once found is not required in inspect mode in Chrome.
+        
+        - Warnings (787): unknown vendor extensions
+            * Extensions recognised in browsers but not in validator
+            * Considered acceptable as doesn't affect website.
+                
+
+    
 
 - Javascript
     - [Extends Class JavaScript validator](https://extendsclass.com/javascript-fiddle.html)
@@ -63,3 +88,5 @@
 
 - Make buttons slightly bigger for mobile, however still works when small (similar size as letters when typing)
     * Adjusted larger as design has carried on.
+
+- Letter spacing looks much better
