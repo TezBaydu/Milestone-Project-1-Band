@@ -21,7 +21,7 @@
 5. [Mentor questions](#Mentor-Questions)
     1. [Meeting 2](#Mentor-Meeting-2)
 6. [Bugs and Issues](#Bugs)
-7. [Testing](#Testing)
+7. [Testing](#Testing) / [Testing detail file](https://github.com/TezBaydu/Milestone-Project-1-Band/blob/master/test.md)
      1. [Commits](#Commits)
      2. [Code testing](#Code-testing)
      3. [Browser testing](#Browser-testing)
@@ -349,7 +349,7 @@ This project has four separate pages found by clicking on the relevant name foun
 [Back to top ⇧](#Project-Council-Culture)
 
 ## Testing 
-Look at [Test.md file](https://github.com/TezBaydu/Milestone-Project-1-Band/blob/master/test.md) for more detail
+   -    ### View [Test.md file](https://github.com/TezBaydu/Milestone-Project-1-Band/blob/master/test.md) for more detail
 
 #### Commits
 - Over 120 commits
