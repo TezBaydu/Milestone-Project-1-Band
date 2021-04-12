@@ -22,10 +22,12 @@
     1. [Meeting 2](#Mentor-Meeting-2)
 6. [Bugs and Issues](#Bugs)
 7. [Testing](#Testing)
-     1. [Code testing](#Code-testing)
-     2. [Browser testing](#Browser-testing)
-     3. [Colour blindness Testing](#Colour-blindness-testing)
-     2. [User testing](#User-testing)
+     1. [Commits](#Commits)
+     2. [Code testing](#Code-testing)
+     3. [Browser testing](#Browser-testing)
+     4. [Device testing](#Device testing)
+     5. [Colour blindness Testing](#Colour-blindness-testing)
+     6. [User testing](#User-testing)
 8. [Deployment](#Deployment)
 9. [Credits](#Credits)
 
@@ -162,40 +164,43 @@ This project has four separate pages found by clicking on the relevant name foun
 - CSS3
     * Code used to style content
 
-- [Coolors - colour collage](https://coolors.co/)
+- [Coolors - colour collage](https://coolors.co)
 
 - [Pixabay - images](https://pixabay.com)
 
-- [Decades.com - advisory notice](https://www.decades.com/)
+- [Decades.com - advisory notice](https://www.decades.com)
 
-- [Github](https://github.com/)
+- [Github](https://github.com)
 
-- [Gitpod](https://www.gitpod.io/)
+- [Gitpod](https://www.gitpod.io)
 
-- [Bootstrap](https://getbootstrap.com/)
+- [Bootstrap](https://getbootstrap.com)
     * Version 4.5 (Latest version at the time of this projects creation)
 
 - [Figma](https://www.figma.com)
     * [project wireframe](https://www.figma.com/proto/IADuVbH1W00VbiRkhlDqdY/milestone-project-1-band?node-id=5%3A71&scaling=min-zoom)
 
-- [Font Awesome](https://fontawesome.com/v4.7.0/)
+- [Font Awesome](https://fontawesome.com/v4.7.0)
     * version 4.7
 
-- [Bootstrapcdn](https://www.bootstrapcdn.com/)
+- [Bootstrapcdn](https://www.bootstrapcdn.com)
 
-- [Audio Trimmer](https://audiotrimmer.com/)
+- [Audio Trimmer](https://audiotrimmer.com)
 
-- [Responsive design checker](https://responsivedesignchecker.com/)
+- [Responsive design checker](https://responsivedesignchecker.com)
 
-- [Am I responsive](http://ami.responsivedesign.is/)
+- [Am I responsive](http://ami.responsivedesign.is)
 
-- [HTML code checker](https://validator.w3.org/)
+- [HTML code checker](https://validator.w3.org)
 
-- [CSS code checker](https://jigsaw.w3.org/css-validator/)
+- [CSS code checker](https://jigsaw.w3.org/css-validator)
 
 - [Extends Class JavaScript validator](https://extendsclass.com/javascript-fiddle.html)
 
-- [Browser test site - Browser|Shots](http://browsershots.org/)
+- [Browser test site - Browser|Shots](http://browsershots.org)
+    - Became inaffective 12/04/2021
+
+- [Browser site testing - BrowserStack](http://browserstack.com)
 
 - [RGBlind chrome extension]
 
@@ -331,7 +336,7 @@ This project has four separate pages found by clicking on the relevant name foun
             - done
 
     * Warnings
-        * these extensions are recognised in chrome but not in validator
+        * these extensions are recognised in browsers but not in validator
             * This issue is with bootstrap and is ok to be noted as does not affect website proficiency.
                 - done
     
@@ -343,41 +348,37 @@ This project has four separate pages found by clicking on the relevant name foun
 
 [Back to top ⇧](#Project-Council-Culture)
 
-### Testing
+## Testing 
+Look at [Test.md file](#Project-Council-Culture-Test-file) for more detail
+
+#### Commits
+- 125
+
 #### Code Testing
-
 - HTML 
-
 - CSS
-
 - Java
-    * Checked Javascript code against [Extends Class JavaScript validator](https://extendsclass.com/javascript-fiddle.html)
-        * Updated to add semicolons where expected
-
+   
 #### Browser testing
 
-- Tested on Browsershots.org
-    *HTTP_USER_AGENT 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'
-    * One error: What does it mean....?
-        * Exception Type:	AttributeError
-        Exception Value:	'SafeText' object has no attribute 'status_code'
-        Exception Location:	/usr/local/lib/python2.7/dist-packages/django/middleware/locale.py in process_response, line 41
-        Python Executable:	/usr/bin/python
-        Python Version:	2.7.17
+- Browsershots.org
+- Chrome
+- Firefox
+- Microsoft Edge
+- Safari
 
-        * Looked online in stack overflow and has been answered but involves Django:
-            *https://stackoverflow.com/questions/43987462/django-safetext-object-has-no-attribute-get
+#### Device testing
+
+- [Responsive design checker](https://responsivedesignchecker.com)
+- [Am I responsive](http://ami.responsivedesign.is)
 
 #### Colour blindness testing
 
-- Adjusted Home page h1 to have a contrasting background to work with Protanopia
+- RGBlind Chrome extensions
 
 #### User Testing
 
-- Align mobile contact image
-
-- Make buttons slightly bigger for mobile, however still work when small (similar size as letters when typing)
-    * Adjusted larger as design has carried on.
+- Friends & Family testing
 
 [Back to top ⇧](#Project-Council-Culture)
 
@@ -395,7 +396,8 @@ This project has four separate pages found by clicking on the relevant name foun
 ### Credits
 
 - Council Culture
-    * Music by band Council Culture
+    * Music by band Council Culture.
+        * Music created as a result of project.
         * Watch this space!
 
 - Terry Downs
@@ -408,5 +410,5 @@ This project has four separate pages found by clicking on the relevant name foun
     * For her positive, excitable response to the design and advice
 
 - Friends and family
-    * For plenty of user testing
+    * For patience and encouragement during course and user testing
 

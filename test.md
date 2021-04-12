@@ -3,6 +3,7 @@
 ## Testing
 
 #### Commits
+- 125 commits
 - Commits made in as many instances as possible and although not described well to begin with this got better during the length of the project.
 
 #### Code Testing
@@ -73,34 +74,41 @@
             *https://stackoverflow.com/questions/43987462/django-safetext-object-has-no-attribute-get
     - Not considered an issue as website is working effectively on all browsers.
 
-- Microsoft Edge
+- Firefox (version 87.0)
+    - Tested on own version
+        - index.html
+            - .header-text h1 css width: fit-content not recognised
+                - change to max-content
+        - music.html
+            - .aftermath-mobile-list css max-width: fit-content not recognised.
+                - changed to width: max content and text-align: -webkit-center AND -moz-center so works with firefox too
+        - events.html
+            - .table-section min-width: fit content not needed
+                - removed
+            - .table height:fit-content 
+                - removed
+        - contacts.html
+            - .darren-quote width: fit-content not recognised
+                - changed to width: max content
+                - also text-align: -moz-center to centralise in firefox too
+            - Form test successful
+
+- Microsoft Edge (version 89.0)
     - Tested on own version of Microsoft Edge (version 89)
         - No link, element or aesthetic issues
 
-- Firefox
-    - index.html
-        - .header-text h1 css width: fit-content not recognised
-            - change to max-content
-    - music.html
-        - .aftermath-mobile-list css max-width: fit-content not recognised.
-            - changed to width: max content and text-align: -webkit-center AND -moz-center so works with firefox too
-    - events.html
-        - .table-section min-width: fit content not needed
-            - removed
-        - .table height:fit-content 
-            - removed
-    - contacts.html
-        - .darren-quote width: fit-content not recognised
-            - changed to width: max content
-            - also text-align: -moz-center to centralise in firefox too
-        - Form test successful
+- Safari
+    - Decided to sign up for free trial on Browserstack.com after stackoverflow advice
+        - Design and visual tests successful on mojave, catalina and big sur.
+        - Only have 1 minute of free testing so attempted as best as could without having to purchase a package.
 
 
 #### Device testing
 - Responsiveness checks performed during development.
-    - Finalised checks via [Responsive design checker](https://responsivedesignchecker.com/)
+    - Finalised checks via [Responsive design checker](https://responsivedesignchecker.com)
         - Checked on various devices and found issue with Nexus 7 where contacts page wasn't filling to bottom of screen.
             - adjusted quote margin to help fill gap
+- Also tested on [Am I responsive](http://ami.responsivedesign.is) and found no issues
 
 
 #### Colour blindness testing
@@ -117,3 +125,5 @@
     * Adjusted larger as design has carried on.
 
 - Letter spacing looks much better
+
+- Image behind mobile deflects from form on mobile version 
