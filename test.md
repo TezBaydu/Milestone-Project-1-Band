@@ -45,6 +45,7 @@
             * 76	.navbar-expand-lg	none is not a flex-basis value : none
             * 81	.navbar-collapse	none is not a flex-basis value : none
                 *   values removed from css once found is not required in inspect mode in Chrome.
+                * Re-tested again and after borders applied to album titles and No errors found in CSS files.
         
     - Warnings (787): unknown vendor extensions
         * Extensions recognised in browsers but not in validator
@@ -59,7 +60,7 @@
 
 #### Browser testing
 
-- Tested on Browsershots.org
+- Tested on Browsershots.org - Retested 12/04/2021 and site no longer in use !
     * HTTP_USER_AGENT 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'
     * One error:
         * Exception Type:	AttributeError
@@ -71,6 +72,12 @@
         * Looked online in stack overflow and has been answered but involves Django:
             *https://stackoverflow.com/questions/43987462/django-safetext-object-has-no-attribute-get
     - Not considered an issue as website is working effectively on all browsers.
+
+- Microsoft Edge
+    - Tested on own version of Microsoft Edge (version 89)
+        - No link, element or aesthetic issues
+
+
 
 #### Device testing
 - Responsiveness checks performed during development.
