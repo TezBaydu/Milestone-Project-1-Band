@@ -187,6 +187,8 @@ This project has four separate pages found by clicking on the relevant name foun
 
 - [Responsive design checker](https://responsivedesignchecker.com/)
 
+- [Am I responsive](http://ami.responsivedesign.is/)
+
 - [HTML code checker](https://validator.w3.org/)
 
 - [CSS code checker](https://jigsaw.w3.org/css-validator/)

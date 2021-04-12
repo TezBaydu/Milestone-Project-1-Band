@@ -46,6 +46,12 @@
             *https://stackoverflow.com/questions/43987462/django-safetext-object-has-no-attribute-get
     - Not consdiered an issue as website is working effectively on all browsers.
 
+#### Device testing
+- Responsiveness checks performed during development.
+    - Finalised checks via [Responsive design checker](https://responsivedesignchecker.com/)
+        - Checked on various devices and found issue with Nexus 7 where contacts page wasn't filling to bottom of screen.
+            - adjusted quote margin to help fill gap
+
 
 #### Colour blindness testing
 - Extension RGBlind downloaded for testing against colour blindness Protanopia and Deuteranopia
