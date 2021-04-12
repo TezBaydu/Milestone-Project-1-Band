@@ -850,22 +850,37 @@ button {
 
 .sc-ones {
     color: #4fb7bc;
+    background-color: black;
+    padding: 3%;
+    border-radius: 5px;
 }
 
 .afterlife {
     color:#ec3135;
+    background-color: black;
+    padding: 3%;
+    border-radius: 5px;
 }
 
 .routes {
     color: #ffffd5;
+    background-color: black;
+    padding: 3%;
+    border-radius: 5px;
 }
 
 .invisible-title {
     color: #ffffff;
+    background-color: black;
+    padding: 3%;
+    border-radius: 5px;
 }
 
 .aftermath {
     color: #969696;
+    background-color: black;
+    padding: 3%;
+    border-radius: 5px;
 }
 
 .titles-mobile {
@@ -1157,6 +1172,10 @@ button {
 
     .invisible-mobile-col {
         padding-left: 14%;
+    }
+
+    .aftermath {
+        margin-left: -5%;
     }
 
     .aftermath-mobile-list {

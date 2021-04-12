@@ -33,21 +33,22 @@
 
     - Re-test performed 12/04/2021 after adjustments post 18/03/2021
         * Sorry! We found the following errors (4)
-                * URI : https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css
-                    * 6	abbr[data-original-title], abbr[title]	Property text-decoration-skip-ink doesn't exist : none
-                    * 6	.accordion	Property overflow-anchor doesn't exist : none
-                        - This is the code asked to be copied from bootstrap but is showing errors on a couple of styles not encoded.
-                        - As these are coding issues in bootstrap but doesn't affect website is considered acceptable.
+            -   URI : https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css
+                * 6	abbr[data-original-title], abbr[title]	Property text-decoration-skip-ink doesn't exist : none
+                * 6	.accordion	Property overflow-anchor doesn't exist : none
+
+            * This is the code asked to be copied from bootstrap but is showing errors on a couple of styles not encoded.
+                * As these are coding issues in bootstrap but doesn't affect website is considered acceptable.
 
 
-                * URI : https://tezbaydu.github.io/Milestone-Project-1-Band/assets/css/style.css
-                    * 76	.navbar-expand-lg	none is not a flex-basis value : none
-                    * 81	.navbar-collapse	none is not a flex-basis value : none
-                        - values removed from css once found is not required in inspect mode in Chrome.
+        - URI : https://tezbaydu.github.io/Milestone-Project-1-Band/assets/css/style.css
+            * 76	.navbar-expand-lg	none is not a flex-basis value : none
+            * 81	.navbar-collapse	none is not a flex-basis value : none
+                *   values removed from css once found is not required in inspect mode in Chrome.
         
-        - Warnings (787): unknown vendor extensions
-            * Extensions recognised in browsers but not in validator
-            * Considered acceptable as doesn't affect website.
+    - Warnings (787): unknown vendor extensions
+        * Extensions recognised in browsers but not in validator
+        * Considered acceptable as doesn't affect website.
                 
 
     
@@ -69,7 +70,7 @@
 
         * Looked online in stack overflow and has been answered but involves Django:
             *https://stackoverflow.com/questions/43987462/django-safetext-object-has-no-attribute-get
-    - Not consdiered an issue as website is working effectively on all browsers.
+    - Not considered an issue as website is working effectively on all browsers.
 
 #### Device testing
 - Responsiveness checks performed during development.
@@ -81,6 +82,8 @@
 #### Colour blindness testing
 - Extension RGBlind downloaded for testing against colour blindness Protanopia and Deuteranopia
     - Adjusted Home page h1 to have a contrasting background to work with Protanopia
+    - Music page adjustment on album titles as one album title was not working on parts of the page when scrolling via Protanopia testing.
+        Given all titles a dark background border to help identify album title, even through colour blindness.
 
 #### User Testing
 
