@@ -92,6 +92,7 @@
     - contacts.html
         - .darren-quote width: fit-content not recognised
             - changed to width: max content
+            - also text-align: -moz-center to centralise in firefox too
         - Form test successful
 
 

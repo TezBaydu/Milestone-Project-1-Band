@@ -1587,6 +1587,7 @@ form {
 
 .darren-quote {
     text-align: -webkit-center;
+    text-align: -moz-center;
     margin-top: 350px;
     color: #ffffff;
     font-size: large;
