@@ -1757,3 +1757,7 @@ form {
     stroke-dasharray  : 298.1371428256714;
     stroke-dashoffset : 298.1371428256714;
 }
+
+svg {
+    display: none;
+}
