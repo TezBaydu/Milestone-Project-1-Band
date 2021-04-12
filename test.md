@@ -77,6 +77,22 @@
     - Tested on own version of Microsoft Edge (version 89)
         - No link, element or aesthetic issues
 
+- Firefox
+    - index.html
+        - .header-text h1 css width: fit-content not recognised
+            - change to max-content
+    - music.html
+        - .aftermath-mobile-list css max-width: fit-content not recognised.
+            - changed to width: max content and text-align: center
+    - events.html
+        - .table-section min-width: fit content not needed
+            - removed
+        - .table height:fit-content 
+            - removed
+    - contacts.html
+        - .darren-quote width: fit-content not recognised
+            - changed to width: max content
+        - Form test successful
 
 
 #### Device testing
