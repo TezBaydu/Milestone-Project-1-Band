@@ -1565,11 +1565,18 @@ form {
 /*----------- Contacts Page - Darren the Rudeboy quote  -----------------*/
 
 .darren-quote {
-    text-align: center;
+    text-align: -webkit-center;
     margin-top: 350px;
     color: #ffffff;
     font-size: large;
     font-weight: 600;
+}
+
+.darren-quote p {
+    background-color: rgb(28 21 91 / 80%);
+    width: fit-content;
+    border-radius: 5px;
+    padding: 1%;
 }
 
 /*----------- Contacts Page - Device adjustment -----------------*/

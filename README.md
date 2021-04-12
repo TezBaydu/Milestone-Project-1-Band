@@ -333,9 +333,8 @@ This project has four separate pages found by clicking on the relevant name foun
     
     * svg code for colourblindness not displayed as causes a row under footer.
         * by activating CSS display: none the row is removed visually, even though this did not impact on devices directly it was done this way to ensure assessments were not mis-directed.
-
-        - Problem as this also removes the play button - Question for Mentor as adjustment isn't associated to CSS or HTML and directly affecting Browser as is part of colour blindness extension?
-            - why?
+            - Problem as this also removes the play button - Question for Mentor as adjustment isn't associated to CSS or HTML and directly affecting Browser as is part of colour blindness extension?
+                - Solution: RGBlind Extension was automatically applying to css. Updated extension so it only activates when RGBlind button is pressed in browser.
 
 [Back to top ⇧](#Project-Council-Culture)
 
