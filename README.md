@@ -357,6 +357,15 @@ This project has four separate pages found by clicking on the relevant name foun
                 - Solution: RGBlind Extension was automatically applying to css. Updated extension so it only activates when RGBlind button is pressed in browser.
                     - done
 
+- Sticky Footer
+    - Subsequent issue with sticky footer resolved via Bootstrap resolution.
+
+- Fixed Images in Body
+        - Fixed images in Body replaced after removing from separate div.
+            - This had played havoc with images in foreground (events.html Room-2 jam jar) where wasn't mixing in blend mode for mobile and ipad devices.
+        - Decided to apply separate Div to Contacts page for court-estate image and Events page for the glass-hole image and fill spaces to push images down to fill space.
+
+
 [Back to top ⇧](#Project-Council-Culture)
 
 ## Testing 

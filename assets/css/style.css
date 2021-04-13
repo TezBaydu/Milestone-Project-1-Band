@@ -1108,6 +1108,10 @@ button {
         text-align: center;
     }
 
+    .last-album-container .album-mobile .container {
+        margin-bottom: 0;
+    }
+
     .album-mobile .header-download li a i {
         width: 30px;
         height: 30px;
@@ -1163,7 +1167,7 @@ button {
     }
 
     .aftermath-mobile-list {
-        width: 40%;
+        width: 60%;
         margin: auto
     }
 
@@ -1210,7 +1214,8 @@ button {
   /*----------- Events Page - Backdrop -----------------*/
 
 .glass-hole {
-    background-image: url(../images/glass-broken-icarus-napa-crop.jpg);
+    background-image: url(../images/glass-broken-icarus-napa.jpg);
+    display: flow-root;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -1328,9 +1333,7 @@ button {
     }
 
     .room-2 img {
-        margin-top: 0;
-        margin-left: 0;
-        width: 350px;
+        width: 40%;
     }
 }
 
@@ -1461,8 +1464,6 @@ button {
 
     .room-2 img {
         background-position-y: center;
-        margin-top: 0;
-        margin-left: 0;
     }      
 }
 
@@ -1493,6 +1494,7 @@ button {
 .contact-boombox {
     background-image: url(../images/Boombox-Blue-only-tall.gif);
     background-size: cover;
+    margin-bottom: 30%;
 }
 
 .contact-boombox .row {
