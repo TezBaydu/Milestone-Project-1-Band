@@ -326,7 +326,11 @@ This project has four separate pages found by clicking on the relevant name foun
 
 
 
-### Bugs
+### Bugs and Issues
+
+- Below Bootstrap link obtained from Bootstrapcdn but looks like an older version at 4.5.2 and so has been excluded
+    "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+
 
 - Media play buttons
     * Found a way of having a play button using HTML only, however this caused issues as was unable to toggle between play and pause and when there were several instances in one page music would overplay each other or would play and pause one song at a time, regardless of which button it was associated to.
@@ -364,6 +368,7 @@ This project has four separate pages found by clicking on the relevant name foun
         - Fixed images in Body replaced after removing from separate div.
             - This had played havoc with images in foreground (events.html Room-2 jam jar) where wasn't mixing in blend mode for mobile and ipad devices.
         - Decided to apply separate Div to Contacts page for court-estate image and Events page for the glass-hole image and fill spaces to push images down to fill space.
+
 
 
 [Back to top ⇧](#Project-Council-Culture)
