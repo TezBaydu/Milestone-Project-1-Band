@@ -108,7 +108,7 @@ This user has no interest in punk rock music at all but is looking for imagery o
 3. Be able to see sources for design.
 4. Be able to make contact with Developer.
 
-### Development Planes
+### Development Plan
 Development decisions came from influences from own skillset and experiences to help distinguish requirements to develop website.
 
 #### Strategy
@@ -151,25 +151,71 @@ Development decisions came from influences from own skillset and experiences to 
 ##### Levels of importance
 Below are areas considered for levels of importance and viability
 
-<u>High Importance</u>
+<u>Importance</u>
+1. High
+    * Online presence
+    * Music promotion
+    * Contact portal
+    * Imagery
+2. Medium
+    * Music snips
+    * Events promotion
+3. Low
+    * Sales
 
-1. High viability
-    * Band
-2. Medium viability
-3. Low viability
+<u>Viability</u>
+1. High
+    * Online presence
+    * Music promotion
+    * Contact portal
+    * Events promotion
+2. Medium
+    * Imagery
+3. Low
+    * Music snips
+    * Sales
 
+### Design and Scope
 
+#### Influence
+1. [Ghettoblaster on Pixabay](https://pixabay.com/photos/ghettoblaster-radio-recorder-boombox-1452077/)
+2. Images and Band logo
+    * Graphic Designer (Terry Downs)
 
-### Design
+#### Imagery
+1. Colours
+    *   Based on Band logo
+2. Imagery
+    * Associations to:
+        * Council estates
+        * Crime
+        * Considered Poverty
+3. Band members
+    * Glasses and head covering for mystique
+    * Band member names associated to latest Nike trainers
 
-1.  The design was initally inspired by an image found on Pixabay of a ghettoblaster and once discussed with Graphic Designer (Terry Downs) who sent over images and logo ideas, it breathed the initial elements of the project. Based on some user stories I've decided to focus on the following pages: Home, Music, Events, Contact.
-2. Pages not developed but potential to add: Merchandise, Videos, Gallery
-3. Colour focus is mainly based on the band logo.
-4. Imagery has associations to council estates, crime and considered poverty.
-5. Band members have been given names associated to brands of Nike, this being the preferred trainer footwear at the time.
-6. Band members have been given hats, glasses and certain colour shades to allow for mystique.
-7. Home page is to draw the user and other pages to be more focussed on user requirements.
-8. Pages to have a snippet of music for users to listen to and if wanting to download, these buttons are available also.
+#### Pages
+1. Home
+    * To draw user attention and encourage them to search through site.
+2. Music
+3. Events
+4. Contact
+*  Potential pages to develop
+    1. Merchandise
+    2. Videos
+    3. Gallery
+
+#### Music
+
+1. Council Culture music
+    * Created and produced for this site by newly formed band Council Culture
+2. Music snippets with playable buttons
+
+#### Structure
+
+Hierarchical structure design for simpler user navigation:
+
+![Council Culture Site Structure](assets/images/site-structure.jpg)
 
 [Back to top ⇧](#Project-Council-Culture)
 
