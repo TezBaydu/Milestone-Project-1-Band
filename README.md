@@ -164,6 +164,9 @@ This project has four separate pages found by clicking on the relevant name foun
 - CSS3
     * Code used to style content
 
+- Javascript
+    * Code used for media play buttons
+
 - [Coolors - colour collage](https://coolors.co)
 
 - [Pixabay - images](https://pixabay.com)
