@@ -1,6 +1,6 @@
 # Project Council Culture
 
-![Council Culture device image](assets/images/council-culture-devices.jpg)
+![Council Culture device image](assets/images/council-culture-devices-2.jpg)
 
 [Council Culture](https://tezbaydu.github.io/Milestone-Project-1-Band/)
 
