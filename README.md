@@ -352,7 +352,7 @@ This project has four separate pages found by clicking on the relevant name foun
 [Back to top ⇧](#Project-Council-Culture)
 
 ## Testing 
-   -    ### View [Test.md file](https://github.com/TezBaydu/Milestone-Project-1-Band/blob/master/test.md) for more detail
+       ### View [Test.md file](https://github.com/TezBaydu/Milestone-Project-1-Band/blob/master/test.md) for more detail
 
 #### Commits
 - Over 120 commits
