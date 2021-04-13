@@ -30,6 +30,13 @@
         - music.html: Document checking completed. No errors or warnings to show.
         - events.html: Document checking completed. No errors or warnings to show.
         - contact.html: Document checking completed. No errors or warnings to show.
+    
+    - Test date and time 14/04/2021 00:12
+        - index.html: Document checking completed. No errors or warnings to show.
+        - music.html: Document checking completed. No errors or warnings to show.
+        - events.html: Document checking completed. No errors or warnings to show.
+        - contact.html: Document checking completed. No errors or warnings to show.
+
 
 - CSS
     - [CSS code checker](https://jigsaw.w3.org/css-validator/)
@@ -61,16 +68,43 @@
     - Warnings (787): unknown vendor extensions
         * Extensions recognised in browsers but not in validator
         * Considered acceptable as doesn't affect website.
+
+    - Test date and time 14/04/2021 00:12
+        - Bootstrap errors:
+            - Property text-decoration-skip-ink doesn't exist : none
+            - Property overflow-anchor doesn't exist : none
+        - Warnings (788)
+            - unknown vendor extensions in style.css
+                - -webkit-optimize-contrast
+                - -webkit-center
+                - -moz-center
+                - -webkit-box-sizing
+                - -moz-box-sizing
+                - -webkit-font-smoothing
+                - -moz-font-smoothing
+                - -o-font-smoothing
+            - font-awesome warnings
+            - bootstrap warnings
+
                 
 - Javascript
     - [Extends Class JavaScript validator](https://extendsclass.com/javascript-fiddle.html)
         * Updated to add semicolons where expected
+    
+    - Test date and time 14/04/2021 00:12
+        - Line: 23	Column: 136	
+            - Code: !lunar.hasClass(elem, name) && elem.attr('class', (!!elem.getAttribute('class') ? elem.getAttribute('class') + ' ' : '') + name);	
+                - Expected an assignment or function call and instead saw an expression.
+        - Line 28	Column 64
+            - Code: lunar.hasClass(elem, name) && elem.attr('class', remove);	
+                - Expected an assignment or function call and instead saw an expression.
+ 
 
 [Back to top ⇧](#Project-Council-Culture-Test-file)
 
 #### Browser testing
 
-- Tested on Browsershots.org - Retested 12/04/2021 and site no longer in use !
+- Tested on Browsershots.org - 18/03/2021
     * HTTP_USER_AGENT 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'
     * One error:
         * Exception Type:	AttributeError
@@ -82,6 +116,9 @@
         * Looked online in stack overflow and has been answered but involves Django:
             *https://stackoverflow.com/questions/43987462/django-safetext-object-has-no-attribute-get
     - Not considered an issue as website is working effectively on all browsers.
+
+- Browsershots.org Test date 12/04/2021 
+    - Site no longer in use !
 
 - Firefox (version 87.0)
     - Tested on own version
