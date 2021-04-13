@@ -1,10 +1,22 @@
 # Project Council Culture Test file
 
+[Back to README file](https://github.com/TezBaydu/Milestone-Project-1-Band#readme)
+
 ## Testing
+
+### Contents
+1. [Commits](#Commits)
+2. [Code testing](#Code-testing)
+3. [Browser testing](#Browser-testing)
+4. [Device testing](#Device-testing)
+5. [Colour blindness testing](#Colour-blindness-testing)
+6. [User testing](#User-testing)
 
 #### Commits
 - Over 120 commits
 - Commits made in as many instances as possible and although not described well to begin with this got better during the length of the project.
+
+[Back to top ⇧](#Project-Council-Culture-Test-file)
 
 #### Code Testing
 
@@ -30,8 +42,6 @@
                         - This is the code asked to be copied from bootstrap but is showing errors on a couple of styles not encoded.
                         - As these are coding issues in bootstrap but doesn't affect website is considered acceptable.
 
-    
-
     - Re-test performed 12/04/2021 after adjustments post 18/03/2021
         * Sorry! We found the following errors (4)
             -   URI : https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css
@@ -52,12 +62,11 @@
         * Extensions recognised in browsers but not in validator
         * Considered acceptable as doesn't affect website.
                 
-
-    
-
 - Javascript
     - [Extends Class JavaScript validator](https://extendsclass.com/javascript-fiddle.html)
         * Updated to add semicolons where expected
+
+[Back to top ⇧](#Project-Council-Culture-Test-file)
 
 #### Browser testing
 
@@ -106,6 +115,7 @@
             - Removed style to no visual affect and this may be the cause of Safari issue.
                 - Done
 
+[Back to top ⇧](#Project-Council-Culture-Test-file)
 
 #### Device testing
 - Responsiveness checks performed during development.
@@ -114,12 +124,15 @@
             - adjusted quote margin to help fill gap
 - Also tested on [Am I responsive](http://ami.responsivedesign.is) and found no issues
 
+[Back to top ⇧](#Project-Council-Culture-Test-file)
 
 #### Colour blindness testing
 - Extension RGBlind downloaded for testing against colour blindness Protanopia and Deuteranopia
     - Adjusted Home page h1 to have a contrasting background to work with Protanopia
     - Music page adjustment on album titles as one album title was not working on parts of the page when scrolling via Protanopia testing.
         Given all titles a dark background border to help identify album title, even through colour blindness.
+
+[Back to top ⇧](#Project-Council-Culture-Test-file)
 
 #### User Testing
 
@@ -132,4 +145,6 @@
 
 - Image behind mobile deflects from form on mobile version 
 
-[Back to README](https://github.com/TezBaydu/Milestone-Project-1-Band#readme)
+[Back to top ⇧](#Project-Council-Culture-Test-file)
+
+[Back to README file](https://github.com/TezBaydu/Milestone-Project-1-Band#readme)
