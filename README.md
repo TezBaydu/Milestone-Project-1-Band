@@ -8,7 +8,12 @@
 1. [Introduction](#Introduction)
 2. [UX](#UX)
     1. [Aims](#Aims)
+    2. [Demographic](#Demographic-both-current-and-potential)
     2. [User Stories](#User-stories)
+        1. [Music Fan](#Music-fan)
+        2. [Events organiser](#Events-organiser)
+        3. [Journalist](#Journalist)
+        4. [Web developer](#Web-Developer)
     3. [Design](#Design)
     4. [Wireframe](#Wireframe)
 3. [Features](#Features)
@@ -43,38 +48,119 @@ There is potential for this kind of music to break the market and give the under
 
 [Back to top ⇧](#Project-Council-Culture)
 
-### UX
+## UX
 
-#### Aims
+### Aims
 
 1. To give users a visual experience of what the bands music is portraying.
     * 80's & 90's style punk rock with shades of colour to help represent funk, groove and reggae.
 
-2. Easy navigation to musical tracks, events and contact page
+2. Easy navigation.
 
-3. To be fully responsive to all screens and sizes
+3. Responsive to all screens, sizes and browsers.
 
-#### Demographic both current and potential
+### Demographic both current and potential
 
-1. Nostalgic punk rock audience
+* Nostalgic punk rock audience
+* Music producers
+* Event organisers
+* Media outlets
 
-2. Music producers
+### User stories
 
-3. Event organisers
+#### Music fan
+The user is either a current or potential fan and subscriber of many other groups.
 
-4. Media outlets
+*   This user wants to:
+1. Be able to navigate through the website easily.
+2. Learn about the band members and their influences.
+3. Have an opportunity to listen the the bands music.
+4. Be able to navigate to relevant social links.
+5. Have the opportunity to download or listen to music via downloadable sites.
+6. Be able to contact band and be part of newsletter/e-mail contact list.
+7. Be able to find out where and when band is performing in future.
 
-#### User stories
+#### Events organiser
+This user is an events organiser looking for a punk rock band to be part of a group of bands for an event.
 
-1.  This user is an events organiser looking for a punk rock band to be part of a group of bands for an event. They look for other events the band have performed and reviews they have had.
+*   This user wants to be able to:
+1. View Ppast and future events attending.
+2. Listen to music.
+3. Contact band with message to help detail requirements.
+4. View links to social sites for further details.
 
-2. This user is in their early 50's who is a fan of punk rock looking for other music to listen to. The user is a fan and subscriber of many other groups and may want to know more of this bands progress in the future.
+#### Journalist
+This user is working on a piece about new or current bands breaking the market.
 
-3. This user is a journalist working on a piece about new bands breaking the market. They are completely independent and will also look to give honest opinion of their music based on their own experiences of the band genre.
+* They want to be able to:
+1. Understand where band has come from.
+2. Understand what their music is portraying.
+3. Listen to music.
+4. Find which events band have and will perform.
+5. Contact band for comment and rights issues.
 
-4. This user has no interest in punk rock music at all but is looking for imagery or influence for another project.
+#### Web Developer
+This user has no interest in punk rock music at all but is looking for imagery or influence for another project.
 
-#### Design
+* They want to be able to:
+1. Have easy navigation.
+2. Find how the website was created.
+3. Be able to see sources for design.
+4. Be able to make contact with Developer.
+
+### Development Planes
+Development decisions came from influences from own skillset and experiences to help distinguish requirements to develop website.
+
+#### Strategy
+
+##### Demographic
+1. Nostalgic Punk Rock fans
+    * 18-60 year olds
+2. Rock events organisers
+3. Journalists
+    * Rock band publications
+4. Web developers
+    * 1st stage students with basic HTML, CSS and minimal Javascript knowledge
+5. Friends 
+    * Who now want to form a band...!!! (Watch this space)
+
+##### Understanding the audience
+1. Personality
+    * Sense of humour
+    * Looking for something different
+2. Lifestyle
+    * Politically aware
+    * Modern
+    * Music lovers
+    * Interested in talented bands naturally formed
+
+##### User and Band members requirements
+1. User
+    * View and understand Band
+    * Listen to and download music
+    * View upcoming events
+    * Make contact directly or through social sites
+
+2. Band members
+    * Develop online presence
+    * Provide format for latest releases and content
+    * Announce upcoming events
+    * Capture fan data for future communication
+    * Provide opportunity for media enquiries
+
+##### Levels of importance
+Below are areas considered for levels of importance and viability
+
+<u>High Importance</u>
+
+1. High viability
+    * Band
+2. Medium viability
+3. Low viability
+
+
+
+### Design
 
 1.  The design was initally inspired by an image found on Pixabay of a ghettoblaster and once discussed with Graphic Designer (Terry Downs) who sent over images and logo ideas, it breathed the initial elements of the project. Based on some user stories I've decided to focus on the following pages: Home, Music, Events, Contact.
 2. Pages not developed but potential to add: Merchandise, Videos, Gallery
@@ -87,7 +173,7 @@ There is potential for this kind of music to break the market and give the under
 
 [Back to top ⇧](#Project-Council-Culture)
 
-#### Wireframe
+### Wireframe
 
 - Designed in [Figma](https://www.figma.com/file/IADuVbH1W00VbiRkhlDqdY/milestone-project-1-band?node-id=0%3A1)
 
@@ -105,11 +191,11 @@ There is potential for this kind of music to break the market and give the under
 
 [Back to top ⇧](#Project-Council-Culture)
 
-### Features
+## Features
 
 This project has four separate pages found by clicking on the relevant name found in a menu
 
-#### Consistency
+### Consistency
 
 - Design with menu placing in the same position.
     * A Band logo which leads the user back to 'Home' when clicked.
@@ -133,7 +219,7 @@ This project has four separate pages found by clicking on the relevant name foun
     * to use additional in case montserrat isn't available for users:
         * Ariel & sans serif
 
-#### Home
+### Home
 
 - Concert image and other images of band members
 - Statement of the bands music, influence and history
@@ -141,14 +227,14 @@ This project has four separate pages found by clicking on the relevant name foun
 - Music Reviews
 - Latest single bulletin with a snippet of playable track
 
-#### Music
+### Music
 
 - List of albums and tracks
 - Images of album covers
 - Downloadable music content
 - Snippets of some playable tracks to lure user
 
-#### Events
+### Events
 
 - Reviews of past band performances.
 - Calendar of Events
@@ -156,7 +242,7 @@ This project has four separate pages found by clicking on the relevant name foun
     * Places clicked links to venue and map location.
 - Quotes from fans and followers.
 
-#### Contact
+### Contact
 
 - Form to be filled in for 
     * event enquiries to book band to perform
@@ -165,7 +251,7 @@ This project has four separate pages found by clicking on the relevant name foun
 
 [Back to top ⇧](#Project-Council-Culture)
 
-### Technologies Used
+## Technologies Used
 
 - HTML5
     * Code used to provide content to the website
@@ -220,7 +306,7 @@ This project has four separate pages found by clicking on the relevant name foun
 
 [Back to top ⇧](#Project-Council-Culture)
 
-### Bugs and Issues
+## Bugs and Issues
 
 - Below Bootstrap link obtained from Bootstrapcdn but looks like an older version at 4.5.2 and so has been excluded
     "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -270,15 +356,15 @@ This project has four separate pages found by clicking on the relevant name foun
 ## Testing 
 -   ### View [Test.md file](https://github.com/TezBaydu/Milestone-Project-1-Band/blob/master/test.md) for more detail
 
-#### Commits
+### Commits
 - Over 120 commits
 
-#### Code Testing
+### Code Testing
 - HTML 
 - CSS
 - Java
    
-#### Browser testing
+### Browser testing
 
 - Browsershots.org
 - Chrome
@@ -286,24 +372,24 @@ This project has four separate pages found by clicking on the relevant name foun
 - Microsoft Edge
 - Safari
 
-#### Device testing
+### Device testing
 
 - [Responsive design checker](https://responsivedesignchecker.com)
 - [Am I responsive](http://ami.responsivedesign.is)
 
-#### Colour blindness testing
+### Colour blindness testing
 
 - RGBlind Chrome extensions
 
-#### User Testing
+### User Testing
 
 - Friends & Family testing
 
 [Back to top ⇧](#Project-Council-Culture)
 
-### Deployment
+## Deployment
 
-#### Deploying via GitHub Pages
+### Deploying via GitHub Pages
 
 1. Log into GitHub and look for [https://github.com/TezBaydu/Milestone-Project-1-Band] or create an account.
 2. Click on settings and ensure repository name is selected to Milestone-Project-1-Band.
@@ -311,7 +397,7 @@ This project has four separate pages found by clicking on the relevant name foun
 4. Click save and wait for site to be published.
 5. Click link in GitHub Pages section to view published site.
 
-#### Forking repository
+### Forking repository
 
 Forking a repository in GitHub is used to make a copy of a repository which you do not have rights access to. Once you have forked a repository you will be able to make changes without affecting the original. It can also be used to suggest changes of an original project and/or propose a project as starting point.
 
@@ -320,7 +406,7 @@ Steps on Forking a repository:
 2. At the top right hand corner of the page select "Fork".
 3. You should now have a copy of the original repository to work with on your account without affecting the original.
 
-#### Cloning a repository
+### Cloning a repository
 
 Cloning a repository in GitHub allows you to make a copy of your own repository which will affect the original repository.
 If you wish to make changes which do not affect the original then this should be forked.
@@ -343,7 +429,7 @@ For further help and info you can select [Cloning and Forking repositories](http
 
 [Back to top ⇧](#Project-Council-Culture)
 
-### Credits
+## Credits
 
 - Council Culture
     * Music by band Council Culture.
