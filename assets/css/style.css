@@ -133,7 +133,6 @@
 
 footer {
     background-color: rgba(214, 16, 32, 0.7);
-    min-height: 60px;
     padding-bottom: 1%;
     padding-top: 1%;
 }
@@ -637,6 +636,10 @@ button {
         text-align: -webkit-center;
     }
 
+    .header-download {
+        margin-bottom: 25px;
+    }
+
     .header-download li a i {
         width: 35px;
         height: 35px;
@@ -978,7 +981,6 @@ button {
     .album-ipad .container {
         padding-left: 0;
         padding-right: 0;
-        margin-bottom: -25px;
         text-align: center;
     }
 
@@ -1079,8 +1081,13 @@ button {
         display: none
     }
 
+    .album-mobile .aftermath-img {
+        width: 35%;
+        height: 60%;
+    }
+
     .album-mobile img {
-    width: 40%;
+    width: 70%;
     margin: 0 auto 0;
     height: 50%;
     image-rendering: -webkit-optimize-contrast;
@@ -1099,10 +1106,6 @@ button {
         padding-right: 0;
         margin-bottom: -25px;
         text-align: center;
-    }
-
-    .album-mobile img {
-        width: 80%;
     }
 
     .album-mobile .header-download li a i {
@@ -1144,12 +1147,7 @@ button {
 
     .titles-mobile li {
         margin-right: 0;
-        font-size: 12px;
-    }
-
-    .titles-mobile .row {
-        padding-left: 10%;
-        padding-bottom: 3%;
+        font-size: 11px;
     }
 
     .titles-mobile {
@@ -1160,32 +1158,13 @@ button {
         background-color: rgba(78, 78, 78, 0.9);
         border-radius: 5px;
         margin-bottom: 10px;
-    }
-
-    .titles-mobile p {
-        margin-left: -12%;
-    }
-
-    .afterlife-mobile-col {
-        padding-left: 14%;
-    }
-
-    .invisible-mobile-col {
-        padding-left: 14%;
-    }
-
-    .aftermath {
-        margin-left: -5%;
-    }
-
-    .last-album-container {
-        text-align: -webkit-center;
-        text-align: -moz-center;
+        list-style-position: inside;
+        text-align: center;
     }
 
     .aftermath-mobile-list {
-        width: max-content;
-        text-align: center;
+        width: 40%;
+        margin: auto
     }
 
     .logo-music .row {
