@@ -101,6 +101,10 @@
     - Decided to sign up for free trial on Browserstack.com after stackoverflow advice
         - Design and visual tests successful on mojave, catalina and big sur.
         - Only have 1 minute of free testing so attempted as best as could without having to purchase a package.
+    - Tested on Safari with Mentor and only issue found was against events.html where table was longer than site page.
+        - Discovered style on location header in table with 48%.
+            - Removed style to no visual affect and this may be the cause of Safari issue.
+                - Done
 
 
 #### Device testing
