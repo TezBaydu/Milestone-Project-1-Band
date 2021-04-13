@@ -27,6 +27,9 @@
      5. [Colour blindness Testing](#Colour-blindness-testing)
      6. [User testing](#User-testing)
 7. [Deployment](#Deployment)
+    1. [GitHub Pages Deployment](#Deploying-via-GitHub-Pages)
+    2. [Forking](#Forking-repository)
+    3. [Cloning](#Cloning-a-repository)
 8. [Credits](#Credits)
 
 ***
