@@ -1480,11 +1480,10 @@ button {
 /*----------- Contacts Page - Backdrop  -----------------*/
 
 .court-estate {
-    background-image: url(../images/Elkston\ Court\ Blue.jpg);
-    display: inline-block;
+    background-image: url(../images/elkston-court-blue-5.jpg);
     background-size: cover;
     width:100%;
-    background-position-y: center;
+    background-position: right;
 }
 
 /*----------- Contacts Page - contact statement  -----------------*/
@@ -1502,10 +1501,6 @@ button {
 .contact-boombox {
     background-image: url(../images/Boombox-Blue-only-tall.gif);
     background-size: cover;
-}
-
-.back-contact-boombox {
-    background-color: #d3effb;
 }
 
 .contact-boombox .row {
@@ -1567,7 +1562,8 @@ form {
 .darren-quote {
     text-align: -webkit-center;
     text-align: -moz-center;
-    margin-top: 350px;
+    margin-top: 10%;
+    margin-bottom: 10%;
     color: #ffffff;
     font-size: large;
     font-weight: 600;
@@ -1582,23 +1578,12 @@ form {
 
 /*----------- Contacts Page - Device adjustment -----------------*/
 
-@media (min-width: 1199px) {
-    .darren-quote {
-        margin-top: 450px;
-    }
-}
-
 @media (max-width: 1199px) {
     .centre-p {
         margin-top: 15%;
     }
 
-    .court-estate {
-        background-position: right;
-    }
-
     .darren-quote {
-        margin-top: 410px;
         font-size: x-large;
     }
 }
@@ -1614,7 +1599,6 @@ form {
     }
 
     .darren-quote {
-        margin-top: 380px;
         font-size: x-large;
     }    
 }
@@ -1638,6 +1622,10 @@ form {
     .contact-boombox {
         background-image: url(../images/Boombox-Blue-only-thin.gif);
         height: 409px;
+    }
+
+    .back-contact-boombox {
+    background-color: #d3effb;
     }
     
     .centre-p {
