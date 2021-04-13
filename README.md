@@ -18,18 +18,16 @@
     4. [Events](#Events)
     5. [Contact](#Contact)
 4. [Technologies Used](#Technologies-Used)
-5. [Mentor questions](#Mentor-Questions)
-    1. [Meeting 2](#Mentor-Meeting-2)
-6. [Bugs and Issues](#Bugs)
-7. [Testing](#Testing) / [Testing detail file](https://github.com/TezBaydu/Milestone-Project-1-Band/blob/master/test.md)
+5. [Bugs and Issues](#Bugs)
+6. [Testing](#Testing) / [Testing detail file](https://github.com/TezBaydu/Milestone-Project-1-Band/blob/master/test.md)
      1. [Commits](#Commits)
      2. [Code testing](#Code-testing)
      3. [Browser testing](#Browser-testing)
      4. [Device testing](#Device-testing)
      5. [Colour blindness Testing](#Colour-blindness-testing)
      6. [User testing](#User-testing)
-8. [Deployment](#Deployment)
-9. [Credits](#Credits)
+7. [Deployment](#Deployment)
+8. [Credits](#Credits)
 
 ***
 
@@ -219,113 +217,6 @@ This project has four separate pages found by clicking on the relevant name foun
 
 [Back to top ⇧](#Project-Council-Culture)
 
-### Mentor Questions
-
- #### Mentor Meeting 2
-
-- CSS device size adjustments
-    * seemed like there was quite a lot at first with the Home Page
-    * Can we review to see if is suitable? 
-        - Ok as shows understanding of CSS
-            - done
-
-- Commits to be mentioned as part of test
-    - done
-
-- Use image from am i responsive design checker in readme
-    - done
-
-- Change Java to JavaScript in credit notes
-    - done
-
-- Add comment in player.js of source and link
-    - done
-
-- list-inline-item in header download formats only when url refreshes
-    - updated by changing display from inline-block to contents for @media (max-width: 767px) 
-        - done
-
-- Nav header text to make bolder
-    - done
-
-- Row below Grafitti image to wrap around text quotes. i.e. parent of
-    - Wasn't the actual issue. created a bar as was display row of 'header-text-mobile' in devices larger than 767px.
-        * Adjusted so this div has Display as none in sizes larger than mobile.
-            - done
-
-- Grafitti quotes padding top and bottom (15px)
-    - done via container
-        - also done for mobile adjustments
-            -done
-
-- Band quotes padding
-    - done via container
-        - also done for mobile adjustments
-            - done
-
-- CC Logo white
-    - adjusted padding so shows spaced too
-        -done
-
-- Footer
-    - Padding top and bottom added by 1%
-    - Margin bottom negative so sticks to bottom
-        - done
-
-- IPAD
-    - Nav bar, not Nav button
-        -done
-
-    - Home
-        - Band mambers 4 split as looks squashed
-         - done
-         
-    - Music
-        - To look like mobile splits
-            - Decided this would look too slim so have applied a different look for ipad device
-            - done
-
-- Music
-    - Padding on text top and bottom
-        - done
-
-    - Potential text spacing
-        - done
-
-    - issue with 991px responsive design
-        - done
-
-    - Mobile device version text and button alignment adjustments
-        - done
-
-- Events
-    - Space above jar doesn't look right - responsivedesignchecker
-        - done
-
-    - Mobile view looks perfect
-    - Ipad Pro design events table can widen
-        - done
-
-    - Padding in quotes updated for better spacing
-        - done
-
-- Contact
-    - Form on mobile to have fields Align
-        - Also adjusted form design for % responsiveness
-            - done 
-
-    - Ipad Pro - statement bring down as too close to CC logo
-        - Adjustment on all versions to be more responsive
-            - done
-
-    - Potential note change prior to submission
-        - note changed
-
-- Test doc to be placed in new md file and to be detailed
-    
-
-
-
 ### Bugs and Issues
 
 - Below Bootstrap link obtained from Bootstrapcdn but looks like an older version at 4.5.2 and so has been excluded
@@ -409,12 +300,43 @@ This project has four separate pages found by clicking on the relevant name foun
 
 ### Deployment
 
-- GitHub Pages
-    - Log into GitHub and look for [https://github.com/TezBaydu/Milestone-Project-1-Band]
-    - click on settings and ensure repository name is selected to Milestone-Project-1-Band
-    - scroll down to GitHub Pages section and ensure Branch is 'Master' and folder is 'root'
-    - click save and wait for site to be published.
-    - click link above GitHub Pages section to view published site.
+#### Deploying via GitHub Pages
+
+1. Log into GitHub and look for [https://github.com/TezBaydu/Milestone-Project-1-Band] or create an account.
+2. Click on settings and ensure repository name is selected to Milestone-Project-1-Band.
+3. Scroll down to GitHub Pages section and ensure Branch is 'Master' and folder is 'root'.
+4. Click save and wait for site to be published.
+5. Click link in GitHub Pages section to view published site.
+
+#### Forking repository
+
+Forking a repository in GitHub is used to make a copy of a repository which you do not have rights access to. Once you have forked a repository you will be able to make changes without affecting the original. It can also be used to suggest changes of an original project and/or propose a project as starting point.
+
+Steps on Forking a repository:
+1. Log into GitHub and look for [https://github.com/TezBaydu/Milestone-Project-1-Band] or create an account.
+2. At the top right hand corner of the page select "Fork".
+3. You should now have a copy of the original repository to work with on your account without affecting the original.
+
+#### Cloning a repository
+
+Cloning a repository in GitHub allows you to make a copy of your own repository which will affect the original repository.
+If you wish to make changes which do not affect the original then this should be forked.
+
+Steps to Clone a repository
+1. Log into GitHub and look for [https://github.com/TezBaydu/Milestone-Project-1-Band] or create an account.
+2. Ensure "Code" has been selected in menu.
+3. Select code on top right of table.
+4. Select either HTTPS, SSH or CLI.
+5. You can either download ZIP for static files and utilise in GitHub or open with GitHub desktop.
+6. If opening with GitHub Desktop then select. If not downloaded this will need to be to utilise benefits.
+7. Once opened with GitHub Desktop select "File".
+8. Select "Clone repository".
+9. Select GitHub and the name of the GitHub repository. (URL can also be selected and the URL applied)
+10. Select repository from the sources.
+11. Click "Choose".
+12. Click "Clone".
+
+For further help and info you can select [Cloning and Forking repositories](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop)
 
 [Back to top ⇧](#Project-Council-Culture)
 
