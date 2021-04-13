@@ -2,7 +2,7 @@
 
 ![Council Culture device image](assets/images/council-culture-devices-2.jpg)
 
-[Council Culture](https://tezbaydu.github.io/Milestone-Project-1-Band/)
+[Council Culture website](https://tezbaydu.github.io/Milestone-Project-1-Band/)
 
 ## Contents
 1. [Introduction](#Introduction)
@@ -46,14 +46,22 @@ There is potential for this kind of music to break the market and give the under
 
 #### Aims
 
-- Aimed at nostalgic punk rock audience, music producers and event organisers looking to hire bands.
-
-- To give users a visual experience of what the bands music is portraying.
+1. To give users a visual experience of what the bands music is portraying.
     * 80's & 90's style punk rock with shades of colour to help represent funk, groove and reggae.
 
-- Easy navigation to musical tracks, events and contact page
+2. Easy navigation to musical tracks, events and contact page
 
-- To be fully responsive to all screens and sizes
+3. To be fully responsive to all screens and sizes
+
+#### Demographic both current and potential
+
+1. Nostalgic punk rock audience
+
+2. Music producers
+
+3. Event organisers
+
+4. Media outlets
 
 #### User stories
 
