@@ -119,8 +119,12 @@ This user has no interest in punk rock music at all but is looking for imagery o
 3. Be able to see sources for design.
 4. Be able to make contact with Developer.
 
+[Back to top ⇧](#Project-Council-Culture)
+
 ### Development Plan
 Development decisions came from influences from own skillset and experiences to help distinguish requirements to develop website.
+
+[Back to top ⇧](#Project-Council-Culture)
 
 #### Strategy
 
@@ -185,6 +189,8 @@ Below are areas considered for levels of importance and viability
 3. Low
     * Music snips
     * Sales
+
+[Back to top ⇧](#Project-Council-Culture)
 
 ### Design and Scope
 
@@ -373,11 +379,6 @@ This project has four separate pages found by clicking on the relevant name foun
     * Found a way of having a play button using HTML only, however this caused issues as was unable to toggle between play and pause and when there were several instances in one page music would overplay each other or would play and pause one song at a time, regardless of which button it was associated to.
         * After much searching I found a solution using JavaScript through the Github user "Ilker Yilmaz" "https://github.com/kuantal/Multiple-circular-player" and was able to use the scripts as shown on their gitpod to make a successful play pause action for songs. sizes and style adjusted to suit site.
 
-- Index.html
-    * list-inline header-download
-        * needs page to reload for it to sit horizontally....? Even on responsive design checker - associated to list-inline-item style.css line 532: to work on.
-            - done by adjusting css code on line 532.
-
 - CSS code checker
     * Sorry! We found the following errors (2)
     * URI : https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css
@@ -385,19 +386,11 @@ This project has four separate pages found by clicking on the relevant name foun
         * 6	.accordion	Property overflow-anchor doesn't exist : none
     - This is the code asked to be copied from bootstrap but is showing errors on a couple of styles not encoded
         - Is a Bootstrap issue therefore no problem as long as it doesn't have an affect on the site.
-            - done
 
     * Warnings
         * these extensions are recognised in browsers but not in validator
             * This issue is with bootstrap and is ok to be noted as does not affect website proficiency.
-                - done
     
-    * svg code for colourblindness not displayed as causes a row under footer.
-        * by activating CSS display: none the row is removed visually, even though this did not impact on devices directly it was done this way to ensure assessments were not mis-directed.
-            - Problem as this also removes the play button - Question for Mentor as adjustment isn't associated to CSS or HTML and directly affecting Browser as is part of colour blindness extension?
-                - Solution: RGBlind Extension was automatically applying to css. Updated extension so it only activates when RGBlind button is pressed in browser.
-                    - done
-
 - Sticky Footer
     - Subsequent issue with sticky footer resolved via Bootstrap resolution.
 
@@ -405,8 +398,6 @@ This project has four separate pages found by clicking on the relevant name foun
         - Fixed images in Body replaced after removing from separate div.
             - This had played havoc with images in foreground (events.html Room-2 jam jar) where wasn't mixing in blend mode for mobile and ipad devices.
         - Decided to apply separate Div to Contacts page for court-estate image and Events page for the glass-hole image and fill spaces to push images down to fill space.
-
-
 
 [Back to top ⇧](#Project-Council-Culture)
 
@@ -504,4 +495,6 @@ For further help and info you can select [Cloning and Forking repositories](http
 
 - Friends and family
     * For patience and encouragement during course and user testing
+
+[Back to top ⇧](#Project-Council-Culture)
 

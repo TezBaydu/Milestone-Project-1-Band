@@ -13,7 +13,7 @@
 6. [User testing](#User-testing)
 
 #### Commits
-- Over 120 commits
+- Over 140 commits
 - Commits made in as many instances as possible and although not described well to begin with this got better during the length of the project.
 
 [Back to top ⇧](#Project-Council-Culture-Test-file)
