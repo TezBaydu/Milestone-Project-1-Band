@@ -1211,7 +1211,6 @@ button {
 
 .glass-hole {
     background-image: url(../images/glass-broken-icarus-napa-crop.jpg);
-    display: flow-root;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -1264,11 +1263,13 @@ button {
 
 /*----------- Events Page - Event table -----------------*/
 
+.table-room-1199px {
+    display: none;
+}
+
 .table {
-    margin-left: 5%;
     border-style: solid;
     border-color: #4fb7bc;
-    width: 60%;
     background-color: #e9e9e9e1;
 }
 
@@ -1289,16 +1290,13 @@ button {
 
 /*----------- Events Page - Room 2 Jam Jar image -----------------*/
 
-.room-2 img {
-    width: 400px;
-    mix-blend-mode: darken;
-    margin-left: 70%;
-    margin-top: -500px;
-    padding-bottom: 5%;
+.room-2 {
+    padding: 5% 12% 5% 25%;
 }
 
-.table-section {
-    display: flex;
+.room-2 img {
+    width: 450px;
+    mix-blend-mode: darken;
 }
 
   /*----------- Events Page - Device adjustment -----------------*/
@@ -1312,26 +1310,32 @@ button {
         margin-top: 10px;
     }
 
+    .table-room {
+        display: none;
+    }
+
+    .table-room-1199px {
+        display: inherit;
+    }
+
     .table {
         width: 100%;
-        display: inline-table;
-        margin: 4%;
     }
 
     .room-2 {
         text-align: center;
+        padding: 0;
     }
 
     .room-2 img {
         margin-top: 0;
         margin-left: 0;
-        width: 250px;
+        width: 350px;
     }
 }
 
 @media (max-width: 991px) {
     .event-media-quotes {
-        margin-bottom: 0;
         margin-top: 25px;
     }
 
@@ -1341,16 +1345,6 @@ button {
 
     .event-media-quotes p {
         padding-top: 1%;
-    }
-
-    .table {
-        width: 100%;
-        display: inline-table;
-        margin-right: 4%;
-    }
-
-    .table-section {
-        justify-content: center;
     }
 
     .banner-gigs {
@@ -1454,9 +1448,7 @@ button {
 
     .table {
         width: 100%;
-        font-size: 10px;
-        margin-right: 4px;
-        margin-left: 4px;
+        font-size: 12px;
     }
 
     .table td {
