@@ -9,13 +9,24 @@
 2. [UX](#UX)
     1. [Aims](#Aims)
     2. [Demographic](#Demographic-both-current-and-potential)
-    2. [User Stories](#User-stories)
+    3. [User Stories](#User-stories)
         1. [Music Fan](#Music-fan)
         2. [Events organiser](#Events-organiser)
         3. [Journalist](#Journalist)
         4. [Web developer](#Web-Developer)
-    3. [Design](#Design)
-    4. [Wireframe](#Wireframe)
+    4. [Development](#Development-Plan)
+        1. [Strategy](#Strategy)
+            1. [Demographic](#Demographic)
+            2. [Audience](#Understanding-the-audience)
+            3. [Requirements](#User-and-Band-members-requirements)
+            4. [Importance levels](#Levels-of-importance)
+        2. [Design and Scope](#Design and Scope)
+            1. [Influence](#Influence)
+            2. [Imagery](#Imagery)
+            3. [Pages](#Pages)
+            4. [Music](#Music)
+            5. [Structure](#Structure)
+        3. [Wireframe](#Wireframe)
 3. [Features](#Features)
     1. [Consistency](#Consistency)
     2. [Home](#Home)
@@ -35,7 +46,7 @@
     1. [GitHub Pages Deployment](#Deploying-via-GitHub-Pages)
     2. [Forking](#Forking-repository)
     3. [Cloning](#Cloning-a-repository)
-8. [Credits](#Credits)
+8. [Credits and Acknowledgements](#Credits-and-Acknowledgements)
 
 ***
 
@@ -367,7 +378,7 @@ This project has four separate pages found by clicking on the relevant name foun
         * needs page to reload for it to sit horizontally....? Even on responsive design checker - associated to list-inline-item style.css line 532: to work on.
             - done by adjusting css code on line 532.
 
-- css code checker
+- CSS code checker
     * Sorry! We found the following errors (2)
     * URI : https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css
         * 6	abbr[data-original-title], abbr[title]	Property text-decoration-skip-ink doesn't exist : none
@@ -475,7 +486,7 @@ For further help and info you can select [Cloning and Forking repositories](http
 
 [Back to top ⇧](#Project-Council-Culture)
 
-## Credits
+## Credits and Acknowledgements
 
 - Council Culture
     * Music by band Council Culture.
