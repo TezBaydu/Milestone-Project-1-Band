@@ -146,18 +146,89 @@ This user is looking for imagery or influence for another project.
 
 [Back to top ⇧](#Project-Council-Culture-Test-file)
 
+## Element testing
+### Navigation bar
+Test responsive hover on menu and links work.
+[Navbar test]
+
+Test mobile navigation dropdown hover and links.
+[Navbar button test]
+
+Test band logo link directs user to home page from all pages on site.
+[Band logo test]
+
+### Footer
+Test social link and download buttons change when hovering and links work.
+[Footer test]
+
+### Home page bulletin
+Test download buttons change when hovering and links work.
+[Bulletin test]
+
+Test Audio play button plays and pauses at request and circle identifier to show length of play.
+[Bulletin audio play button test]
+
+### Music page audio
+Test Audio play button plays and pauses at request and circle identifier to show length of play.
+Show when other audio buttons are pressed other buttons automatically stop.
+[Music audio play test]
+
+### Music page download
+Test Music page dpwnload buttons change on hover and links work.
+[Music page download test]
+
+### Events page purchase card
+Test Events page purchase card changes cursor on hover and links work.
+[Events card test]
+
+### Events page locations
+Test locations change cursor and description is underlined on hover and links work to associated location site.
+[Events locations test]
+
+### Contact page form
+Test form fields are editable and are required fields.
+[Form field test]
+
+Test form requires appropriate format for email.
+[Form email format test]
+
+Test alert popup once form has been succesfully been completed.
+[Form alert test]
+
 ## Device testing
 ### Responsiveness 
 
 - [Responsive design checker](https://responsivedesignchecker.com)
     - Checked on various devices and found issue with Nexus 7 where contacts page wasn't filling to bottom of screen.
             - adjusted quote margin to help fill gap
+            - ![Desktop responsive design](assets/images/desktop-responsive-design.gif)
 -  [Am I responsive](http://ami.responsivedesign.is)
     - No issues
 
+### Chrome adjustment sizing
+#### Home Page
+[Responsiveness Home page]
+
+#### Music Page
+[Responsiveness Music page]
+
+#### Events Page
+[Responsiveness Events page]
+
+#### Contact Page
+[Responsiveness Contact page]
+
 [Back to top ⇧](#Project-Council-Culture-Test-file)
 
-#### Browser testing
+## Colour blindness testing
+- Extension RGBlind downloaded for testing against colour blindness Protanopia and Deuteranopia
+    - Adjusted Home page h1 to have a contrasting background to work with Protanopia
+    - Music page adjustment on album titles as one album title was not working on parts of the page when scrolling via Protanopia testing.
+        Given all titles a dark background border to help identify album title, even through colour blindness.
+
+[Back to top ⇧](#Project-Council-Culture-Test-file)
+
+## Browser testing
 
 - Tested on Browsershots.org - 18/03/2021
     * HTTP_USER_AGENT 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'
@@ -170,11 +241,11 @@ This user is looking for imagery or influence for another project.
 
         * Looked online in stack overflow and has been answered but involves Django:
             *https://stackoverflow.com/questions/43987462/django-safetext-object-has-no-attribute-get
-    - Not considered an issue as website is working effectively on all browsers.
+        - Not considered an issue as website is working effectively on all browsers.
+    - Browsershots.org Test date 12/04/2021 
+        - Site no longer in use !
 
-- Browsershots.org Test date 12/04/2021 
-    - Site no longer in use !
-
+- Test date 12/04/2021
 - Firefox (version 87.0)
     - Tested on own version
         - index.html
@@ -207,15 +278,11 @@ This user is looking for imagery or influence for another project.
             - Removed style to no visual affect and this may be the cause of Safari issue.
                 - Done
 
-[Back to top ⇧](#Project-Council-Culture-Test-file)
-
-
-
-#### Colour blindness testing
-- Extension RGBlind downloaded for testing against colour blindness Protanopia and Deuteranopia
-    - Adjusted Home page h1 to have a contrasting background to work with Protanopia
-    - Music page adjustment on album titles as one album title was not working on parts of the page when scrolling via Protanopia testing.
-        Given all titles a dark background border to help identify album title, even through colour blindness.
+- Test date 14/04/2021
+    - Firefox (Version 87.0)
+        - [Firefox test]
+    - Microsoft Edge
+        - [Microsoft Edge test]
 
 [Back to top ⇧](#Project-Council-Culture-Test-file)
 
