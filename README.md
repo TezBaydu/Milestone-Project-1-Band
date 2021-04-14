@@ -57,6 +57,9 @@ The idea came to me as I too had grown up in London and influenced by various ty
 This band's genre is mainly punk rock but has shades of funk, groove and reggae.
 There is potential for this kind of music to break the market and give the under-privileged a perspective, especially once the pandemic is over there may well be some controversial political decisions that could affect the vulnerable.
 
+This is the first project of a 4 module Full Stack Developer course provided by the [Code Institute](https://codeinstitute.net/).
+Main requirements are to show understanding of HTML and CSS by developing a User Centric Front End website.
+
 [Back to top ⇧](#Project-Council-Culture)
 
 ## UX
@@ -75,7 +78,7 @@ There is potential for this kind of music to break the market and give the under
 * Nostalgic punk rock audience
 * Music producers
 * Event organisers
-* Media outlets
+* Media companies
 
 ### User stories
 
@@ -85,7 +88,7 @@ The user is either a current or potential fan and subscriber of many other group
 *   This user wants to:
 1. Be able to navigate through the website easily.
 2. Learn about the band members and their influences.
-3. Have an opportunity to listen the the bands music.
+3. Have an opportunity to listen to the bands music.
 4. Be able to navigate to relevant social links.
 5. Have the opportunity to download or listen to music via downloadable sites.
 6. Be able to contact band and be part of newsletter/e-mail contact list.
@@ -95,7 +98,7 @@ The user is either a current or potential fan and subscriber of many other group
 This user is an events organiser looking for a punk rock band to be part of a group of bands for an event.
 
 *   This user wants to be able to:
-1. View Ppast and future events attending.
+1. View past and future events.
 2. Listen to music.
 3. Contact band with message to help detail requirements.
 4. View links to social sites for further details.
@@ -104,20 +107,21 @@ This user is an events organiser looking for a punk rock band to be part of a gr
 This user is working on a piece about new or current bands breaking the market.
 
 * They want to be able to:
-1. Understand where band has come from.
+1. View bands history.
 2. Understand what their music is portraying.
 3. Listen to music.
 4. Find which events band have and will perform.
 5. Contact band for comment and rights issues.
 
 #### Web Developer
-This user has no interest in punk rock music at all but is looking for imagery or influence for another project.
+This user is looking for imagery or influence for another project.
 
 * They want to be able to:
 1. Have easy navigation.
 2. Find how the website was created.
 3. Be able to see sources for design.
 4. Be able to make contact with Developer.
+5. Have an opportunity to clone site if wanting to use content.
 
 [Back to top ⇧](#Project-Council-Culture)
 
@@ -127,6 +131,7 @@ Development decisions came from influences from own skillset and experiences to 
 [Back to top ⇧](#Project-Council-Culture)
 
 #### Strategy
+Identifying target audience.
 
 ##### Demographic
 1. Nostalgic Punk Rock fans
@@ -198,10 +203,11 @@ Below are areas considered for levels of importance and viability
 1. [Ghettoblaster on Pixabay](https://pixabay.com/photos/ghettoblaster-radio-recorder-boombox-1452077/)
 2. Images and Band logo
     * Graphic Designer (Terry Downs)
+    ![Logo Images](assets/images/logo-image-readme.gif)
 
 #### Imagery
 1. Colours
-    *   Based on Band logo
+    *   Based on Band logos
 2. Imagery
     * Associations to:
         * Council estates
@@ -225,7 +231,7 @@ Below are areas considered for levels of importance and viability
 #### Music
 
 1. Council Culture music
-    * Created and produced for this site by newly formed band Council Culture
+    * Created and produced for this site by newly formed band Council Culture.
 2. Music snippets with playable buttons
 
 #### Structure
@@ -256,14 +262,14 @@ Hierarchical structure design for simpler user navigation:
 
 ## Features
 
-This project has four separate pages found by clicking on the relevant name found in a menu
+This project has four separate pages found by clicking on the relevant name found in a menu.
 
 ### Consistency
 
 - Design with menu placing in the same position.
     * A Band logo which leads the user back to 'Home' when clicked.
-    * Mobile version to be a dropdown menu
-- Footer with links to social media, download/purchase options.
+    * Mobile version to be a dropdown menu.
+- Footer with links to social media and download options.
 - Consistent colours (although variations may be used to suit): 
     * lightgoldenrodyellow 
         * #ffffd5 / #ffd / hsl(60,100,91) / rgb(255,255,213)
@@ -284,33 +290,159 @@ This project has four separate pages found by clicking on the relevant name foun
 
 ### Home
 
-- Concert image and other images of band members
-- Statement of the bands music, influence and history
-- Individual synopsis of band members
-- Music Reviews
-- Latest single bulletin with a snippet of playable track
+1. Backdrops
+    - Concert image
+    - Grafitti image
+    - Crime scene image is intentionally subtle
+2. Band members
+    - Shown as a group
+    - Shown separately
+3. Synopsis
+    - Group description
+    - Individual band member Quotes
+4. Reviews
+    - Music publishers
+5. Bulletin
+    - Latest single release
+6. Music
+    - Snippet of latest release
+7. Social sites and Downloads
+    - Buttons which change colour when hovered over
+    - Button source Font-Awesome
+8. Navigation
+    - Taken from Bootstrap
+        - Menu bar showing different colour for active page.
+        - Band logo image linking to Home page.
+        - Adjustable to button dropdown for mobile.
+9. Design
+    - HTML
+        - Adjustment to HTML script for different widths to accomodate responsive design.
+        - Max: Widths
+            - 1199px
+            - 991px
+            - 767px
+        - Min: Widths
+            - 992px
+                - Navbar
+            - 768px
+                - Navbar
+            - 576px
+                - Home: Header-text-mobile adjustment
+
+
 
 ### Music
 
-- List of albums and tracks
-- Images of album covers
-- Downloadable music content
-- Snippets of some playable tracks to lure user
+1. Music
+    - Album images
+    - Associated tracks to title
+    - Music snippets
+2. Backdrop
+    - Full image of a council estate
+    - Fixed background position
+3. Social sites and Downloads
+    - Buttons which change colour when hovered over
+    - Button source Font-Awesome
+4. Navigation
+    - Taken from Bootstrap
+        - Menu bar showing different colour for active page.
+        - Band logo image linking to Home page.
+        - Adjustable to button dropdown for mobile.
+5. Design
+    - HTML
+        - Adjustment to HTML script for different widths to accomodate responsive design.
+        - Max: Widths
+            - 1199px
+            - 991px
+            - 767px
+        - Min: Widths
+            - 1199px
+                - Music: Album image container
+            - 992px
+                - Navbar
+            - 768px
+                - Navbar
+                - Music: Album image adjustment
+            - 576px
+                - Music: Banner adjustment
 
 ### Events
 
-- Reviews of past band performances.
-- Calendar of Events
-    * Ticket purchase button for each. Leads to livenation site.
-    * Places clicked links to venue and map location.
-- Quotes from fans and followers.
+1. Reviews
+    - Past event reviews
+2. Calendar
+    - Table of upcoming events
+3. URL links
+    - Links to event sites for more information
+4. Backdrop
+    - Glass with bullethole
+    - Fixed position
+5. Room 2 Jam jar
+    - Cheeky image associated to where band rehearse.
+6. Social sites and Downloads
+    - Buttons which change colour when hovered over
+    - Button source Font-Awesome
+7. Navigation
+    - Taken from Bootstrap
+        - Menu bar showing different colour for active page.
+        - Band logo image linking to Home page.
+        - Adjustable to button dropdown for mobile.
+8. Design
+    - HTML
+        - Adjustment to HTML script for different widths to accomodate responsive design.
+9. Design
+    - HTML
+        - Adjustment to HTML script for different widths to accomodate responsive design.
+        - Max: Widths
+            - 1199px
+            - 991px
+            - 767px
+        - Min: Widths
+            - 992px
+                - Navbar
+            - 768px
+                - Navbar
+            - 576px
+                - Events: Banner adjustment
 
 ### Contact
 
-- Form to be filled in for 
-    * event enquiries to book band to perform
-    * to receive regular newsletters
-    * General enquiries - potentially from music/media journalists
+1. Statement
+    - Clear statement of contact
+2. Form
+    - Bootstrap associated form
+        - First name
+        - Last name
+        - Email
+        - Enquiry type
+        - Message
+        - Submit button
+3. Backdrop
+    - Image of a council estate
+4. Images
+    - Council cultur Boombox as backdrop to form.
+5. Social sites and Downloads
+    - Buttons which change colour when hovered over
+    - Button source Font-Awesome
+6. Navigation
+    - Taken from Bootstrap
+        - Menu bar showing different colour for active page.
+        - Band logo image linking to Home page.
+        - Adjustable to button dropdown for mobile.
+7. Design
+    - HTML
+        - Adjustment to HTML script for different widths to accomodate responsive design.
+        - Max: Widths
+            - 1199px
+            - 991px
+            - 767px
+        - Min: Widths
+            - 992px
+                - Navbar
+            - 768px
+                - Navbar
+
+
 
 [Back to top ⇧](#Project-Council-Culture)
 
@@ -337,6 +469,8 @@ This project has four separate pages found by clicking on the relevant name foun
 
 - [Bootstrap](https://getbootstrap.com)
     * Version 4.5 (Latest version at the time of this projects creation)
+
+-[Google fonts](https://fonts.google.com)
 
 - [Figma](https://www.figma.com)
     * [project wireframe](https://www.figma.com/proto/IADuVbH1W00VbiRkhlDqdY/milestone-project-1-band?node-id=5%3A71&scaling=min-zoom)
@@ -371,33 +505,26 @@ This project has four separate pages found by clicking on the relevant name foun
 
 ## Bugs and Issues
 
-- Below Bootstrap link obtained from Bootstrapcdn but looks like an older version at 4.5.2 and so has been excluded
+- Bootstrap
+    - Below Bootstrap link obtained from Bootstrapcdn but looks like an older version at 4.5.2 and so has been excluded
     "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
 
 
 - Media play buttons
-    * Found a way of having a play button using HTML only, however this caused issues as was unable to toggle between play and pause and when there were several instances in one page music would overplay each other or would play and pause one song at a time, regardless of which button it was associated to.
-        * After much searching I found a solution using JavaScript through the Github user "Ilker Yilmaz" "https://github.com/kuantal/Multiple-circular-player" and was able to use the scripts as shown on their gitpod to make a successful play pause action for songs. sizes and style adjusted to suit site.
+    * Found a way of having a play button using HTML only. However this caused issues as was unable to toggle between play and pause and when there were several instances in one page music would overplay each other or would play and pause one song at a time.
+        * After much searching I found a solution using JavaScript through the Github user "Ilker Yilmaz" "https://github.com/kuantal/Multiple-circular-player" and was able to use the scripts as shown on their gitpod to make a successful play pause action for songs. Sizes and style adjusted to suit site.
 
 - CSS code checker
-    * Sorry! We found the following errors (2)
-    * URI : https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css
-        * 6	abbr[data-original-title], abbr[title]	Property text-decoration-skip-ink doesn't exist : none
-        * 6	.accordion	Property overflow-anchor doesn't exist : none
-    - This is the code asked to be copied from bootstrap but is showing errors on a couple of styles not encoded
-        - Is a Bootstrap issue therefore no problem as long as it doesn't have an affect on the site.
+    - Bootstrap
+        - Errors associated to Bootstrap
+            - Property overflow-anchor doesn't exist : none
+            - Property text-decoration-skip-ink doesn't exist : none
+        - Does not affect website efficiency but to be considered if having issues with these particular property elements
 
-    * Warnings
-        * these extensions are recognised in browsers but not in validator
-            * This issue is with bootstrap and is ok to be noted as does not affect website proficiency.
-    
-- Sticky Footer
-    - Subsequent issue with sticky footer resolved via Bootstrap resolution.
-
-- Fixed Images in Body
-        - Fixed images in Body replaced after removing from separate div.
+- Fixed images in body element
+        - Fixed backdrop images in Body replaced after removing from separate div.
             - This had played havoc with images in foreground (events.html Room-2 jam jar) where wasn't mixing in blend mode for mobile and ipad devices.
-        - Decided to apply separate Div to Contacts page for court-estate image and Events page for the glass-hole image and fill spaces to push images down to fill space.
+        - Decided to apply to separate Div to Contacts page for court-estate image and Events page for the glass-hole image and fill spaces to push images down to fill space.
 
 [Back to top ⇧](#Project-Council-Culture)
 
@@ -405,7 +532,7 @@ This project has four separate pages found by clicking on the relevant name foun
 -   ### View [Test.md file](https://github.com/TezBaydu/Milestone-Project-1-Band/blob/master/test.md) for more detail
 
 ### Commits
-- Over 120 commits
+- Over 140 commits
 
 ### Code Testing
 - HTML 
@@ -489,6 +616,11 @@ For further help and info you can select [Cloning and Forking repositories](http
 
 - kuantal/Multiple-circular-player
     * Play button for multiple tracks to play and pause
+
+- Sites
+    * [Stack Overflow](https://stackoverflow.com)
+    * [Git Hub](https://github.com)
+    * [Bootstrap](https://getbootstrap.com)
 
 - Seun Owinokoko
     * For her positive, excitable response to the design and advice
