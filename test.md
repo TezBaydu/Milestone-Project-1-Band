@@ -26,7 +26,6 @@
     - [Contact page form](#Contact-page-form)
 5. [Device testing](#Device-testing)
     - [Responsiveness](#Responsiveness)
-    - [Chrome adjustment sizing](#Chrome-adjustment-sizing)
         - [Home Page](#Home-Page)
         - [Music Page](#Music-Page)
         - [Events Page](#Events-Page)
@@ -111,6 +110,7 @@ This user is looking for imagery or influence for another project.
 5. Have an opportunity to clone site if wanting to use content.
     - [README.md](https://github.com/TezBaydu/Milestone-Project-1-Band#Cloning-a-repository) has description of cloning.
 
+[Back to top ⇧](#Project-Council-Culture-Test-file)
 
 ## Code Testing
 
@@ -215,6 +215,8 @@ Test form requires appropriate format for email.
 Test alert popup once form has been succesfully been completed.
 [Form alert test]
 
+[Back to top ⇧](#Project-Council-Culture-Test-file)
+
 ## Device testing
 ### Responsiveness 
 
@@ -225,7 +227,6 @@ Test alert popup once form has been succesfully been completed.
 -  [Am I responsive](http://ami.responsivedesign.is)
     - No issues
 
-### Chrome adjustment sizing
 #### Home Page
 [Responsiveness Home page]
 
@@ -247,6 +248,7 @@ Test alert popup once form has been succesfully been completed.
         - Music page adjustment on album titles as one album title was not working on parts of the page when scrolling via Protanopia testing.
         -   Given all titles a dark background border to help identify album title, even through colour blindness.
 - Test date 14/04/2021
+
 ### Protanopia
 - Home Page
     - [Home Page Protanopia]
