@@ -20,7 +20,7 @@
             2. [Audience](#Understanding-the-audience)
             3. [Requirements](#User-and-Band-members-requirements)
             4. [Importance levels](#Levels-of-importance)
-        2. [Design and Scope](#Design and Scope)
+        2. [Design and Scope](#Design-and-Scope)
             1. [Influence](#Influence)
             2. [Imagery](#Imagery)
             3. [Pages](#Pages)
@@ -522,8 +522,8 @@ This project has four separate pages found by clicking on the relevant name foun
         - Does not affect website efficiency but to be considered if having issues with these particular property elements
 
 - Fixed images in body element
-        - Fixed backdrop images in Body replaced after removing from separate div.
-            - This had played havoc with images in foreground (events.html Room-2 jam jar) where wasn't mixing in blend mode for mobile and ipad devices.
+    - Fixed backdrop images in Body replaced after removing from separate div.
+        - This had played havoc with images in foreground (events.html Room-2 jam jar) where wasn't mixing in blend mode for mobile and ipad devices.
         - Decided to apply to separate Div to Contacts page for court-estate image and Events page for the glass-hole image and fill spaces to push images down to fill space.
 
 [Back to top ⇧](#Project-Council-Culture)
@@ -563,6 +563,27 @@ This project has four separate pages found by clicking on the relevant name foun
 [Back to top ⇧](#Project-Council-Culture)
 
 ## Deployment
+
+### Gitpod to GitHub commits
+
+To help with controlling versions you can commit to GitHub via Gitpod.
+Once you are able to view the repository in Gitpod this is done by:
+
+1. Access the control terminal
+    - Usually found at bottom of project in "workspace" section.
+2. Next to gitpod/workspace/(name of project)
+    - Type "git add (and name of document you wish to commit to GitHub)".
+    - If you want to find all that could be committed then you can type "git add ."
+3. Type "git status"
+    - This will help show what files have been modified, added or deleted for a pre-check prior to committing.
+4. Type "git commit -m ("and then a brief description of latest updates in quotation marks")"
+5. Type "git push"
+6. Log into GitHub
+    - Locate repository
+    - You should be able to see the latest and history of commits in code section at top right of table of files list.
+    ![git-commits](assets/images/git-commits.jpg)
+
+
 
 ### Deploying via GitHub Pages
 
