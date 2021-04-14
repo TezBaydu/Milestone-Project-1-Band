@@ -120,16 +120,16 @@ This user is looking for imagery or influence for another project.
     
     - Test date 14/04/2021
         - HTML5 Home page test
-        - ![HTML5 Home page test](assets/test-files/htmlcodecheck-cc-band-home.jpg)
+        - ![HTML5 Home page test](assets/test-files/code-test/htmlcodecheck-cc-band-home.jpg)
 
         - HTML5 Music page test
-        - ![HTML5 Home page test](assets/test-files/htmlcodecheck-cc-band-music.jpg)
+        - ![HTML5 Home page test](assets/test-files/code-test/htmlcodecheck-cc-band-music.jpg)
 
         - HTML5 Events page test
-        - ![HTML5 Home page test](assets/test-files/htmlcodecheck-cc-band-events.jpg)
+        - ![HTML5 Home page test](assets/test-files/code-test/htmlcodecheck-cc-band-events.jpg)
 
         - HTML5 Contact page test
-        - ![HTML5 Home page test](assets/test-files/htmlcodecheck-cc-band-contact.jpg) 
+        - ![HTML5 Home page test](assets/test-files/code-test/htmlcodecheck-cc-band-contact.jpg) 
 
 ### CSS3
 - [CSS code checker](https://jigsaw.w3.org/css-validator/)
@@ -137,7 +137,7 @@ This user is looking for imagery or influence for another project.
 
     - Test date 14/04/2021
         - CSS3 code test
-            - ![CSS3 code test](assets/test-files/csscodecheck-cc-band.jpg)
+            - ![CSS3 code test](assets/test-files/code-test/csscodecheck-cc-band.jpg)
 
         - Bootstrap errors:
             - Property text-decoration-skip-ink doesn't exist : none
@@ -161,7 +161,7 @@ This user is looking for imagery or influence for another project.
 
     - Test date 14/04/2021
         - JavaScript validator
-            - ![Javascript validator](assets/test-files/javascript-codecheck-cc-band.jpg)
+            - ![Javascript validator](assets/test-files/code-test/javascript-codecheck-cc-band.jpg)
             - Not enough knowledge on JavaScript even after searching for solutions however media buttons are functioning as expected.
 
 [Back to top ⇧](#Project-Council-Culture-Test-file)
@@ -169,54 +169,54 @@ This user is looking for imagery or influence for another project.
 ## Element testing
 ### Navigation bar
 Test responsive hover on menu and links work.
-- [Navbar test]
+![Navbar test](assets/test-files/element-test/navbar-test.gif)
 
 Test mobile navigation dropdown hover and links.
-[Navbar button test]
+- ![Navbar button test](assets/test-files/element-test/navbar-button-test.gif)
 
 Test band logo link directs user to home page from all pages on site.
-[Band logo test]
+![Band logo test](assets/test-files/element-test/band-logo-test.gif)
 
 ### Footer
 Test social link and download buttons change when hovering.
-[Footer hover test]
+![Footer hover test](assets/test-files/element-test/footer-hover-test.gif)
 
 Test social link and download buttons open sites.
-[Footer link test]
+![Footer link test](assets/test-files/element-test/footer-link-test.gif)
 
 ### Home page bulletin
 Test download buttons change when hovering and links work.
-[Bulletin test]
+![Bulletin test](assets/test-files/element-test/bulletin-download-test.gif)
 
 Test Audio play button plays and pauses at request and circle identifier to show length of play.
-[Bulletin audio play button test]
+![Bulletin audio play button test](assets/test-files/element-test/bulletin-audio-play-test.gif)
 
 ### Music page audio
 Test Audio play button plays and pauses at request and circle identifier to show length of play.
 Show when other audio buttons are pressed other buttons automatically stop.
-[Music audio play test]
+![Music audio play test](assets/test-files/element-test/music-audio-play-test.gif)
 
 ### Music page download
 Test Music page dpwnload buttons change on hover and links work.
-[Music page download test]
+![Music page download test](assets/test-files/element-test/music-download-links.gif)
 
 ### Events page purchase card
 Test Events page purchase card changes cursor on hover and links work.
-[Events card test]
+![Events card test](assets/test-files/element-test/events-card-test.gif)
 
 ### Events page locations
 Test locations change cursor and description is underlined on hover and links work to associated location site.
-[Events locations test]
+![Events locations test](assets/test-files/element-test/events-location-test.gif)
 
 ### Contact page form
 Test form fields are editable and are required fields.
-[Form field test]
+![Form field test](assets/test-files/element-test/form-field-test.gif)
 
 Test form requires appropriate format for email.
-[Form email format test]
+![Form email format test](assets/test-files/element-test/form-email-format-test.gif)
 
 Test alert popup once form has been successfully been completed.
-[Form alert test]
+![Form alert test](assets/test-files/element-test/form-alert-test.gif)
 
 [Back to top ⇧](#Project-Council-Culture-Test-file)
 
