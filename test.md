@@ -230,17 +230,23 @@ Test alert popup once form has been successfully been completed.
 -  [Am I responsive](http://ami.responsivedesign.is)
     - No issues
 
+![Am I responsive](assets/test-files/responsiveness-test/am-i-responsive-test.gif)
+
 #### Home Page
-[Responsiveness Home page]
+Chrome Responsiveness
+![Responsiveness Home page](assets/test-files/responsiveness-test/responsive-home-page.gif)
 
 #### Music Page
-[Responsiveness Music page]
+Chrome Responsiveness
+![Responsiveness Music page](assets/test-files/responsiveness-test/responsive-music-page.gif)
 
 #### Events Page
-[Responsiveness Events page]
+Chrome Responsiveness
+![Responsiveness Events page](assets/test-files/responsiveness-test/responsive-events-page.gif)
 
 #### Contact Page
-[Responsiveness Contact page]
+Chrome Responsiveness
+![Responsiveness Contact page](assets/test-files/responsiveness-test/responsive-contact-page.gif)
 
 [Back to top ⇧](#Project-Council-Culture-Test-file)
 
