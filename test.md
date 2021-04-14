@@ -7,11 +7,15 @@
 ## Contents
 1. [Commits](#Commits)
 2. [User Story testing](#User-Story-testing)
-2. [Code testing](#Code-testing)
-3. [Browser testing](#Browser-testing)
-4. [Device testing](#Device-testing)
-5. [Colour blindness testing](#Colour-blindness-testing)
-6. [User testing](#User-testing)
+    1. [Music fan](#Music-fan)
+    2. [Events organiser](Events-organiser)
+    3. [Journalist](#Journalist)
+    4. [Web Developer](#Web-Developer)
+3. [Code testing](#Code-testing)
+4. [Browser testing](#Browser-testing)
+5. [Device testing](#Device-testing)
+6. [Colour blindness testing](#Colour-blindness-testing)
+7. [User testing](#User-testing)
 
 ## Commits
 - Over 140 commits
@@ -41,7 +45,7 @@ The user is either a current or potential fan and subscriber of many other group
 7. Be able to find out where and when band is performing in future.
     - Events page shows upcoming events dates, times and links to sites and therefore their locations.
 
-#### Events organiser
+### Events organiser
 This user is an events organiser looking for a punk rock band to be part of a group of bands for an event.
 
 * This user wants to be able to:
@@ -54,7 +58,7 @@ This user is an events organiser looking for a punk rock band to be part of a gr
 4. View links to social sites for further details.
     - Footer has links to social sites.
 
-#### Journalist
+### Journalist
 This user is working on a piece about new or current bands breaking the market.
 
 * They want to be able to:
@@ -69,7 +73,7 @@ This user is working on a piece about new or current bands breaking the market.
 5. Contact band for comment and rights issues.
     - Contact page has a form with required fields and an enquiry type of General enquiry.
 
-#### Web Developer
+### Web Developer
 This user is looking for imagery or influence for another project.
 
 * They want to be able to:
@@ -88,27 +92,19 @@ This user is looking for imagery or influence for another project.
     - [README.md](https://github.com/TezBaydu/Milestone-Project-1-Band#Cloning-a-repository) has description of cloning.
 
 
-#### Code Testing
+## Code Testing
 
-- HTML
-    - [HTML code checker](https://validator.w3.org/)
-    - Initial test highlighted several instances of unsutiable code of which have been updated.
-        * Associated to commits on 16th March 2021 and 18th March 2021
-
-    - re-test performed 12/04/2021 after adjustments post 18/03/2021
-        - index.html: Document checking completed. No errors or warnings to show.
-        - music.html: Document checking completed. No errors or warnings to show.
-        - events.html: Document checking completed. No errors or warnings to show.
-        - contact.html: Document checking completed. No errors or warnings to show.
+- HTML5
+    1. [HTML code checker](https://validator.w3.org/)
+        - Initial test highlighted several instances of unsutiable code of which have been updated. Associated to commits on 16th March 2021 and 18th March 2021
     
-    - Test date and time 14/04/2021 00:12
-        - index.html: Document checking completed. No errors or warnings to show.
-        - music.html: Document checking completed. No errors or warnings to show.
-        - events.html: Document checking completed. No errors or warnings to show.
-        - contact.html: Document checking completed. No errors or warnings to show.
+        - Test date 14/04/2021
+            - []
 
 
-- CSS
+
+
+- CSS3
     - [CSS code checker](https://jigsaw.w3.org/css-validator/)
     - Initial test highlighted several instances of unsutiable code of which have been updated.
         * Associated to commits on 16th March 2021 and 18th March 2021
