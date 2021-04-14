@@ -260,22 +260,22 @@ Chrome Responsiveness
 
 ### Protanopia
 - Home Page
-    - [Home Page Protanopia]
+    - ![Home Page Protanopia](assets/test-files/colour-blind-test/protanopia-home.gif)
 - Music Page
-    - [Music Page Protanopia]
+    - ![Music Page Protanopia](assets/test-files/colour-blind-test/protanopia-music.gif)
 - Events Page
-    - [Events Page Protanopia]
+    - ![Events Page Protanopia](assets/test-files/colour-blind-test/protanopia-events.gif)
 - Contact Page
-    - [Contact Page Protanopia]
+    - ![Contact Page Protanopia](assets/test-files/colour-blind-test/protanopia-contact.gif)
 ### Deutaranopia
 - Home Page
-    - [Home Page Deutaranopia]
+    - ![Home Page Deutaranopia](assets/test-files/colour-blind-test/deuteranopia-home.gif)
 - Music Page
-    - [Music Page Deutaranopia]
+    - ![Music Page Deutaranopia](assets/test-files/colour-blind-test/deuteranopia-music.gif)
 - Events Page
-    - [Events Page Deutaranopia]
+    - ![Events Page Deutaranopia](assets/test-files/colour-blind-test/deuteranopia-events.gif)
 - Contact Page
-    - [Contact Page Deutaranopia]     
+    - ![Contact Page Deutaranopia]  (assets/test-files/colour-blind-test/deuteranopia-contact.gif)   
 
 [Back to top ⇧](#Project-Council-Culture-Test-file)
 
