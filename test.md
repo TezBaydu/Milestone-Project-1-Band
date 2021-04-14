@@ -2,21 +2,91 @@
 
 [Back to README file](https://github.com/TezBaydu/Milestone-Project-1-Band#readme)
 
-## Testing
+[Council Culture website](https://tezbaydu.github.io/Milestone-Project-1-Band/)
 
-### Contents
+## Contents
 1. [Commits](#Commits)
+2. [User Story testing](#User-Story-testing)
 2. [Code testing](#Code-testing)
 3. [Browser testing](#Browser-testing)
 4. [Device testing](#Device-testing)
 5. [Colour blindness testing](#Colour-blindness-testing)
 6. [User testing](#User-testing)
 
-#### Commits
+## Commits
 - Over 140 commits
 - Commits made in as many instances as possible and although not described well to begin with this got better during the length of the project.
 
 [Back to top ⇧](#Project-Council-Culture-Test-file)
+
+## User Story testing
+
+### Music fan
+The user is either a current or potential fan and subscriber of many other groups.
+
+* This user wants to:
+1. Be able to navigate through the website easily.
+    - Fixed top Nav bar and Nav collapsable button showing pages to navigate to.
+    - Fixed band logo on top left of nav bar for user to vaigate to home page.
+2. Learn about the band members and their influences.
+    - Synopsis on Home page.
+3. Have an opportunity to listen to the bands music.
+    - Snippets of music on Home and Muic pages.
+4. Be able to navigate to relevant social links.
+    - Footer at bottom of each page with buttons directing to social sites.
+5. Have the opportunity to download or listen to music via downloadable sites.
+    - Footer contains buttons to download sites and download buttons associated to latest release and albums in Music page.
+6. Be able to contact band and be part of newsletter/e-mail contact list.
+    - Contact page has a form which has required fields and an enquiry type selection for Newsletter subscription.
+7. Be able to find out where and when band is performing in future.
+    - Events page shows upcoming events dates, times and links to sites and therefore their locations.
+
+#### Events organiser
+This user is an events organiser looking for a punk rock band to be part of a group of bands for an event.
+
+* This user wants to be able to:
+1. View past and future events.
+    - Events page has quotes of past events and a table of upcoming events.
+2. Listen to music.
+    - Music snippets give a feel of music and download buttons can direct user to download sites.
+3. Contact band with message to help detail requirements.
+    - Contact page has a form with required fields and an enquiry type of Band Booking enquiry.
+4. View links to social sites for further details.
+    - Footer has links to social sites.
+
+#### Journalist
+This user is working on a piece about new or current bands breaking the market.
+
+* They want to be able to:
+1. View bands history.
+    - Home page has brief synopsis of band.
+2. Understand what their music is portraying.
+    - Synopsis also shows music portrayal.
+3. Listen to music.
+    - Music buttons provide snippets for immediate listening pleasure.
+4. Find which events band have and will perform.
+    - Events page has quotes of pas events and a table of upcoming events.
+5. Contact band for comment and rights issues.
+    - Contact page has a form with required fields and an enquiry type of General enquiry.
+
+#### Web Developer
+This user is looking for imagery or influence for another project.
+
+* They want to be able to:
+1. Have easy navigation.
+    - Fixed top Nav bar and Nav collapsable button showing pages to navigate to.
+    - Fixed band logo on top left of nav bar for user to vaigate to home page.
+2. Find how the website was created.
+    - [README.md](https://github.com/TezBaydu/Milestone-Project-1-Band#Introduction) file created detailing why and how website was created.
+    - Contact form can also be used for General enquiries.
+3. Be able to see sources for design.
+    - [README.md](https://github.com/TezBaydu/Milestone-Project-1-Band#Credits-and-Acknowledgements) file shows credits for design.
+4. Be able to make contact with Developer.
+    - Contact form can be used for general enquiries.
+    - [README.md](https://github.com/TezBaydu/Milestone-Project-1-Band#Deploying-via-GitHub-Pages) has description of cloning and forking and therefore contact can be made via GitHub.
+5. Have an opportunity to clone site if wanting to use content.
+    - [README.md](https://github.com/TezBaydu/Milestone-Project-1-Band#Cloning-a-repository) has description of cloning.
+
 
 #### Code Testing
 
