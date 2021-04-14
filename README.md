@@ -38,9 +38,10 @@
 6. [Testing](#Testing) / [Testing detail file](https://github.com/TezBaydu/Milestone-Project-1-Band/blob/master/test.md)
     - [Commits](#Commits)
     - [Code testing](#Code-testing)
-    - [Browser testing](#Browser-testing)
+    - [Element testing](#Element-testing)
     - [Device testing](#Device-testing)
     - [Colour blindness Testing](#Colour-blindness-testing)
+    - [Browser testing](#Browser-testing)
     - [User testing](#User-testing)
 7. [Deployment](#Deployment)
     - [Gitpod commits](#Gitpod-to-GitHub-commits)
@@ -470,7 +471,7 @@ This project has four separate pages found by clicking on the relevant name foun
 - [Bootstrap](https://getbootstrap.com)
     * Version 4.5 (Latest version at the time of this projects creation)
 
--[Google fonts](https://fonts.google.com)
+- [Google fonts](https://fonts.google.com)
 
 - [Figma](https://www.figma.com)
     * [project wireframe](https://www.figma.com/proto/IADuVbH1W00VbiRkhlDqdY/milestone-project-1-band?node-id=5%3A71&scaling=min-zoom)
@@ -514,7 +515,7 @@ This project has four separate pages found by clicking on the relevant name foun
     * Found a way of having a play button using HTML only. However this caused issues as was unable to toggle between play and pause and when there were several instances in one page music would overplay each other or would play and pause one song at a time.
         * After much searching I found a solution using JavaScript through the Github user "Ilker Yilmaz" "https://github.com/kuantal/Multiple-circular-player" and was able to use the scripts as shown on their gitpod to make a successful play pause action for songs. Sizes and style adjusted to suit site.
 
-- CSS code checker
+- [CSS code checker](https://jigsaw.w3.org/css-validator)
     - Bootstrap
         - Errors associated to Bootstrap
             - Property overflow-anchor doesn't exist : none
@@ -532,21 +533,16 @@ This project has four separate pages found by clicking on the relevant name foun
 -   ### View [Test.md file](https://github.com/TezBaydu/Milestone-Project-1-Band/blob/master/test.md) for more detail
 
 ### Commits
-- Over 140 commits
+- Over 160 commits
 
 ### Code Testing
 - HTML 
 - CSS
 - Java
+
+### Element testing
+- Ensure elements behave as expected
    
-### Browser testing
-
-- Browsershots.org
-- Chrome
-- Firefox
-- Microsoft Edge
-- Safari
-
 ### Device testing
 
 - [Responsive design checker](https://responsivedesignchecker.com)
@@ -555,6 +551,14 @@ This project has four separate pages found by clicking on the relevant name foun
 ### Colour blindness testing
 
 - RGBlind Chrome extensions
+
+### Browser testing
+
+- Browsershots.org
+- Chrome
+- Firefox
+- Microsoft Edge
+- Safari
 
 ### User Testing
 

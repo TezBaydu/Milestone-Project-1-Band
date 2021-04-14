@@ -8,7 +8,7 @@
 1. [Commits](#Commits)
 2. [User Story testing](#User-Story-testing)
     - [Music fan](#Music-fan)
-    - [Events organiser](Events-organiser)
+    - [Events organiser](#Events-organiser)
     - [Journalist](#Journalist)
     - [Web Developer](#Web-Developer)
 3. [Code testing](#Code-testing)
@@ -37,7 +37,7 @@
 8. [User testing](#User-testing)
 
 ## Commits
-- Over 140 commits
+- Over 160 commits
 - Commits made in as many instances as possible and although not described well to begin with this got better during the length of the project.
 
 [Back to top ⇧](#Project-Council-Culture-Test-file)
@@ -267,15 +267,15 @@ Chrome Responsiveness
     - ![Events Page Protanopia](assets/test-files/colour-blind-test/protanopia-events.gif)
 - Contact Page
     - ![Contact Page Protanopia](assets/test-files/colour-blind-test/protanopia-contact.gif)
-### Deutaranopia
+### Deuteranopia
 - Home Page
-    - ![Home Page Deutaranopia](assets/test-files/colour-blind-test/deuteranopia-home.gif)
+    - ![Home Page Deuteranopia](assets/test-files/colour-blind-test/deuteranopia-home.gif)
 - Music Page
-    - ![Music Page Deutaranopia](assets/test-files/colour-blind-test/deuteranopia-music.gif)
+    - ![Music Page Deuteranopia](assets/test-files/colour-blind-test/deuteranopia-music.gif)
 - Events Page
-    - ![Events Page Deutaranopia](assets/test-files/colour-blind-test/deuteranopia-events.gif)
+    - ![Events Page Deuteranopia](assets/test-files/colour-blind-test/deuteranopia-events.gif)
 - Contact Page
-    - ![Contact Page Deutaranopia]  (assets/test-files/colour-blind-test/deuteranopia-contact.gif)   
+    - ![Contact Page Deuteranopia](assets/test-files/colour-blind-test/deuteranopia-contact.gif)   
 
 [Back to top ⇧](#Project-Council-Culture-Test-file)
 
