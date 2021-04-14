@@ -7,15 +7,35 @@
 ## Contents
 1. [Commits](#Commits)
 2. [User Story testing](#User-Story-testing)
-    1. [Music fan](#Music-fan)
-    2. [Events organiser](Events-organiser)
-    3. [Journalist](#Journalist)
-    4. [Web Developer](#Web-Developer)
+    - [Music fan](#Music-fan)
+    - [Events organiser](Events-organiser)
+    - [Journalist](#Journalist)
+    - [Web Developer](#Web-Developer)
 3. [Code testing](#Code-testing)
-4. [Browser testing](#Browser-testing)
+    - [HTML5](#HTML5)
+    - [CSS3](#CSS3)
+    - [JavaScript](#JavaScript)
+4. [Element testing](#Element-testing)
+    - [Navigation bar](#Navigation-bar)
+    - [Footer](#Footer)
+    - [Home page bulletin](#Home-page-bulletin)
+    - [Music page audio](#Music-page-audio)
+    - [Music page download](#Music-page-download)
+    - [Events page purchase card](#Events-page-purchase-card)
+    - [Events page locations](#Events-page-locations)
+    - [Contact page form](#Contact-page-form)
 5. [Device testing](#Device-testing)
+    - [Responsiveness](#Responsiveness)
+    - [Chrome adjustment sizing](#Chrome-adjustment-sizing)
+        - [Home Page](#Home-Page)
+        - [Music Page](#Music-Page)
+        - [Events Page](#Events-Page)
+        - [Contact Page](#Contact-Page)
 6. [Colour blindness testing](#Colour-blindness-testing)
-7. [User testing](#User-testing)
+    - [Protanopia](#Protanopia)
+    - [Deuteranopia](#Deuteranopia)
+7. [Browser testing](#Browser-testing)
+8. [User testing](#User-testing)
 
 ## Commits
 - Over 140 commits
@@ -136,7 +156,7 @@ This user is looking for imagery or influence for another project.
             - bootstrap warnings
 
                 
-### Javascript
+### JavaScript
 - [Extends Class JavaScript validator](https://extendsclass.com/javascript-fiddle.html)
 
     - Test date 14/04/2021
@@ -222,9 +242,29 @@ Test alert popup once form has been succesfully been completed.
 
 ## Colour blindness testing
 - Extension RGBlind downloaded for testing against colour blindness Protanopia and Deuteranopia
-    - Adjusted Home page h1 to have a contrasting background to work with Protanopia
-    - Music page adjustment on album titles as one album title was not working on parts of the page when scrolling via Protanopia testing.
-        Given all titles a dark background border to help identify album title, even through colour blindness.
+    - Test date 18/03/2021
+        - Adjusted Home page h1 to have a contrasting background to work with Protanopia
+        - Music page adjustment on album titles as one album title was not working on parts of the page when scrolling via Protanopia testing.
+        -   Given all titles a dark background border to help identify album title, even through colour blindness.
+- Test date 14/04/2021
+### Protanopia
+- Home Page
+    - [Home Page Protanopia]
+- Music Page
+    - [Music Page Protanopia]
+- Events Page
+    - [Events Page Protanopia]
+- Contact Page
+    - [Contact Page Protanopia]
+### Deutaranopia
+- Home Page
+    - [Home Page Deutaranopia]
+- Music Page
+    - [Music Page Deutaranopia]
+- Events Page
+    - [Events Page Deutaranopia]
+- Contact Page
+    - [Contact Page Deutaranopia]     
 
 [Back to top ⇧](#Project-Council-Culture-Test-file)
 
@@ -279,23 +319,28 @@ Test alert popup once form has been succesfully been completed.
                 - Done
 
 - Test date 14/04/2021
+    - Chrome
+        - [Chrome test]
     - Firefox (Version 87.0)
         - [Firefox test]
     - Microsoft Edge
         - [Microsoft Edge test]
+    - Safari
+        - Unable to fully test without having to make purchase but last test was 99% successful and update should have resolved the issue.
 
 [Back to top ⇧](#Project-Council-Culture-Test-file)
 
 #### User Testing
 
-- Align mobile contact image
+- During March 2021
+    - Align mobile contact image
 
-- Make buttons slightly bigger for mobile, however still works when small (similar size as letters when typing)
-    * Adjusted larger as design has carried on.
+    - Make buttons slightly bigger for mobile, however still works when small (similar size as letters when typing)
+        * Adjusted larger as design has carried on.
 
-- Letter spacing looks much better
+    - Letter spacing looks much better
 
-- Image behind mobile deflects from form on mobile version 
+    - Image behind mobile deflects from form on mobile version 
 
 [Back to top ⇧](#Project-Council-Culture-Test-file)
 
