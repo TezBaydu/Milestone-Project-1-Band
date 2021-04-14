@@ -54,7 +54,7 @@ The user is either a current or potential fan and subscriber of many other group
 2. Learn about the band members and their influences.
     - Synopsis on Home page.
 3. Have an opportunity to listen to the bands music.
-    - Snippets of music on Home and Muic pages.
+    - Snippets of music on Home and Music pages.
 4. Be able to navigate to relevant social links.
     - Footer at bottom of each page with buttons directing to social sites.
 5. Have the opportunity to download or listen to music via downloadable sites.
@@ -197,7 +197,7 @@ Show when other audio buttons are pressed other buttons automatically stop.
 ![Music audio play test](assets/test-files/element-test/music-audio-play-test.gif)
 
 ### Music page download
-Test Music page dpwnload buttons change on hover and links work.
+Test Music page download buttons change on hover and links work.
 ![Music page download test](assets/test-files/element-test/music-download-links.gif)
 
 ### Events page purchase card

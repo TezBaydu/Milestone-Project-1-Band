@@ -293,7 +293,7 @@ This project has four separate pages found by clicking on the relevant name foun
 
 1. Backdrops
     - Concert image
-    - Grafitti image
+    - Graffiti image
     - Crime scene image is intentionally subtle
 2. Band members
     - Shown as a group
@@ -376,7 +376,7 @@ This project has four separate pages found by clicking on the relevant name foun
 3. URL links
     - Links to event sites for more information
 4. Backdrop
-    - Glass with bullethole
+    - Glass with bullet hole
     - Fixed position
 5. Room 2 Jam jar
     - Cheeky image associated to where band rehearse.
@@ -421,7 +421,7 @@ This project has four separate pages found by clicking on the relevant name foun
 3. Backdrop
     - Image of a council estate
 4. Images
-    - Council cultur Boombox as backdrop to form.
+    - Council culture Boombox as backdrop to form.
 5. Social sites and Downloads
     - Buttons which change colour when hovered over
     - Button source Font-Awesome
@@ -494,7 +494,7 @@ This project has four separate pages found by clicking on the relevant name foun
 - [Extends Class JavaScript validator](https://extendsclass.com/javascript-fiddle.html)
 
 - [Browser test site - Browser|Shots](http://browsershots.org)
-    - Became inaffective 12/04/2021
+    - Became ineffective 12/04/2021
 
 - [Browser site testing - BrowserStack](http://browserstack.com)
 
