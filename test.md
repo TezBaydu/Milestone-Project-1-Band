@@ -94,48 +94,31 @@ This user is looking for imagery or influence for another project.
 
 ## Code Testing
 
-- HTML5
-    1. [HTML code checker](https://validator.w3.org/)
-        - Initial test highlighted several instances of unsutiable code of which have been updated. Associated to commits on 16th March 2021 and 18th March 2021
+### HTML5
+- [HTML code checker](https://validator.w3.org/)
+    - Initial test highlighted several instances of unsutiable code of which have been updated. Associated to commits on 16th March 2021 and 18th March 2021
     
-        - Test date 14/04/2021
-            - []
+    - Test date 14/04/2021
+        - HTML5 Home page test
+        - ![HTML5 Home page test](assets/images/htmlcodecheck-cc-band-home.jpg)
 
+        - HTML5 Music page test
+        - ![HTML5 Home page test](assets/images/htmlcodecheck-cc-band-music.jpg)
 
+        - HTML5 Events page test
+        - ![HTML5 Home page test](assets/images/htmlcodecheck-cc-band-events.jpg)
 
+        - HTML5 Contact page test
+        - ![HTML5 Home page test](assets/images/htmlcodecheck-cc-band-contact.jpg) 
 
-- CSS3
-    - [CSS code checker](https://jigsaw.w3.org/css-validator/)
-    - Initial test highlighted several instances of unsutiable code of which have been updated.
-        * Associated to commits on 16th March 2021 and 18th March 2021
-            * Sorry! We found the following errors (2)
-                * URI : https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css
-                    * 6	abbr[data-original-title], abbr[title]	Property text-decoration-skip-ink doesn't exist : none
-                    * 6	.accordion	Property overflow-anchor doesn't exist : none
-                        - This is the code asked to be copied from bootstrap but is showing errors on a couple of styles not encoded.
-                        - As these are coding issues in bootstrap but doesn't affect website is considered acceptable.
+### CSS3
+- [CSS code checker](https://jigsaw.w3.org/css-validator/)
+    - Initial test highlighted several instances of unsutiable code of which have been updated. Associated to commits on 16th March 2021 and 18th March 2021
 
-    - Re-test performed 12/04/2021 after adjustments post 18/03/2021
-        * Sorry! We found the following errors (4)
-            -   URI : https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css
-                * 6	abbr[data-original-title], abbr[title]	Property text-decoration-skip-ink doesn't exist : none
-                * 6	.accordion	Property overflow-anchor doesn't exist : none
+    - Test date 14/04/2021
+        - CSS3 code test
+            - ![CSS3 code test](assets/images/csscodecheck-cc-band.jpg)
 
-            * This is the code asked to be copied from bootstrap but is showing errors on a couple of styles not encoded.
-                * As these are coding issues in bootstrap but doesn't affect website is considered acceptable.
-
-
-        - URI : https://tezbaydu.github.io/Milestone-Project-1-Band/assets/css/style.css
-            * 76	.navbar-expand-lg	none is not a flex-basis value : none
-            * 81	.navbar-collapse	none is not a flex-basis value : none
-                *   values removed from css once found is not required in inspect mode in Chrome.
-                * Re-tested again and after borders applied to album titles and No errors found in CSS files.
-        
-    - Warnings (787): unknown vendor extensions
-        * Extensions recognised in browsers but not in validator
-        * Considered acceptable as doesn't affect website.
-
-    - Test date and time 14/04/2021 00:12
         - Bootstrap errors:
             - Property text-decoration-skip-ink doesn't exist : none
             - Property overflow-anchor doesn't exist : none
@@ -153,18 +136,24 @@ This user is looking for imagery or influence for another project.
             - bootstrap warnings
 
                 
-- Javascript
-    - [Extends Class JavaScript validator](https://extendsclass.com/javascript-fiddle.html)
-        * Updated to add semicolons where expected
-    
-    - Test date and time 14/04/2021 00:12
-        - Line: 23	Column: 136	
-            - Code: !lunar.hasClass(elem, name) && elem.attr('class', (!!elem.getAttribute('class') ? elem.getAttribute('class') + ' ' : '') + name);	
-                - Expected an assignment or function call and instead saw an expression.
-        - Line 28	Column 64
-            - Code: lunar.hasClass(elem, name) && elem.attr('class', remove);	
-                - Expected an assignment or function call and instead saw an expression.
- 
+### Javascript
+- [Extends Class JavaScript validator](https://extendsclass.com/javascript-fiddle.html)
+
+    - Test date 14/04/2021
+        - JavaScript validator
+            - ![Javascript validator](assets/images/javascript-codecheck-cc-band.jpg)
+            - Not enough knowledge on JavaScript even after searching for solutions however media buttons are functioning as expected.
+
+[Back to top ⇧](#Project-Council-Culture-Test-file)
+
+## Device testing
+### Responsiveness 
+
+- [Responsive design checker](https://responsivedesignchecker.com)
+    - Checked on various devices and found issue with Nexus 7 where contacts page wasn't filling to bottom of screen.
+            - adjusted quote margin to help fill gap
+-  [Am I responsive](http://ami.responsivedesign.is)
+    - No issues
 
 [Back to top ⇧](#Project-Council-Culture-Test-file)
 
@@ -220,14 +209,7 @@ This user is looking for imagery or influence for another project.
 
 [Back to top ⇧](#Project-Council-Culture-Test-file)
 
-#### Device testing
-- Responsiveness checks performed during development.
-    - Finalised checks via [Responsive design checker](https://responsivedesignchecker.com)
-        - Checked on various devices and found issue with Nexus 7 where contacts page wasn't filling to bottom of screen.
-            - adjusted quote margin to help fill gap
-- Also tested on [Am I responsive](http://ami.responsivedesign.is) and found no issues
 
-[Back to top ⇧](#Project-Council-Culture-Test-file)
 
 #### Colour blindness testing
 - Extension RGBlind downloaded for testing against colour blindness Protanopia and Deuteranopia
