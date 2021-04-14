@@ -331,11 +331,11 @@ Chrome Responsiveness
 
 - Test date 14/04/2021
     - Chrome
-        - [Chrome test]
+        - ![Chrome test](assets/test-files/browser-test/browser-chrome.gif)
     - Firefox (Version 87.0)
-        - [Firefox test]
+        - ![Firefox test](assets/test-files/browser-test/browser-firefox.gif)
     - Microsoft Edge
-        - [Microsoft Edge test]
+        - ![Microsoft Edge test](assets/test-files/browser-test/browser-edge.gif)
     - Safari
         - Unable to fully test without having to make purchase
 
