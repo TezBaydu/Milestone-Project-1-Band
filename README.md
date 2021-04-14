@@ -311,7 +311,7 @@ This project has four separate pages found by clicking on the relevant name foun
     - Buttons which change colour when hovered over
     - Button source Font-Awesome
 8. Navigation
-    - Taken from Bootstrap
+    - Taken from [Bootstrap](https://getbootstrap.com)
         - Menu bar showing different colour for active page.
         - Band logo image linking to Home page.
         - Adjustable to button dropdown for mobile.
@@ -345,7 +345,7 @@ This project has four separate pages found by clicking on the relevant name foun
     - Buttons which change colour when hovered over
     - Button source Font-Awesome
 4. Navigation
-    - Taken from Bootstrap
+    - Taken from [Bootstrap](https://getbootstrap.com)
         - Menu bar showing different colour for active page.
         - Band logo image linking to Home page.
         - Adjustable to button dropdown for mobile.
@@ -384,7 +384,7 @@ This project has four separate pages found by clicking on the relevant name foun
     - Buttons which change colour when hovered over
     - Button source Font-Awesome
 7. Navigation
-    - Taken from Bootstrap
+    - Taken from [Bootstrap](https://getbootstrap.com)
         - Menu bar showing different colour for active page.
         - Band logo image linking to Home page.
         - Adjustable to button dropdown for mobile.
@@ -411,7 +411,7 @@ This project has four separate pages found by clicking on the relevant name foun
 1. Statement
     - Clear statement of contact
 2. Form
-    - Bootstrap associated form
+    - [Bootstrap](https://getbootstrap.com) associated form
         - First name
         - Last name
         - Email
@@ -426,7 +426,7 @@ This project has four separate pages found by clicking on the relevant name foun
     - Buttons which change colour when hovered over
     - Button source Font-Awesome
 6. Navigation
-    - Taken from Bootstrap
+    - Taken from [Bootstrap](https://getbootstrap.com)
         - Menu bar showing different colour for active page.
         - Band logo image linking to Home page.
         - Adjustable to button dropdown for mobile.
@@ -506,7 +506,7 @@ This project has four separate pages found by clicking on the relevant name foun
 
 ## Bugs and Issues
 
-- Bootstrap
+- [Bootstrapcdn](https://www.bootstrapcdn.com)
     - Below Bootstrap link obtained from Bootstrapcdn but looks like an older version at 4.5.2 and so has been excluded
     "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
 
@@ -516,8 +516,8 @@ This project has four separate pages found by clicking on the relevant name foun
         * After much searching I found a solution using JavaScript through the Github user "Ilker Yilmaz" "https://github.com/kuantal/Multiple-circular-player" and was able to use the scripts as shown on their gitpod to make a successful play pause action for songs. Sizes and style adjusted to suit site.
 
 - [CSS code checker](https://jigsaw.w3.org/css-validator)
-    - Bootstrap
-        - Errors associated to Bootstrap
+    - [Bootstrap](https://getbootstrap.com)
+        - Errors associated to [Bootstrap](https://getbootstrap.com)
             - Property overflow-anchor doesn't exist : none
             - Property text-decoration-skip-ink doesn't exist : none
         - Does not affect website efficiency but to be considered if having issues with these particular property elements
