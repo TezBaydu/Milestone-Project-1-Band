@@ -120,16 +120,16 @@ This user is looking for imagery or influence for another project.
     
     - Test date 14/04/2021
         - HTML5 Home page test
-        - ![HTML5 Home page test](assets/images/htmlcodecheck-cc-band-home.jpg)
+        - ![HTML5 Home page test](assets/test-files/htmlcodecheck-cc-band-home.jpg)
 
         - HTML5 Music page test
-        - ![HTML5 Home page test](assets/images/htmlcodecheck-cc-band-music.jpg)
+        - ![HTML5 Home page test](assets/test-files/htmlcodecheck-cc-band-music.jpg)
 
         - HTML5 Events page test
-        - ![HTML5 Home page test](assets/images/htmlcodecheck-cc-band-events.jpg)
+        - ![HTML5 Home page test](assets/test-files/htmlcodecheck-cc-band-events.jpg)
 
         - HTML5 Contact page test
-        - ![HTML5 Home page test](assets/images/htmlcodecheck-cc-band-contact.jpg) 
+        - ![HTML5 Home page test](assets/test-files/htmlcodecheck-cc-band-contact.jpg) 
 
 ### CSS3
 - [CSS code checker](https://jigsaw.w3.org/css-validator/)
@@ -137,7 +137,7 @@ This user is looking for imagery or influence for another project.
 
     - Test date 14/04/2021
         - CSS3 code test
-            - ![CSS3 code test](assets/images/csscodecheck-cc-band.jpg)
+            - ![CSS3 code test](assets/test-files/csscodecheck-cc-band.jpg)
 
         - Bootstrap errors:
             - Property text-decoration-skip-ink doesn't exist : none
@@ -161,7 +161,7 @@ This user is looking for imagery or influence for another project.
 
     - Test date 14/04/2021
         - JavaScript validator
-            - ![Javascript validator](assets/images/javascript-codecheck-cc-band.jpg)
+            - ![Javascript validator](assets/test-files/javascript-codecheck-cc-band.jpg)
             - Not enough knowledge on JavaScript even after searching for solutions however media buttons are functioning as expected.
 
 [Back to top ⇧](#Project-Council-Culture-Test-file)
@@ -169,7 +169,7 @@ This user is looking for imagery or influence for another project.
 ## Element testing
 ### Navigation bar
 Test responsive hover on menu and links work.
-[Navbar test]
+- [Navbar test]
 
 Test mobile navigation dropdown hover and links.
 [Navbar button test]
@@ -178,8 +178,11 @@ Test band logo link directs user to home page from all pages on site.
 [Band logo test]
 
 ### Footer
-Test social link and download buttons change when hovering and links work.
-[Footer test]
+Test social link and download buttons change when hovering.
+[Footer hover test]
+
+Test social link and download buttons open sites.
+[Footer link test]
 
 ### Home page bulletin
 Test download buttons change when hovering and links work.
@@ -212,7 +215,7 @@ Test form fields are editable and are required fields.
 Test form requires appropriate format for email.
 [Form email format test]
 
-Test alert popup once form has been succesfully been completed.
+Test alert popup once form has been successfully been completed.
 [Form alert test]
 
 [Back to top ⇧](#Project-Council-Culture-Test-file)
@@ -223,7 +226,7 @@ Test alert popup once form has been succesfully been completed.
 - [Responsive design checker](https://responsivedesignchecker.com)
     - Checked on various devices and found issue with Nexus 7 where contacts page wasn't filling to bottom of screen.
             - adjusted quote margin to help fill gap
-            - ![Desktop responsive design](assets/images/desktop-responsive-design.gif)
+            
 -  [Am I responsive](http://ami.responsivedesign.is)
     - No issues
 
@@ -328,7 +331,7 @@ Test alert popup once form has been succesfully been completed.
     - Microsoft Edge
         - [Microsoft Edge test]
     - Safari
-        - Unable to fully test without having to make purchase but last test was 99% successful and update should have resolved the issue.
+        - Unable to fully test without having to make purchase
 
 [Back to top ⇧](#Project-Council-Culture-Test-file)
 

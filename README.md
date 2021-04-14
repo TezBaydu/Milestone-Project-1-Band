@@ -204,7 +204,7 @@ Below are areas considered for levels of importance and viability
 1. [Ghettoblaster on Pixabay](https://pixabay.com/photos/ghettoblaster-radio-recorder-boombox-1452077/)
 2. Images and Band logo
     * Graphic Designer (Terry Downs)
-    ![Logo Images](assets/images/logo-image-readme.gif)
+    ![Logo Images](assets/readme-files/logo-image-readme.gif)
 
 #### Imagery
 1. Colours
@@ -238,7 +238,7 @@ Below are areas considered for levels of importance and viability
 
 Hierarchical structure design for simpler user navigation:
 
-![Council Culture Site Structure](assets/images/site-structure.jpg)
+![Council Culture Site Structure](assets/readme-files/site-structure.jpg)
 
 [Back to top ⇧](#Project-Council-Culture)
 
@@ -247,16 +247,16 @@ Hierarchical structure design for simpler user navigation:
 - Designed in [Figma](https://www.figma.com/file/IADuVbH1W00VbiRkhlDqdY/milestone-project-1-band?node-id=0%3A1)
 
 - Home Page
-![Home page wireframes on all devices](assets/images/figma-wireframe-councilculture-home.jpg)
+![Home page wireframes on all devices](assets/readme-files/figma-wireframe-councilculture-home.jpg)
 
 - Music Page
-![Music page wireframes on all devices](assets/images/figma-wireframe-councilculture-music.jpg)
+![Music page wireframes on all devices](assets/readme-files/figma-wireframe-councilculture-music.jpg)
 
 - Events Page
-![Events page wireframes on all devices](assets/images/figma-wireframe-councilculture-events.jpg)
+![Events page wireframes on all devices](assets/readme-files/figma-wireframe-councilculture-events.jpg)
 
 - Contact Page
-![Contact page wireframes on all devices](assets/images/figma-wireframe-councilculture-contact.jpg)
+![Contact page wireframes on all devices](assets/readme-files/figma-wireframe-councilculture-contact.jpg)
 
 [Back to top ⇧](#Project-Council-Culture)
 
@@ -581,7 +581,7 @@ Once you are able to view the repository in Gitpod this is done by:
 6. Log into GitHub
     - Locate repository
     - You should be able to see the latest and history of commits in code section at top right of table of files list.
-    ![git-commits](assets/images/git-commits.jpg)
+    ![git-commits](assets/readme-files/git-commits.jpg)
 
 
 
@@ -637,6 +637,9 @@ For further help and info you can select [Cloning and Forking repositories](http
 
 - kuantal/Multiple-circular-player
     * Play button for multiple tracks to play and pause
+
+- rebeccatraceyt/KryanLive in GitHub
+    * For providing guidance on good practice
 
 - Sites
     * [Stack Overflow](https://stackoverflow.com)
