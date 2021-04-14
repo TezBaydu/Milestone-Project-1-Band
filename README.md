@@ -26,15 +26,15 @@
             3. [Pages](#Pages)
             4. [Music](#Music)
             5. [Structure](#Structure)
-        3. [Wireframe](#Wireframe)
+    5. [Wireframe](#Wireframe)
 3. [Features](#Features)
     1. [Consistency](#Consistency)
-    2. [Home](#Home)
-    3. [Music](#Music)
-    4. [Events](#Events)
-    5. [Contact](#Contact)
+    2. [Home](#Home-page)
+    3. [Music](#Music-page)
+    4. [Events](#Events-page)
+    5. [Contact](#Contact-page)
 4. [Technologies Used](#Technologies-Used)
-5. [Bugs and Issues](#Bugs)
+5. [Bugs and Issues](#Bugs-and-Issues)
 6. [Testing](#Testing) / [Testing detail file](https://github.com/TezBaydu/Milestone-Project-1-Band/blob/master/test.md)
      1. [Commits](#Commits)
      2. [Code testing](#Code-testing)
@@ -43,6 +43,7 @@
      5. [Colour blindness Testing](#Colour-blindness-testing)
      6. [User testing](#User-testing)
 7. [Deployment](#Deployment)
+    1. [Gitpod commits](#Gitpod-to-GitHub-commits)
     1. [GitHub Pages Deployment](#Deploying-via-GitHub-Pages)
     2. [Forking](#Forking-repository)
     3. [Cloning](#Cloning-a-repository)
@@ -219,7 +220,6 @@ Below are areas considered for levels of importance and viability
 
 #### Pages
 1. Home
-    * To draw user attention and encourage them to search through site.
 2. Music
 3. Events
 4. Contact
@@ -288,7 +288,7 @@ This project has four separate pages found by clicking on the relevant name foun
     * to use additional in case montserrat isn't available for users:
         * Ariel & sans serif
 
-### Home
+### Home page
 
 1. Backdrops
     - Concert image
@@ -331,7 +331,7 @@ This project has four separate pages found by clicking on the relevant name foun
 
 
 
-### Music
+### Music page
 
 1. Music
     - Album images
@@ -366,7 +366,7 @@ This project has four separate pages found by clicking on the relevant name foun
             - 576px
                 - Music: Banner adjustment
 
-### Events
+### Events page
 
 1. Reviews
     - Past event reviews
@@ -405,7 +405,7 @@ This project has four separate pages found by clicking on the relevant name foun
             - 576px
                 - Events: Banner adjustment
 
-### Contact
+### Contact page
 
 1. Statement
     - Clear statement of contact
